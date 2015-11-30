@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000049073a">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000049073a%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/225">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2111">
+        <dc:date>1985-12-01</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2629"/>
+        <movie:initial_release_date>1985-12-01</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33447"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2112">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/2111"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/166"/>
+        <movie:runtime>199</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40932"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79364"/>
+        <rdfs:label>Anne of Green Gables</rdfs:label>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/358"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32858"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/306"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44387"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40043"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45303"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2631"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30730"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1073"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79790"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35940"/>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/306"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/520"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f800000000049073a"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2633"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88362"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/861"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77908"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2630"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0088727">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0088727%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2111</movie:filmid>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/860"/>
+        <dc:title>Anne of Green Gables</dc:title>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/225"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36393"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0088727">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0088727%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2632"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2111">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Anne of Green Gables</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2111"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135866">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2111"/>
+  </rdf:Description>
+</rdf:RDF>

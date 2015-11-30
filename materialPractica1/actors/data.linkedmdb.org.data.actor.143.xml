@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://mpii.de/yago/resource/Jack_Thompson_%28actor%29">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FJack_Thompson_%2528actor%2529%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/42468">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/143">
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Jack_Thompson_%28actor%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FJack_Thompson_%2528actor%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor_name>Jack Thompson</movie:actor_name>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000262a82">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000262a82%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82204"/>
+        <owl:sameAs rdf:resource="http://mpii.de/yago/resource/Jack_Thompson_%28actor%29"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5203"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41046"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79267"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/155834"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11198"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81820"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/96644"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/66387"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/63799"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/71474"/>
+        <rdfs:label>Jack Thompson (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40803"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/67334"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Jack_Thompson_(actor)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FJack_Thompson_%28actor%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88534"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >143</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/48833"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/35274"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82924"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/45296"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/112107"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/542">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/89952">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8908">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/23">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8879">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/16034">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1542">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44240">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7362">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43276">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1781">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/12008">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/15103">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/101773">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/113594">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/25007">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/72278">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/143">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Jack Thompson (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19393">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38761">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4556">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8463">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+  </rdf:Description>
+</rdf:RDF>

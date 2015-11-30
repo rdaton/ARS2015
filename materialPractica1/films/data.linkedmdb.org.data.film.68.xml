@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0086190">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0086190%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000006321d">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000006321d%3E"/>
+  </rdf:Description>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/68">
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4290"/>
+    <foaf:page rdf:resource="http://www.imdb.com/title/tt0086190"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/128"/>
+    <movie:prequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/76">
+        <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/68"/>
+      </rdf:Description>
+    </movie:prequel>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88320"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35433"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10483"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34613"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/27622"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35893"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75963"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31643"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34792"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9685"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86485"/>
+    <dc:date>1983-05-25</dc:date>
+    <movie:runtime>134</movie:runtime>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9696">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/68"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154339"/>
+    <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/1544"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/27625"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33180"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29874"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41426"/>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/990"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42480"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34826"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80265"/>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2684"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/27624"/>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/514"/>
+    <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/29"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88098"/>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/321"/>
+    <rdfs:label>Star Wars Episode VI: Return of the Jedi</rdfs:label>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/89866"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29767"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14514"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42485"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30321"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42213"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30545"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49602"/>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/321"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13092"/>
+    <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/23"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32267"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5919"/>
+    <dc:title>Star Wars Episode VI: Return of the Jedi</dc:title>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/584"/>
+    <movie:initial_release_date>1983-05-25</movie:initial_release_date>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29867"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10857"/>
+    <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f800000000006321d"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >68</movie:filmid>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12524"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42625"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0086190">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0086190%3E"/>
+      </rdf:Description>
+    </foaf:page>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134008">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/68"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/146">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/68"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/68">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Star Wars Episode VI: Return of the Jedi</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/68"/>
+  </rdf:Description>
+</rdf:RDF>

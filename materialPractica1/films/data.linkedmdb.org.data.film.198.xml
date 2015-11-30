@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0102533/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0102533%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000087f55">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000087f55%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/198">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of The Night of the Hunter</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/198">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48691"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/7290"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f8000000000087f55"/>
+        <rdfs:label>The Night of the Hunter</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/33711"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130578"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30113"/>
+        <dc:date>1955-09-29</dc:date>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/233"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/155"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/33710"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30892"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/364"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30941"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0102533/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0102533%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:runtime>93</movie:runtime>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13449"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14135"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16103"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36226"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/The_Night_of_the_Hunter_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FThe_Night_of_the_Hunter_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/506"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/The_Night_of_the_Hunter_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FThe_Night_of_the_Hunter_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88526"/>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0102533/"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/5196"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >198</movie:filmid>
+        <dc:title>The Night of the Hunter</dc:title>
+        <movie:initial_release_date>1955-09-29</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/33712"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8586">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/198"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81861"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/The_Night_of_the_Hunter_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FThe_Night_of_the_Hunter_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/506"/>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/12700">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/198"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134121">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/198"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70323">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/198"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/114">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/198"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37180">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/198"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18647">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/198"/>
+  </rdf:Description>
+</rdf:RDF>

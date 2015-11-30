@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0187819">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0187819%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/15561">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2415">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9298"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/1165">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2415"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15953"/>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/15561"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/603"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48044"/>
+        <rdfs:label>Doug's 1st Movie</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3276"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9294"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3277"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/1940"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9285"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9297"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9284"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9289"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3282"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31167"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2214"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9749"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9290"/>
+        <dc:title>Doug's 1st Movie</dc:title>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000050d8e2">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000050d8e2%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/604"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3285"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/1292"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48043"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9293"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/15"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43825"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9288"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3281"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/70611"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/25"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74645"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9296"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3279"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9287"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9299"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3284"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9292"/>
+        <movie:runtime>77</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9295"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3278"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3280"/>
+        <dc:date>1999-03-26</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3283"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32532"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/37"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0187819">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0187819%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9291"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9300"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2415</movie:filmid>
+        <movie:initial_release_date>1999-03-26</movie:initial_release_date>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10536"/>
+        <foaf:page rdf:resource="http://www.imdb.com/title/tt0187819"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9286"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/568"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136132">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2415"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/5078">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2415"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2415">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Doug's 1st Movie</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2415"/>
+  </rdf:Description>
+</rdf:RDF>

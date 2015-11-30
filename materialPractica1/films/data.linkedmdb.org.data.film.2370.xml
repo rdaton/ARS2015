@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://sws.geonames.org/3175395/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F3175395%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000004f7a0f">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000004f7a0f%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63259">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2370">
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/6788"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9168"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2370</movie:filmid>
+        <dc:date>1973-12-09</dc:date>
+        <rdfs:label>Don't Look Now</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9167"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8607">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2370"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13492"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/16255"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/257"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0069995">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0069995%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/506"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/1912"/>
+        <movie:initial_release_date>1973-12-09</movie:initial_release_date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0069995">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0069995%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14012"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Don%27t_Look_Now">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FDon%2527t_Look_Now%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30282"/>
+        <movie:runtime>110</movie:runtime>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/506"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30597"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17715"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/IT"/>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3175395/"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5163"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f80000000004f7a0f"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Don&apos;t_Look_Now">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FDon%27t_Look_Now%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Don%27t_Look_Now">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FDon%2527t_Look_Now%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <dc:title>Don't Look Now</dc:title>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136093">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2370"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/67862">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2370"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/5075">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2370"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2370">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Don't Look Now</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2370"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19748">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2370"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/1215">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2370"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38281">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2370"/>
+  </rdf:Description>
+</rdf:RDF>

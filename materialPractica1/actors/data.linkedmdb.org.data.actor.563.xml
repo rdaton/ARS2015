@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44494">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/563">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/31721"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/53991"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/127949"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/David_Morse_%28actor%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FDavid_Morse_%2528actor%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor_name>David Morse</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/126906"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/52991"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80280"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/70456"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/257"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8004"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >563</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58745"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13646"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/64347"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23543"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/115381"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122585"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85144"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82151"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/49945"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87929"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/33670"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/126724"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/34580"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/David_Morse_(actor)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FDavid_Morse_%28actor%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9530"/>
+        <rdf:type>
+          <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+          </rdf:Description>
+        </rdf:type>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7370"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/43235"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/47769"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20976"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9264"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000657b79">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000657b79%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9329"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/71408"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/107310"/>
+        <rdfs:label>David Morse (Actor)</rdfs:label>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/David_Morse_%28actor%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FDavid_Morse_%2528actor%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/83138"/>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44590">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38686">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4552">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2680">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/32">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38154">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2346">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53845">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/14269">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4121">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47112">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1641">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43513">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/42729">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6353">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39082">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/738">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41231">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/42918">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62602">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/99748">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/874">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62480">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59540">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/24406">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/87927">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47232">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7521">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/10849">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/111569">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63348">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43078">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/563">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of David Morse (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/11741">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39924">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47831">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/563"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/55480">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/37642">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122423"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74175"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/111058"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113831"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/143217"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/166432"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/129010"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000005dc299">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000005dc299%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41977"/>
+        <movie:actor_name>Jay Baruchel</movie:actor_name>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/102007"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122421"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >37642</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/160908"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/152995"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133255"/>
+        <rdfs:label>Jay Baruchel (Actor)</rdfs:label>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/55880"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/180593"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/140926"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/155717"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40204"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59422">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/64049">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59421">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/21569">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/77295">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/68766">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/625">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/56534">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/23094">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/51220">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48020">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41015">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/54122">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/37642">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Jay Baruchel (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46237">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/68574">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18881">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/93920">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37642"/>
+  </rdf:Description>
+</rdf:RDF>

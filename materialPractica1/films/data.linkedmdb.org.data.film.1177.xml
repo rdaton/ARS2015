@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8868">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1177">
+        <dc:title>Fallen Angels</dc:title>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/503">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1177"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31980"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31168"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/HK"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/27"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46892"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10623"/>
+        <movie:runtime>90</movie:runtime>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/2229"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10624"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000002e7098">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000002e7098%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10621"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/1819730/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F1819730%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34114"/>
+        <dc:date>1996-09-06</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37268"/>
+        <rdfs:label>Fallen Angels</rdfs:label>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/13876"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0112913/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0112913%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10622"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13956"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1177</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10625"/>
+        <movie:initial_release_date>1996-09-06</movie:initial_release_date>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/8868"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0112913/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0112913%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/59921">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1177">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Fallen Angels</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1177"/>
+  </rdf:Description>
+</rdf:RDF>

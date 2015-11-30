@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000375100">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000375100%3E"/>
+  </rdf:Description>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1488">
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0097778">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0097778%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32904"/>
+    <dc:date>1989-10-13</dc:date>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://mpii.de/yago/resource/Look_Who%27s_Talking">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FLook_Who%2527s_Talking%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29961"/>
+    <movie:sequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1733">
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1488"/>
+      </rdf:Description>
+    </movie:sequel>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9650">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1488"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74728"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15251"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/43674"/>
+    <movie:sequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6814">
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1488"/>
+      </rdf:Description>
+    </movie:sequel>
+    <dc:title>Look Who's Talking</dc:title>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18313"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1488</movie:filmid>
+    <movie:runtime>93</movie:runtime>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0097778">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0097778%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18314"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29872"/>
+    <rdfs:label>Look Who's Talking</rdfs:label>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1074"/>
+    <movie:initial_release_date>1989-10-13</movie:initial_release_date>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://dbpedia.org/resource/Look_Who%27s_Talking">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLook_Who%2527s_Talking%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31882"/>
+    <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f8000000000375100"/>
+    <dbpedia:hasPhotoCollection>
+      <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Look_Who&apos;s_Talking">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FLook_Who%27s_Talking%3E"/>
+      </rdf:Description>
+    </dbpedia:hasPhotoCollection>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/72337"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/55160"/>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/64"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31718"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32669"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/3901"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135320">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1488"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/795">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1488"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19328">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1488"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70875">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1488"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1488">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Look Who's Talking</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1488"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/14440">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1488"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37861">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1488"/>
+  </rdf:Description>
+</rdf:RDF>

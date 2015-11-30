@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134443">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/528">
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/277"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14596"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1278"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79759"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9706"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/189"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0268126">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0268126%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:initial_release_date>2002-12-06</movie:initial_release_date>
+        <rdfs:label>Adaptation</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/374"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1280"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/57953"/>
+        <dc:date>2002-12-06</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1277"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1281"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77919"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4772"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32074"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12784"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78583"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33182"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0268126">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0268126%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1184"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32383"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14665"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29945"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49581"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108597"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32481"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1184"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >528</movie:filmid>
+        <dc:title>Adaptation</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41522"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1279"/>
+        <movie:runtime>115</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37387"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1019"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8479">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/528"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/57137"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2954"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000015beb4">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000015beb4%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/14071"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14612"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48512"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1019"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/588"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70476">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/528"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/296">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/528"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/528">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Adaptation</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/528"/>
+  </rdf:Description>
+</rdf:RDF>

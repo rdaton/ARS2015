@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0315824/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0315824%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7335">
+    <movie:film_of_distributor>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2017">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10377"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/1723"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/478"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41741"/>
+        <dc:date>2004-01-29</dc:date>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/401"/>
+        <movie:initial_release_date>2004-01-29</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10373"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/6165"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41736"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31457"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/1404">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2017"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/6344"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/2667"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31505"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10376"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/23479"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41730"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41739"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29588"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10379"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/142015"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41744"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32293"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/29540"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30394"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2017</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41735"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32692"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41738"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/668"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10375"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0315824/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0315824%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/294"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49063"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10380"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31719"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41743"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31608"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30590"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41734"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41746"/>
+        <movie:runtime>88</movie:runtime>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/401"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40500"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41737"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41732"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/29542"/>
+        <movie:rating rdf:resource="http://data.linkedmdb.org/resource/content_rating/3"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41740"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14385"/>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0315824/"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000046e082">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000046e082%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10810"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41742"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41745"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41733"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10378"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/420"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41729"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41731"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32155"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1042"/>
+        <dc:title>The Big Bounce</dc:title>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/15084">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2017"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10374"/>
+        <rdfs:label>The Big Bounce</rdfs:label>
+      </movie:film>
+    </movie:film_of_distributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/71084">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135789">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2017">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of The Big Bounce</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2017"/>
+  </rdf:Description>
+</rdf:RDF>

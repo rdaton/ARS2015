@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7890">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/41748">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37432"/>
+        <rdfs:label>James LeGros (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/25670"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/32739"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000088a101">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000088a101%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154757"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87892"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22684"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/114577"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99596"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/118122"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7275"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/169515"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/128612"/>
+        <movie:actor_name>James LeGros</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/118040"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/192273"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26615"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/126340"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122725"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18185"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >41748</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/138888"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5119"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81878"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22999"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/107651"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9582"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1276">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/41748">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of James LeGros (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/68032">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/55175">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/985">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46809">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62212">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/42192">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7425">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39131">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47297">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43604">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63784">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4529">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46691">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59642">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3727">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4064">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/9164">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18150">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6538">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/55613">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18649">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1113">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41748"/>
+  </rdf:Description>
+</rdf:RDF>

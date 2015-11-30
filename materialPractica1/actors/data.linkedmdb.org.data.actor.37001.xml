@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38195">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/37001">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/90207"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/168000"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/187284"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/112392"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56306"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/101983"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/145070"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77981"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/95992"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56919"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/184829"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >37001</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100500"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178689"/>
+        <movie:actor_name>Xander Berkeley</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/177725"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/63058"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/21037"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86415"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88434"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17093"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000056670a">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000056670a%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/53847"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/63227"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162303"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/172648"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <rdf:type>
+          <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+          </rdf:Description>
+        </rdf:type>
+        <rdfs:label>Xander Berkeley (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/112163"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100771"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/156259"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109616"/>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38934">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/17199">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/74190">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19166">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/52421">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4345">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2139">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/336">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47061">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/71391">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/45095">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/82952">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/79201">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/33">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6948">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/52198">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39101">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/37001">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Xander Berkeley (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/21545">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6467">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2920">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19722">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3213">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/14435">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/602">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/93389">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/73821">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+  </rdf:Description>
+</rdf:RDF>

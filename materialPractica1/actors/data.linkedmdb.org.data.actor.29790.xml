@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8854">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/29790">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/53028"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/166359"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68199"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/131396"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41079"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <rdfs:label>Victor McLaglen (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/50914"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/105768"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/105508"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/125003"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/131999"/>
+        <movie:actor_name>Victor McLaglen</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/66654"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/196277"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/125116"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/147874"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113597"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >29790</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178445"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/63752"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/104885"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108879"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13081"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/95156"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/61185"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/53046"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000005a9a0">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000005a9a0%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/134596"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46907">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/13413">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/102">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/9306">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/49457">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/65067">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/15564">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38327">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/23856">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61356">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/56818">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61269">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/64972">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/71311">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53453">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4612">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/29790">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Victor McLaglen (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53880">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/10799">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/24375">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44957">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/24163">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/93072">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/9409">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29790"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000061947">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000061947%3E"/>
+  </rdf:Description>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/63">
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19514"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1983"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74922"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >63</movie:filmid>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31621"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/de">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fde%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19513"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/11262"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3184"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74923"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109916"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48561"/>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://dbpedia.org/resource/Metropolis_%28film%29">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMetropolis_%2528film%2529%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58825"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3308"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0017136">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0017136%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/1026"/>
+    <dc:title>Metropolis</dc:title>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/107628"/>
+    <movie:runtime>210</movie:runtime>
+    <rdfs:label>Metropolis</rdfs:label>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://mpii.de/yago/resource/Metropolis_%28film%29">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FMetropolis_%2528film%2529%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13090"/>
+    <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f8000000000061947"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74919"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38308"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3172"/>
+    <movie:initial_release_date>1927-01-10</movie:initial_release_date>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0017136">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0017136%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/DE"/>
+    <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/168"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/23"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74920"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4162"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/6072"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/55568"/>
+    <dc:date>1927-01-10</dc:date>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74921"/>
+    <foaf:based_near>
+      <rdf:Description rdf:about="http://sws.geonames.org/2921044/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2921044%2F%3E"/>
+      </rdf:Description>
+    </foaf:based_near>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9856"/>
+    <dbpedia:hasPhotoCollection>
+      <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Metropolis_(film)">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FMetropolis_%28film%29%3E"/>
+      </rdf:Description>
+    </dbpedia:hasPhotoCollection>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14556"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/11745"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8411">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/63"/>
+      </rdf:Description>
+    </movie:director>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/4649">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18565">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/65756">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/63">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Metropolis</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134002">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37098">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/32">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/63"/>
+  </rdf:Description>
+</rdf:RDF>

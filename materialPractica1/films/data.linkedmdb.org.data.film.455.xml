@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Pollock_%28film%29">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FPollock_%2528film%2529%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Pollock_(film)">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FPollock_%28film%29%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37325">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/455">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68184"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0183659/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0183659%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58287"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4939"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34395"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/30"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1115"/>
+        <dbpedia:hasPhotoCollection rdf:resource="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Pollock_(film)"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:initial_release_date>2000-09-06</movie:initial_release_date>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8783">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/455"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30732"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32025"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68797"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/63062"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/69745"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/48832"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/1055"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/718"/>
+        <dc:date>2000-09-06</dc:date>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >455</movie:filmid>
+        <movie:runtime>122</movie:runtime>
+        <rdfs:label>Pollock</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36946"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5302"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0183659/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0183659%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39891"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Pollock_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FPollock_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Pollock_%28film%29"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23164"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23165"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/320"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34220"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000001384d9">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000001384d9%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <dc:title>Pollock</dc:title>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/320"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29887"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29859"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/455">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Pollock</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/455"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134378">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/455"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/259">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/455"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18792">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/455"/>
+  </rdf:Description>
+</rdf:RDF>

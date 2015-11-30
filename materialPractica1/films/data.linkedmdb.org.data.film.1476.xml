@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37853">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1476">
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13503"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Varning_fÃ¶r_JÃ¶nssonligan">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FVarning_f%C3%83%C2%B6r_J%C3%83%C2%B6nssonligan%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/38219"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/8480"/>
+        <movie:initial_release_date>1981-12-04</movie:initial_release_date>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3612"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/sv">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fsv%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/2687">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1476"/>
+          </rdf:Description>
+        </movie:director>
+        <dc:date>1981-12-04</dc:date>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/1457"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0083276">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0083276%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/8481"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1477">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1476"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/1602"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46609"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2661886/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2661886%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/38221"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000003730db">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000003730db%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/8482"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/38217"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Varning_fÃ¶r_JÃ¶nssonligan">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FVarning_f%C3%83%C2%B6r_J%C3%83%C2%B6nssonligan%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <dc:title>Varning fÃ¶r JÃ¶nssonligan</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/38220"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/5846"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1581"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Varning_fÃ¶r_JÃ¶nssonligan">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FVarning_f%C3%83%C2%B6r_J%C3%83%C2%B6nssonligan%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34889"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/5845"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/38218"/>
+        <movie:runtime>89</movie:runtime>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1476</movie:filmid>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0083276">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0083276%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/SE"/>
+        <rdfs:label>Varning fÃ¶r JÃ¶nssonligan</rdfs:label>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/8326"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19320">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1476"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1476">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Varning fÃ¶r JÃ¶nssonligan</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1476"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/787">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1476"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/65282">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1476"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135309">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1476"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/12817">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1476"/>
+  </rdf:Description>
+</rdf:RDF>

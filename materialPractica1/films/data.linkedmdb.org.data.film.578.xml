@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0181852">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0181852%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/6710">
+    <movie:film_of_distributor>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/578">
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10039"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/152492"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31475"/>
+        <rdfs:label>Terminator 3: Rise of the Machines</rdfs:label>
+        <movie:runtime>109</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29369"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0181852">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0181852%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109860"/>
+        <movie:initial_release_date>2003-07-02</movie:initial_release_date>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/20783"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000176e23">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000176e23%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1211"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5450"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/51925"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28800"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/727"/>
+        <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/66"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/705"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/662"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42630"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36831"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/444"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/10834">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/578"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/6178"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <dc:title>Terminator 3: Rise of the Machines</dc:title>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3296">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/578"/>
+          </rdf:Description>
+        </movie:prequel>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99539"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/728"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109861"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31120"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12705"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5908"/>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/662"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44463"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10708"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >578</movie:filmid>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/1372"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/444"/>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/33">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/578"/>
+          </rdf:Description>
+        </movie:prequel>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10996"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/14233"/>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/727"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154280"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12191"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/181"/>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0181852"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/612"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1211"/>
+        <dc:date>2003-07-02</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28802"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3424"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/4821"/>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/728"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/54780">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/578"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28799"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/612"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11692"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/4706"/>
+      </movie:film>
+    </movie:film_of_distributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70491">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/578"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/410">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/578"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134488">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/578"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/578">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Terminator 3: Rise of the Machines</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/578"/>
+  </rdf:Description>
+</rdf:RDF>

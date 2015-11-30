@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Cube_(film)">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FCube_%28film%29%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mpii.de/yago/resource/Cube_%28film%29">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FCube_%2528film%2529%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/441">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/814">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48967"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/514"/>
+        <dc:date>1997-09-09</dc:date>
+        <movie:runtime>90</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7830"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >814</movie:filmid>
+        <movie:initial_release_date>1997-09-09</movie:initial_release_date>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/10990">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/814"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44006"/>
+        <dc:title>Cube</dc:title>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16855"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/21"/>
+        <rdfs:label>Cube</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7831"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88284"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1830"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76499"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0123755/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0123755%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Cube_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCube_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/2999"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/CA"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000002086b1">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000002086b1%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37014"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/191467"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/6251999/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F6251999%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54738"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86778"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1604">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/814"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32134"/>
+        <dbpedia:hasPhotoCollection rdf:resource="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Cube_(film)"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7828"/>
+        <movie:rating rdf:resource="http://data.linkedmdb.org/resource/content_rating/4"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/1611"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1965"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34851"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7829"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0123755/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0123755%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2693"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/464"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/de">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fde%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1964"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38371"/>
+        <owl:sameAs rdf:resource="http://mpii.de/yago/resource/Cube_%28film%29"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37507">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/814"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18974">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/814"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/814">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Cube</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/814"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134741">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/814"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134740">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/814"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/69475">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/814"/>
+  </rdf:Description>
+</rdf:RDF>

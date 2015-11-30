@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8372">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2556">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46898"/>
+        <movie:initial_release_date>1942-04-22</movie:initial_release_date>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2950"/>
+        <movie:runtime>108</movie:runtime>
+        <dc:date>1942-04-22</dc:date>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/64"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/6241"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5383"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/25082"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0035279">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0035279%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Saboteur_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FSaboteur_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Saboteur_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FSaboteur_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/13"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/25081"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/27"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13061"/>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/8372"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/25083"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/282"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16818"/>
+        <dc:title>Saboteur</dc:title>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2556</movie:filmid>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2583"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16707"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47470"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11016"/>
+        <rdfs:label>Saboteur</rdfs:label>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000055e31f">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000055e31f%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/54978"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4637"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/30"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Saboteur_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FSaboteur_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0035279">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0035279%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35973"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136263">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2556"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/1306">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2556"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19839">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2556"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/71280">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2556"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2556">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Saboteur</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2556"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38372">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2556"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/1324">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2556"/>
+  </rdf:Description>
+</rdf:RDF>

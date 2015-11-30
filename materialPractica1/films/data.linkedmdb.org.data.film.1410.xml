@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9914">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1410">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31184"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31731"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33579"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0110367">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0110367%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18113"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12583"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18116"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13183"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38421"/>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/9914"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/245"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29689"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/27"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44216"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18119"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0110367">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0110367%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/3857"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18112"/>
+        <dc:title>Little Women</dc:title>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/6791"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/281"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34904"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000003572a5">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000003572a5%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/45"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30005"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31120"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18120"/>
+        <dc:date>1994-12-21</dc:date>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4511"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18118"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29557"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18115"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/636"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/2923"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/6279"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/15"/>
+        <movie:runtime>115</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18111"/>
+        <rdfs:label>Little Women</rdfs:label>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1410</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18114"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/de">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fde%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/281"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3403"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18117"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/245"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18110"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37485"/>
+        <movie:initial_release_date>1994-12-21</movie:initial_release_date>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/64"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1410">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Little Women</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1410"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/847">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1410"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70853">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1410"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135263">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1410"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135264">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1410"/>
+  </rdf:Description>
+</rdf:RDF>

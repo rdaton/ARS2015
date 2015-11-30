@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/27">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2486">
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/440"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36421"/>
+        <rdfs:label>Rent</rdfs:label>
+        <dc:date>2005-11-23</dc:date>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/16"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/993"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/228"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35365"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33306"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/27"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/73"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/46"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000005343d6">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000005343d6%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/26"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24280"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2948"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Rent_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FRent_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0294870/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0294870%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <dc:title>Rent</dc:title>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4469"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2919"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24284"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24281"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14133"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/281"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49476"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/367"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/9"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/64"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12517"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/242"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85228"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2486</movie:filmid>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10567"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0294870/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0294870%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24285"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24286"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33985"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/1586"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5182"/>
+        <movie:runtime>135</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24282"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15966"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41032"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12723"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34862"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/228"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24287"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41295"/>
+        <movie:initial_release_date>2005-11-23</movie:initial_release_date>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Rent_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FRent_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Rent_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FRent_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9745"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/354"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24283"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2486">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Rent</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2486"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38342">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2486"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136194">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2486"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19809">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2486"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/1130">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2486"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/1276">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2486"/>
+  </rdf:Description>
+</rdf:RDF>

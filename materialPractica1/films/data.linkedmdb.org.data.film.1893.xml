@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/10558">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1893">
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11129"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000042f4ed">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000042f4ed%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/10558"/>
+        <dc:title>Enigma</dc:title>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1893</movie:filmid>
+        <dc:date>1983</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35012"/>
+        <movie:initial_release_date>1983</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30000"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/116918"/>
+        <rdfs:label>Enigma</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/116919"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/142521"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30959"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1893">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Enigma</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1893"/>
+  </rdf:Description>
+</rdf:RDF>

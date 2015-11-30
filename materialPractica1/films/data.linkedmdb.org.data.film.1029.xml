@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134910">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1029">
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2441"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1029</movie:filmid>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Primary_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FPrimary_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:runtime>60</movie:runtime>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4989"/>
+        <dc:title>Primary</dc:title>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12576"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Primary_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FPrimary_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0054205">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0054205%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/12449">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1029"/>
+          </rdf:Description>
+        </movie:director>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000002924ff">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000002924ff%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/1520"/>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/69"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/18378"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0054205">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0054205%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <rdfs:label>Primary</rdfs:label>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Primary_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FPrimary_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/68"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37607">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1029">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Primary</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19074">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/541">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1029"/>
+  </rdf:Description>
+</rdf:RDF>

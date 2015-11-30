@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135610">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1814">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/5211"/>
+        <movie:initial_release_date>2004-10-07</movie:initial_release_date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0375911">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0375911%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19032"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/de">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fde%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1814</movie:filmid>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0375911">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0375911%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000040d1fc">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000040d1fc%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <dc:date>2004-10-07</dc:date>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/DE"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4059"/>
+        <rdfs:label>MÃ¤nner wie wir</rdfs:label>
+        <dc:title>MÃ¤nner wie wir</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19033"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/274"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/5210"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/3590"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/274"/>
+        <movie:runtime>106</movie:runtime>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/1772">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1814"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3537"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2921044/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2921044%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/65783">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1814"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1814">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of MÃ¤nner wie wir</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1814"/>
+  </rdf:Description>
+</rdf:RDF>

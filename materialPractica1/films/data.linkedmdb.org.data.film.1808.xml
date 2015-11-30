@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135604">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1808">
+        <movie:runtime>125</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100388"/>
+        <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/66"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38390"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29532"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75468"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30211"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/21598"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30410"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29641"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2679"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5541">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1808"/>
+          </rdf:Description>
+        </movie:sequel>
+        <dc:date>2004-12-10</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30317"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41436"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11454"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17088"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31813"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/21594"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100389"/>
+        <movie:initial_release_date>2004-12-10</movie:initial_release_date>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Ocean%27s_Twelve">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FOcean%2527s_Twelve%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84262"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4618"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34941"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Ocean&apos;s_Twelve">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FOcean%27s_Twelve%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3529">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/1808"/>
+          </rdf:Description>
+        </movie:prequel>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30638"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/83898"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29783"/>
+        <rdfs:label>Ocean's Twelve</rdfs:label>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30516"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/90536"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41972"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000040a36e">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000040a36e%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32708"/>
+        <dc:title>Ocean's Twelve</dc:title>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0349903">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0349903%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31264"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32832"/>
+        <movie:rating rdf:resource="http://data.linkedmdb.org/resource/content_rating/3"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/21595"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0349903">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0349903%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100387"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/90537"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1808</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/90538"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33512"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85530"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81995"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/57"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8481">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1808"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33187"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/21596"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Ocean%27s_Twelve">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FOcean%2527s_Twelve%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/21597"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7259">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1808"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38012">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1808"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70996">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1808"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/946">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1808"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19479">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1808"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1808">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Ocean's Twelve</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1808"/>
+  </rdf:Description>
+</rdf:RDF>

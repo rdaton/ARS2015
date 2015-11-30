@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40258">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/31359">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/72514"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/123314"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130404"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/61593"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/140809"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/149699"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/92299"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/197373"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/107384"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42919"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/169856"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/125260"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/140344"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <rdfs:label>Telly Savalas (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/140849"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/57305"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/140092"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122629"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113464"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/63871"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56840"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >31359</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/96707"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/46869"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/52971"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/156458"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178708"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/94427"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/115410"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000001a21e6">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000001a21e6%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor_name>Telly Savalas</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/142340"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/60834"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7492">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19282">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/12376">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/68583">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/66412">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44128">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/93397">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/782">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48490">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60049">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53573">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59575">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43950">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19401">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/11836">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/84124">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39172">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/31359">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Telly Savalas (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1623">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8627">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38788">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/77881">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/13630">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3462">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61367">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39201">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/75225">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/22778">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31359"/>
+  </rdf:Description>
+</rdf:RDF>

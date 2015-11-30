@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0120623">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0120623%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Bug%27s_Life">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FA_Bug%2527s_Life%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/4843">
+    <movie:film_of_distributor>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/943">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31524"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68750"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33953"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30594"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/55761"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/59111"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/159013"/>
+        <movie:runtime>96</movie:runtime>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000259e24">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000259e24%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40231"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29538"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/13394"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33252"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13519"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38081"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0120623">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0120623%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9875">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/943"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/72161"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/51727"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/183700"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30221"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32633"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/464"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29438"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/753"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2658"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16188"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/96203"/>
+        <rdfs:label>A Bug's Life</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56623"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56014"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38533"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/A_Bug&apos;s_Life">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FA_Bug%27s_Life%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <foaf:page rdf:resource="http://www.imdb.com/title/tt0120623"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/14759"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4333"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/98"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/49904"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33380"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31823"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/96202"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15590"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32407"/>
+        <movie:runtime>98</movie:runtime>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39208">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/943"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/53778"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/31"/>
+        <dc:date>1998-11-14</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/461"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37553"/>
+        <movie:initial_release_date>1998-11-14</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30606"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/52701"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11012"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/96201"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/22"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >943</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32427"/>
+        <dc:title>A Bug's Life</dc:title>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/10376">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/943"/>
+          </rdf:Description>
+        </movie:director>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/A_Bug%27s_Life"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39055"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/A_Bug%27s_Life">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FA_Bug%2527s_Life%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/159007"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/460"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/57531"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16822"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/459"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30181"/>
+      </movie:film>
+    </movie:film_of_distributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/943">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of A Bug's Life</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19033">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134841">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37566">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/500">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70639">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/943"/>
+  </rdf:Description>
+</rdf:RDF>

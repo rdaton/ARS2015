@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/71135">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2188">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7761"/>
+        <dc:date>1986-03-14</dc:date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0090888">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0090888%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <rdfs:label>Crossroads</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34071"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/9"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0090888">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0090888%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7760"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/72"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32937"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4442"/>
+        <dc:title>Crossroads</dc:title>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/427">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2188"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:initial_release_date>1986-03-14</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37262"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41396"/>
+        <movie:runtime>96</movie:runtime>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4389"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2188</movie:filmid>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1818"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000004b62cd">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000004b62cd%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7758"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1951"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7759"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/1594"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/1587"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/928">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2188"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135935">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2188"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2188">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Crossroads</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2188"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70253">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/74">
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/569"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29395"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000066063">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000066063%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5813"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/11189"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39023"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2862"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1047"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31526"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2867"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40517"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33341"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/19"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10248"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17395"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9297">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/74"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32175"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154340"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39029"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2863"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82443"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36537"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2868"/>
+        <movie:runtime>150</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35091"/>
+        <rdfs:label>Armageddon</rdfs:label>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/41"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77622"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30357"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31505"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34463"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14232"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154341"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2870"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2864"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2869"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10523"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1116"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0120591">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0120591%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34819"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154342"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0120591">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0120591%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2865"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30536"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12191"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43307"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2861"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/41"/>
+        <movie:initial_release_date>1998-07-01</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77423"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81827"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >74</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2866"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/64"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30821"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1047"/>
+        <dc:date>1998-07-01</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/854"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88110"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154343"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9955"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29961"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58404"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32711"/>
+        <dc:title>Armageddon</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76296"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/6421">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/74"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134014">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/74"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/74">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Armageddon</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/74"/>
+  </rdf:Description>
+</rdf:RDF>

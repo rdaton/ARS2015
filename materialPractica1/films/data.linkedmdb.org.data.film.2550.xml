@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8372">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2550">
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4303"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20169"/>
+        <rdfs:label>Mr. &amp; Mrs. Smith</rdfs:label>
+        <dc:title>Mr. &amp; Mrs. Smith</dc:title>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0033922">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0033922%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2550</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20170"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0033922">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0033922%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20168"/>
+        <dc:date>1941-01-31</dc:date>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2999"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20171"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2339"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/18161"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43211"/>
+        <movie:runtime>95</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40068"/>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/8372"/>
+        <movie:initial_release_date>1941-01-31</movie:initial_release_date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000055a7a8">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000055a7a8%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29773"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/234"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2550">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Mr. &amp; Mrs. Smith</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2550"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/71277">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2550"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136257">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2550"/>
+  </rdf:Description>
+</rdf:RDF>

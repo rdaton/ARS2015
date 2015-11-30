@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1896">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Marie Antoinette</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1896">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29999"/>
+        <rdfs:label>Marie Antoinette</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29920"/>
+        <movie:film_art_director rdf:resource="http://data.linkedmdb.org/resource/film_art_director/5"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/49622"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17629"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56999"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16795"/>
+        <dc:date>1938</dc:date>
+        <movie:initial_release_date>1938</movie:initial_release_date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0030418">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0030418%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/48223"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/18"/>
+        <dc:title>Marie Antoinette</dc:title>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9424">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1896"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/26"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32963"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/30"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0030418">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0030418%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/13600"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1896</movie:filmid>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000432ebb">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000432ebb%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13604"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7287">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1896"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135683">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1896"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/71032">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1896"/>
+  </rdf:Description>
+</rdf:RDF>

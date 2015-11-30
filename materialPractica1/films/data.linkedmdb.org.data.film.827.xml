@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://mpii.de/yago/resource/The_Fall_of_the_Roman_Empire_%28film%29">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FThe_Fall_of_the_Roman_Empire_%2528film%2529%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134749">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/827">
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5821"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000002113b6">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000002113b6%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45300"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0058085">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0058085%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30038"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32236"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >827</movie:filmid>
+        <dc:title>The Fall of the Roman Empire</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29925"/>
+        <movie:runtime>188</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30909"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/48144"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/The_Fall_of_the_Roman_Empire_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FThe_Fall_of_the_Roman_Empire_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31803"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39302"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74733"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37076"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/52644"/>
+        <dc:date>1964,1964-03-26</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29777"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0058085">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0058085%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/14191"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16556"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/63407"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/49156"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1683"/>
+        <owl:sameAs rdf:resource="http://mpii.de/yago/resource/The_Fall_of_the_Roman_Empire_%28film%29"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68796"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58278"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/70869"/>
+        <movie:initial_release_date>1964,1964-03-26</movie:initial_release_date>
+        <rdfs:label>The Fall of the Roman Empire</rdfs:label>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9669">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/827"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77858"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/The_Fall_of_the_Roman_Empire_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FThe_Fall_of_the_Roman_Empire_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37512">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/827"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/446">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/827"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/4822">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/827"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70596">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/827"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18979">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/827"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/827">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of The Fall of the Roman Empire</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/827"/>
+  </rdf:Description>
+</rdf:RDF>

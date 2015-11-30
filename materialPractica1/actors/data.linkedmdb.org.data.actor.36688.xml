@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41024">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/36688">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141634"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78838"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14968"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >36688</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76184"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82889"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/198457"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/57885"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/83076"/>
+        <rdfs:label>Kieran Culkin (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/89054"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178147"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20648"/>
+        <movie:actor_name>Kieran Culkin</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80176"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <rdf:type>
+          <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+          </rdf:Description>
+        </rdf:type>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/63086"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/47574"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84227"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000053391b">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000053391b%3E"/>
+          </rdf:Description>
+        </foaf:page>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48544">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/36688">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Kieran Culkin (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39919">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5024">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/78580">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5963">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1817">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41139">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/98463">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1398">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/65415">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/14153">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/706">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41539">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44762">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36688"/>
+  </rdf:Description>
+</rdf:RDF>

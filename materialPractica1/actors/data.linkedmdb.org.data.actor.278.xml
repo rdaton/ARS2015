@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/54347">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/278">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/111227"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/170329"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/177294"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/12371"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000389531">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000389531%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/45390"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Don_Murray_%28actor%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FDon_Murray_%2528actor%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56597"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/101001"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/136096"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/147923"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/134316"/>
+        <movie:actor_name>Don Murray</movie:actor_name>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >278</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/51685"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/93802"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/170330"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109973"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/156523"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/170338"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88311"/>
+        <rdfs:label>Don Murray (Actor)</rdfs:label>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Don_Murray_%28actor%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FDon_Murray_%2528actor%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58371"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/129382"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Don_Murray_(actor)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FDon_Murray_%28actor%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/72424"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/57731"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/124726"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39838">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43828">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7544">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/64309">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4617">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41572">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39057">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/20723">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/99740">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1088">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61070">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38690">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/51351">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/20233">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1454">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3683">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/51256">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/111561">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/14680">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/71323">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/278">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Don Murray (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60412">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1578">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/87919">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/22163">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/64230">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/38516">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/54574"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/129267"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/166978"/>
+        <rdfs:label>Nick Mancuso (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/159093"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/103946"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/52189"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/123622"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/125548"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/125456"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/197403"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000067853b">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000067853b%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor_name>Nick Mancuso</movie:actor_name>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/71082"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122192"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/124512"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/103069"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/62816"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/197032"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/127428"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >38516</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/166905"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/119896"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/123524"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/57614">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/12051">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/38516">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Nick Mancuso (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/80233">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/17853">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59261">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60903">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62976">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/77970">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/12140">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60287">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/23203">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/80358">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/73016">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41656">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/22400">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60207">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1077">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61643">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61577">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38516"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/971">
+    <movie:film_of_distributor>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1917">
+        <dc:date>2001-07-27</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108271"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000043ede1">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000043ede1%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4908"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/54263"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/444"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0133152">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0133152%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/71"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100531"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/444"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30283"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11919"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/252"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22929"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40729"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22926"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48540"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1780"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1917</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79897"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29801"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42180"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/51"/>
+        <dc:title>Planet of the Apes</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30071"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32432"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0133152">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0133152%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32711"/>
+        <movie:runtime>119</movie:runtime>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2113"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22927"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4017"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100530"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30658"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/363"/>
+        <rdfs:label>Planet of the Apes</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32015"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8497">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1917"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100529"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88927"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13771"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2112"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22928"/>
+        <movie:initial_release_date>2001-07-27</movie:initial_release_date>
+      </movie:film>
+    </movie:film_of_distributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135701">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1917"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1917">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Planet of the Apes</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1917"/>
+  </rdf:Description>
+</rdf:RDF>

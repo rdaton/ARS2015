@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/9308">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/33962">
+        <rdfs:label>Jaime Pressly (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37098"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99253"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76465"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77074"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >33962</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77699"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/177799"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/21469"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9030"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/134553"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81806"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/96525"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/89963"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000035955e">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000035955e%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79089"/>
+        <movie:actor_name>Jaime Pressly</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84008"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108570"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/161360"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/116837"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7106">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/129">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40430">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/681">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/14246">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2978">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41455">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19231">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/976">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/33962">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Jaime Pressly (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53627">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4487">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/11563">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8095">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8294">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41237">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47329">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33962"/>
+  </rdf:Description>
+</rdf:RDF>

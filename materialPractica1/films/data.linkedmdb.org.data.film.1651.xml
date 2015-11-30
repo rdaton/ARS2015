@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://sws.geonames.org/3017382/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F3017382%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7195">
+    <movie:film_of_distributor>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1651">
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2921044/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2921044%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/16718"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2563"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33075"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32147"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34627"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110034"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0112368">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0112368%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30085"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/745">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1651"/>
+          </rdf:Description>
+        </movie:director>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2566"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/FR"/>
+        <movie:initial_release_date>1995-09-15</movie:initial_release_date>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/45"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/284"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85610"/>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3017382/"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/15396">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1651"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16577"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2565"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1651</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80547"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000003c55e5">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000003c55e5%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0112368">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0112368%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/506"/>
+        <dc:title>Angus</dc:title>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/845"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/DE"/>
+        <movie:runtime>90</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/892"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38556"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/25"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2564"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+        <dc:date>1995-09-15</dc:date>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32661"/>
+        <rdfs:label>Angus</rdfs:label>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12159"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1066"/>
+      </movie:film>
+    </movie:film_of_distributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135457">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1651"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1651">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Angus</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1651"/>
+  </rdf:Description>
+</rdf:RDF>

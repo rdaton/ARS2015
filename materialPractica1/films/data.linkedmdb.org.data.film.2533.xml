@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2533">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Que Ã Isso, Companheiro?</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2533">
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/3469034/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F3469034%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000054ef91">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000054ef91%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1644"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/2488"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3742"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/191842"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/2280"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11453"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16650"/>
+        <dc:date>1997-04-19</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11465"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11459"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/6135"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/2714"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1334"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3743"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30572"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/BR"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0119815">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0119815%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11454"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2533</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/1255"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/62652"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0119815">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0119815%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35710"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11466"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11461"/>
+        <movie:runtime>110</movie:runtime>
+        <dc:title>Que Ã Isso, Companheiro?</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11460"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3744"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11462"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42938"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37539"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/10124">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2533"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11455"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11457"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <rdfs:label>Que Ã Isso, Companheiro?</rdfs:label>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/pt">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fpt%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3745"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11463"/>
+        <movie:initial_release_date>1997-04-19</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44295"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4113"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11456"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4468"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/2415"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11458"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3741"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37524"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11464"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11452"/>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/1184">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7547">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/68589">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136241">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/11295">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136242">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2533"/>
+  </rdf:Description>
+</rdf:RDF>

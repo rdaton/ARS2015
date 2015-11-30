@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/it">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fit%3E"/>
+  </rdf:Description>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/212">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29989"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/25541"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0023427">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0023427%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:sequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/665">
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/212"/>
+      </rdf:Description>
+    </movie:sequel>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5477"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33561"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9695"/>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/220"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/98060"/>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/220"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9693"/>
+    <dc:date>1932-04-09</dc:date>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/25543"/>
+    <rdfs:label>Scarface</rdfs:label>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13462"/>
+    <movie:initial_release_date>1932-04-09</movie:initial_release_date>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/20313"/>
+    <movie:runtime>93</movie:runtime>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/147434"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33565"/>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/352"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15383"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8417">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/212"/>
+      </rdf:Description>
+    </movie:director>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000008908e">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000008908e%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0023427">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0023427%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/352"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29786"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33575"/>
+    <movie:language rdf:resource="http://www.lingvoj.org/lingvo/it"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >212</movie:filmid>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/25542"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/4423"/>
+    <dc:title>Scarface</dc:title>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15144"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/212">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Scarface</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70331">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134135">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134134">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/12702">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/212"/>
+  </rdf:Description>
+</rdf:RDF>

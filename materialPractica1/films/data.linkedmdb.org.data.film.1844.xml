@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44207">
+    <movie:sequel>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1844">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8355"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000419bb1">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000419bb1%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/1728"/>
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/44207"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1941"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2850">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1844"/>
+          </rdf:Description>
+        </movie:sequel>
+        <rdfs:label>Dead Zone</rdfs:label>
+        <movie:runtime>41</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8354"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34343"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1844</movie:filmid>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/ja">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fja%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <dc:date>1989-07-15</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8353"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33862"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1942"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8358"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=265160">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D265160%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <dc:title>Dead Zone</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34137"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8349"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1396"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34498"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8352"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8359"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8357"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5614"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt265160">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt265160%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8351"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35810"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34497"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45917"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35183"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/1545"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8356"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35586"/>
+        <movie:initial_release_date>1989-07-15</movie:initial_release_date>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/86"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1940"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/1069">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1844"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8350"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13022"/>
+      </movie:film>
+    </movie:sequel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1844">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Dead Zone</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1844"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135643">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1844"/>
+  </rdf:Description>
+</rdf:RDF>

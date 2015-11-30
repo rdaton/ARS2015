@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/12341">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2530">
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/914">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2530"/>
+          </rdf:Description>
+        </movie:director>
+        <rdfs:label>Born into Brothels: Calcutta's Red Light Kids</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/2479"/>
+        <movie:initial_release_date>2004</movie:initial_release_date>
+        <dc:date>2004</dc:date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000054e7e2">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000054e7e2%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/2478"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/361"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/350"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/bn">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fbn%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/2477"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5027"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/2480"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0388789">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0388789%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12526"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2530</movie:filmid>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4403"/>
+        <dc:title>Born into Brothels: Calcutta's Red Light Kids</dc:title>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/18280"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1533"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5026"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/1023"/>
+        <movie:runtime>85</movie:runtime>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/12341"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/738"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1330"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0388789">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0388789%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5025"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5024"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136236">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2530"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136237">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2530"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/71267">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2530"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2530">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Born into Brothels: Calcutta's Red Light Kids</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2530"/>
+  </rdf:Description>
+</rdf:RDF>

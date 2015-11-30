@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://sws.geonames.org/3017382/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F3017382%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/66443">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/21">
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Mulholland_Drive_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FMulholland_Drive_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88360"/>
+        <movie:runtime>145</movie:runtime>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/1372"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000029c33">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000029c33%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3683"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Mulholland_Drive_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMulholland_Drive_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20308"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/153483"/>
+        <movie:runtime>146</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35804"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20310"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78626"/>
+        <rdfs:label>Mulholland Drive</rdfs:label>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1183"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13049"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/FR"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/333"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20307"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1019"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38002"/>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3017382/"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54468"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32296"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/23"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31757"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0166924">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0166924%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1019"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/172466"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39438"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/es">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fes%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/173"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Mulholland_Drive_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FMulholland_Drive_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33053"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >21</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86755"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/6137"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/6228"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86620"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4330"/>
+        <movie:initial_release_date>2001</movie:initial_release_date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0166924">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0166924%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/12409"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42572"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1183"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78663"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31921"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86951"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/28"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36931"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20309"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8396">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/21"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1760"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/333"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39211"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88403"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47379"/>
+        <dc:title>Mulholland Drive</dc:title>
+        <dc:date>2001</dc:date>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37074">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70223">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/21">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Mulholland Drive</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/8">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/140">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/133964">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18541">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/133963">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/21"/>
+  </rdf:Description>
+</rdf:RDF>

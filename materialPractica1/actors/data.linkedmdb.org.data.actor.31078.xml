@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59175">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/31078">
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141032"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13035"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/94995"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42642"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/65568"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/139712"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28604"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26769"/>
+        <movie:actor_name>Minnie Driver</movie:actor_name>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/114951"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22239"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/121036"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122079"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >31078</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/129191"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/94696"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/4305"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/172493"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/92457"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42357"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/160814"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000016ee08">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000016ee08%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/48447"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/90579"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/34032"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/65030"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/12769"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2341"/>
+        <rdfs:label>Minnie Driver (Actor)</rdfs:label>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38612">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40929">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39102">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2583">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5667">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39447">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3234">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38127">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/55608">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44000">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/9407">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1330">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41480">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/31078">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Minnie Driver (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/591">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19590">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/16177">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2820">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/77202">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/66889">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/64165">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/58463">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44450">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/49675">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/731">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31078"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/42225">
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81342"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82534"/>
+    <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >42225</movie:actor_actorid>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/139647"/>
+    <rdfs:label>Satish Shah (Actor)</rdfs:label>
+    <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/101080"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122055"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000008e9d49">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000008e9d49%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/16364"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26051"/>
+    <movie:actor_netflix_id></movie:actor_netflix_id>
+    <movie:actor_nytimes_id></movie:actor_nytimes_id>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/131148"/>
+    <movie:actor_name>Satish Shah</movie:actor_name>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/83662"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/25071"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41286"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/102509"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/159531"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81276"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76910"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/83457"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/125696"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/112561"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58439"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19626"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/45039"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79845"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122352"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85568"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110014"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/16305"/>
+  </foaf:Person>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41354">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41131">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59374">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61749">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/670">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/66980">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/49979">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/42225">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Satish Shah (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43457">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/42418">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41287">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41071">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2215">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46173">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43396">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41584">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/12855">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46913">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39988">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59158">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5192">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41694">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48011">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39714">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/65199">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/20835">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/52644">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42225"/>
+  </rdf:Description>
+</rdf:RDF>

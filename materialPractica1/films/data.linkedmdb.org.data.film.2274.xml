@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19697">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2274">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36035"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1707"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68046"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75510"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14880"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/66991"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29594"/>
+        <dc:title>The Golden Compass</dc:title>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+        <movie:rating rdf:resource="http://data.linkedmdb.org/resource/content_rating/3"/>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/273"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75509"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0385752">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0385752%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9434">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2274"/>
+          </rdf:Description>
+        </movie:director>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/5"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/70134"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29494"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0385752">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0385752%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75481"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/5"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/The_Golden_Compass_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FThe_Golden_Compass_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <dc:date>2007-12-07</dc:date>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/6355"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5563"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30598"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/273"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33252"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/6067"/>
+        <movie:initial_release_date>2007-12-07</movie:initial_release_date>
+        <movie:film_casting_director rdf:resource="http://data.linkedmdb.org/resource/film_casting_director/18"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/51935"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2699"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2274</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/62208"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36031"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/5915"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/6360"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11001"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12989"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/819"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/819"/>
+        <movie:runtime>113</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38729"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/The_Golden_Compass_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FThe_Golden_Compass_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/132"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48019"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/978"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33046"/>
+        <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/66"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/13754"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/The_Golden_Compass_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FThe_Golden_Compass_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/65265"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/6361"/>
+        <rdfs:label>The Golden Compass</rdfs:label>
+        <movie:costume_designer rdf:resource="http://data.linkedmdb.org/resource/film_costume_designer/10"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/8915"/>
+        <movie:rating rdf:resource="http://data.linkedmdb.org/resource/content_rating/2"/>
+        <movie:runtime>114</movie:runtime>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/31"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000004d9ef4">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000004d9ef4%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/11586"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1320"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/72595"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2274">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of The Golden Compass</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2274"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/1164">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2274"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/71177">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2274"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7438">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2274"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136013">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2274"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38230">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2274"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63248">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2274"/>
+  </rdf:Description>
+</rdf:RDF>

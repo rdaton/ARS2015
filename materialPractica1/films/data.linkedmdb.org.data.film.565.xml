@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/565">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Diamonds</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/565">
+        <movie:initial_release_date>1975</movie:initial_release_date>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11830"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0072877">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0072877%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30892"/>
+        <rdfs:label>Diamonds</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/46662"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/69492"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12749"/>
+        <dc:title>Diamonds</dc:title>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000001719b2">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000001719b2%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40825"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40826"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/12567"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35448"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Diamonds_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FDiamonds_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/11151">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/565"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34342"/>
+        <dc:date>1975</dc:date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0072877">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0072877%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >565</movie:filmid>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17035"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5171"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/294640/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F294640%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Diamonds_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FDiamonds_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:runtime>120</movie:runtime>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/IL"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Diamonds_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FDiamonds_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37380">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/565"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134477">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/565"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18847">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/565"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/66236">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/565"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/14352">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/565"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/314">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/565"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70487">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/565"/>
+  </rdf:Description>
+</rdf:RDF>

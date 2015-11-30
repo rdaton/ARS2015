@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48668">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/39825">
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/95241"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82668"/>
+        <rdfs:label>CiarÃ¡n Hinds (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/94077"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/161516"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/107867"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113271"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/164983"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109984"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/150052"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/164945"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/138330"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/172720"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/91557"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17380"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/83331"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/156419"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/180435"/>
+        <movie:actor_name>CiarÃ¡n Hinds</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/160080"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/38283"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000739526">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000739526%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76595"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20339"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/33654"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22622"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/91875"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >39825</movie:actor_actorid>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/152736"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/135931"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/67720">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/75160">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18927">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/80812">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/39825">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of CiarÃ¡n Hinds (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39199">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2921">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2386">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39221">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/14306">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53394">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/78170">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/51458">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5437">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/9895">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/15234">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/15814">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/78206">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4034">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18252">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/80646">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/56582">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6618">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48208">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/731">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/903">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5940">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3632">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39825"/>
+  </rdf:Description>
+</rdf:RDF>

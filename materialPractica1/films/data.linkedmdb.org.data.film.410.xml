@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/410">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of ...And Justice for All</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/410">
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/329"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14187"/>
+        <movie:initial_release_date>1979-06-29</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33547"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/385"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82678"/>
+        <rdfs:label>...And Justice for All</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84055"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33135"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31875"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >410</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32949"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37608"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/144725"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77328"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/63"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/13"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33387"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80097"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0078718">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0078718%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/144726"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0078718">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0078718%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29726"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/329"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/8845"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32919"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000012ee6e">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000012ee6e%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/106986"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/392"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/...And_Justice_for_All_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F...And_Justice_for_All_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34245"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/64"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:runtime>119</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32699"/>
+        <dc:title>...And Justice for All</dc:title>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/...And_Justice_for_All_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2F...And_Justice_for_All_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74465"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/144724"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8712">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/410"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16576"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/...And_Justice_for_All_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2F...And_Justice_for_All_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/89"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4655"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/106987"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9981"/>
+        <dc:date>1979-06-29</dc:date>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18761">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/410"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37294">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/410"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/228">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/410"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134338">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/410"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/269">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/410"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70423">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/410"/>
+  </rdf:Description>
+</rdf:RDF>

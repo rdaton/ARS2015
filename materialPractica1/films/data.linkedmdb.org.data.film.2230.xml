@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000004ce59b">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000004ce59b%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0073349">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0073349%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2230">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Mandingo</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2230">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/144850"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46614"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/151461"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/151466"/>
+        <rdfs:label>Mandingo</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39766"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10646"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38221"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0073349">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0073349%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Mandingo_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FMandingo_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/151462"/>
+        <foaf:page rdf:resource="http://www.imdb.com/title/tt0073349"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58680"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/61768"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44812"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/69845"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/151463"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9958">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2230"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3555">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/2230"/>
+          </rdf:Description>
+        </movie:sequel>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Mandingo_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMandingo_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/151457"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/151458"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54822"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/232"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30475"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/47"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/61769"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4526"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/232"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/151464"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/61098"/>
+        <dc:date>1975</dc:date>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f80000000004ce59b"/>
+        <movie:film_production_designer rdf:resource="http://data.linkedmdb.org/resource/film_production_designer/37"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45152"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2230</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/1254"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/151460"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/59119"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/67772"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30038"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37368"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10391"/>
+        <dc:title>Mandingo</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/61762"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/151459"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/151465"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Mandingo_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FMandingo_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:initial_release_date>1975</movie:initial_release_date>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/1146">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2230"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19679">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2230"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135973">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2230"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/71158">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2230"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/5052">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2230"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38212">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2230"/>
+  </rdf:Description>
+</rdf:RDF>

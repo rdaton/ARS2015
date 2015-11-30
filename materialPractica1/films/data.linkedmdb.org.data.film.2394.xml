@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/1226">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2394">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33032"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/16524"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/22942"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0064541">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0064541%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <dc:date>1969</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/16523"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Kes_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FKes_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/16521"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/64863"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17993"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10038"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2394</movie:filmid>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+        <dc:title>Kes</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/16522"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/883"/>
+        <movie:initial_release_date>1969</movie:initial_release_date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000506256">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000506256%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <rdfs:label>Kes</rdfs:label>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Kes_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FKes_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0064541">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0064541%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44811"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8444">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2394"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37532"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12350"/>
+        <movie:runtime>110</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/4646"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4917"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Kes_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FKes_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/3502"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2394">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Kes</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2394"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/12909">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2394"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19759">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2394"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38292">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2394"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136114">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2394"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63263">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2394"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19444">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1735">
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000003eaad1">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000003eaad1%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/14934">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1735"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/71588"/>
+        <movie:initial_release_date>1936</movie:initial_release_date>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2782113/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2782113%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/45468"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/271"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/27"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/UngekÃ¼sst_soll_man_nicht_schlafen_gehn">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FUngek%C3%83%C2%BCsst_soll_man_nicht_schlafen_gehn%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/6370"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/191668"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37693"/>
+        <dc:title>UngekÃ¼sst soll man nicht schlafen gehn</dc:title>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/UngekÃ¼sst_soll_man_nicht_schlafen_gehn">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FUngek%C3%83%C2%BCsst_soll_man_nicht_schlafen_gehn%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1735</movie:filmid>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/UngekÃ¼sst_soll_man_nicht_schlafen_gehn">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FUngek%C3%83%C2%BCsst_soll_man_nicht_schlafen_gehn%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/56168"/>
+        <rdfs:label>UngekÃ¼sst soll man nicht schlafen gehn</rdfs:label>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5507"/>
+        <dc:date>1936</dc:date>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/AT"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/de">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fde%3E"/>
+          </rdf:Description>
+        </movie:language>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135536">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1735"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/65609">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1735"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/911">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1735"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1735">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of UngekÃ¼sst soll man nicht schlafen gehn</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1735"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37977">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1735"/>
+  </rdf:Description>
+</rdf:RDF>

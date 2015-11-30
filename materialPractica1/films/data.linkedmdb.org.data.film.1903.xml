@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0089822">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0089822%3E"/>
+  </rdf:Description>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1903">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34349"/>
+    <movie:film_series rdf:resource="http://data.linkedmdb.org/resource/film_series/10"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4937"/>
+    <movie:sequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5254">
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1903"/>
+      </rdf:Description>
+    </movie:sequel>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23154"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1903</movie:filmid>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23149"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23152"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100505"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37675"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1753"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34083"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85175"/>
+    <dc:title>Police Academy 2: Their First Assignment</dc:title>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/4012"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23155"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/4109"/>
+    <foaf:page rdf:resource="http://www.imdb.com/title/tt0089822"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9413"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35293"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/19105"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23150"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/11118">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1903"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35033"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37038"/>
+    <movie:prequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8340">
+        <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/1903"/>
+      </rdf:Description>
+    </movie:prequel>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/13646"/>
+    <movie:runtime>97</movie:runtime>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34011"/>
+    <rdfs:label>Police Academy 2: Their First Assignment</rdfs:label>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33720"/>
+    <dc:date>1985,1985-03-29</dc:date>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80487"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45410"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23153"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0089822">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0089822%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:initial_release_date>1985,1985-03-29</movie:initial_release_date>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000043479c">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000043479c%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3157"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23151"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135689">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1903">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Police Academy 2: Their First Assignment</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7290">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1903"/>
+  </rdf:Description>
+</rdf:RDF>

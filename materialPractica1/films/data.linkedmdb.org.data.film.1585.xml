@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135400">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1585">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30559"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/198"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/326"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13636"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/90006"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34725"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19159"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34799"/>
+        <movie:film_set_designer rdf:resource="http://data.linkedmdb.org/resource/film_set_designer/2"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1585</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19157"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12671"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19162"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4737"/>
+        <dc:date>1970</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76731"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/923"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19158"/>
+        <rdfs:label>MASH</rdfs:label>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8537">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1585"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4087"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19156"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19161"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/17"/>
+        <movie:runtime>116</movie:runtime>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000003aad09">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000003aad09%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/MASH_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMASH_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/331"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/MASH_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FMASH_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0066026">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0066026%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/29"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30145"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34344"/>
+        <movie:initial_release_date>1970</movie:initial_release_date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0066026">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0066026%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19155"/>
+        <dc:title>MASH</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33703"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/MASH_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FMASH_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/115"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32228"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30282"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33187"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44474"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40113"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19154"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/11109"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/326"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19160"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/114"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86207"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80699"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34220"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/198"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19373">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1585"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1585">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of MASH</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1585"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37906">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1585"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/840">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1585"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70904">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1585"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/909">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1585"/>
+  </rdf:Description>
+</rdf:RDF>

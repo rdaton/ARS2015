@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000001e49e5">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000001e49e5%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/767">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Ace Ventura: Pet Detective</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/767">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30103"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31090"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5710"/>
+        <rdfs:label>Ace Ventura: Pet Detective</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/95431"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31542"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1246"/>
+        <dc:title>Ace Ventura: Pet Detective</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88030"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/134"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >767</movie:filmid>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/154"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40517"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49646"/>
+        <movie:runtime>86</movie:runtime>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15700"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f80000000001e49e5"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/501"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33809"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/268"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0109040">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0109040%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88352"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/28"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9964">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/767"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/612"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0109040">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0109040%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13559"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/47"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40024"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85664"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1244"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/14014"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/857"/>
+        <dc:date>1994-02-04</dc:date>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1056">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/767"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48107"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49158"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1245"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80840"/>
+        <movie:initial_release_date>1994-02-04</movie:initial_release_date>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/6795">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/767"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134696">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/767"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70575">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/767"/>
+  </rdf:Description>
+</rdf:RDF>

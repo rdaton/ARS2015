@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0401792/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0401792%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/1145">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2227">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26555"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26564"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000004cdb32">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000004cdb32%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4079"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33878"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32835"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/66953"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/1704"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/8"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/64424"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/14"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26560"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30609"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/55775"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1247"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26556"/>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0401792/"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Sin_City_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FSin_City_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32711"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68056"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34701"/>
+        <dc:title>Sin City</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/180097"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41123"/>
+        <movie:runtime>124</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32741"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29961"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26561"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11245"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26557"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108462"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1247"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31255"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2227</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39831"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8469">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2227"/>
+          </rdf:Description>
+        </movie:director>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Sin_City_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FSin_City_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5291"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/24"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/237"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26553"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/53"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Sin_City_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FSin_City_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33281"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/352"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/47"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26562"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/184603"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26558"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5680"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26552"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/65"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11532"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38877"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84720"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/11">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2227"/>
+          </rdf:Description>
+        </movie:director>
+        <dc:date>2005-04-01</dc:date>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2323"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41131"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78527"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31808"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26554"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26563"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33306"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11018"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/1279"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/70955"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87315"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26559"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33141"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36831"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8473">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2227"/>
+          </rdf:Description>
+        </movie:director>
+        <rdfs:label>Sin City</rdfs:label>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44413">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/2227"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29702"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82362"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/352"/>
+        <movie:initial_release_date>2005-04-01</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31984"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31501"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30636"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0401792/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0401792%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36204"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82641"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11263"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38211">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2227"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19678">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2227"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7419">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2227"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2227">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Sin City</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2227"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/71156">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2227"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135971">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2227"/>
+  </rdf:Description>
+</rdf:RDF>

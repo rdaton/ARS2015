@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0203009">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0203009%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Moulin_Rouge%21">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMoulin_Rouge%2521%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sws.geonames.org/2077456/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2077456%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+  </rdf:Description>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/344">
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1333"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44120"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31394"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108357"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108352"/>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/482"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >344</movie:filmid>
+    <rdfs:label>Moulin Rouge!</rdfs:label>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/250"/>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1333"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0203009">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0203009%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29594"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3657"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/es">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fes%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/214"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33263"/>
+    <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/29"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000010f78e">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000010f78e%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:film_art_director rdf:resource="http://data.linkedmdb.org/resource/film_art_director/122"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13689"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20120"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4293"/>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/905"/>
+    <foaf:based_near rdf:resource="http://sws.geonames.org/2635167/"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20122"/>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/416"/>
+    <dbpedia:hasPhotoCollection>
+      <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Moulin_Rouge!">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FMoulin_Rouge%21%3E"/>
+      </rdf:Description>
+    </dbpedia:hasPhotoCollection>
+    <dc:date>2001-05-09</dc:date>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/fr">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Ffr%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5055"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108356"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8721">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/344"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:film_film_company_relationship rdf:resource="http://data.linkedmdb.org/resource/film_film_company_relationship/10"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108351"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108311"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/9"/>
+    <dc:title>Moulin Rouge!</dc:title>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://mpii.de/yago/resource/Moulin_Rouge%21">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FMoulin_Rouge%2521%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54849"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20121"/>
+    <movie:film_film_company_relationship rdf:resource="http://data.linkedmdb.org/resource/film_film_company_relationship/9"/>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/250"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5926"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108355"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9995"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Moulin_Rouge%21"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29542"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36305"/>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1816"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79970"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54851"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54848"/>
+    <movie:initial_release_date>2001-05-09</movie:initial_release_date>
+    <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/47"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/3730"/>
+    <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/4"/>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/905"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20124"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38515"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5071"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11769"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108354"/>
+    <foaf:page rdf:resource="http://www.imdb.com/title/tt0203009"/>
+    <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/AU"/>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/365"/>
+    <foaf:based_near rdf:resource="http://sws.geonames.org/2077456/"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108353"/>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/482"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30046"/>
+    <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+    <movie:runtime>127</movie:runtime>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32409"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49537"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54850"/>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/723"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20123"/>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/723"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/344">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Moulin Rouge!</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_crew_gig/211">
+    <movie:film_crew_gig_film rdf:resource="http://data.linkedmdb.org/resource/film/344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/202">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134268">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134270">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134269">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37268">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18735">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/12">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/344"/>
+  </rdf:Description>
+</rdf:RDF>

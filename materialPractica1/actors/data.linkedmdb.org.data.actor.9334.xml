@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/87012">
+    <oddlinker:link_source>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/9334">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/175014"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Cecil_Kellaway">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FCecil_Kellaway%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/114210"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Cecil_Kellaway">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FCecil_Kellaway%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/187412"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/48182"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/43482"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/43130"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000046336c7">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000046336c7%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56436"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/187832"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/47556"/>
+        <rdfs:label>Cecil Kellaway (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/156362"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/44971"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133949"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/71961"/>
+        <movie:actor_name>Cecil Kellaway</movie:actor_name>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Cecil_Kellaway">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCecil_Kellaway%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/91716"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >9334</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/175012"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/97722"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/172556"/>
+      </foaf:Person>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/9274">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/110654">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6570">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38867">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/9334">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Cecil Kellaway (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5694">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/96345">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/98833">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/142">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2592">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1550">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/42547">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/483">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41393">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/74293">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/96661">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/54601">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/10760">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18516">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7473">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9334"/>
+  </rdf:Description>
+</rdf:RDF>

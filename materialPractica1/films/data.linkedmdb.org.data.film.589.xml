@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70496">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/589">
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9122">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/589"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33441"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0175880/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0175880%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000017d9f3">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000017d9f3%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18779"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31249"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Magnolia_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FMagnolia_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33125"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/de">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fde%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18771"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Magnolia_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FMagnolia_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18772"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32888"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4878"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/49743"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4007"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31632"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41243"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18776"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29671"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/45"/>
+        <rdfs:label>Magnolia</rdfs:label>
+        <dc:date>2000-01-07</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18780"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18773"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Magnolia_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMagnolia_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2926"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10383"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37644"/>
+        <movie:initial_release_date>2000-01-07</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36075"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18777"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/184"/>
+        <movie:runtime>188</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18781"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32072"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18774"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81391"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >589</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/5183"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46326"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/fr">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Ffr%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <dc:title>Magnolia</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35543"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18778"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/89881"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0175880/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0175880%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31800"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18770"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9792"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18782"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18775"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/1372"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/2165"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14406"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18769"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35651"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/327">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/589"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37393">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/589"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18860">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/589"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/589">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Magnolia</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/589"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134502">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/589"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134501">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/589"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/6717">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/589"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134503">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/589"/>
+  </rdf:Description>
+</rdf:RDF>

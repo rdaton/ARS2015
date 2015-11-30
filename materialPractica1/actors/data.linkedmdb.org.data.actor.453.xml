@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6461">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/453">
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/John_Ireland_%28actor%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FJohn_Ireland_%2528actor%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/125085"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/126561"/>
+        <movie:actor_name>John Ireland</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23878"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56752"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/121434"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/135769"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/142667"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/116053"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24034"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/92067"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/John_Ireland_%28actor%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FJohn_Ireland_%2528actor%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/125196"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68834"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/142637"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/John_Ireland_(actor)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FJohn_Ireland_%28actor%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000053060c">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000053060c%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/168584"/>
+        <rdfs:label>John Ireland (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/118997"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/123182"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/124566"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/72305"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >453</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/169091"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/90958">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/854">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/83182">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40415">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2063">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/50887">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61408">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60943">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61325">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/114600">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/11683">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62357">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59954">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/15588">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3265">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/453">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of John Ireland (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46166">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/58735">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3217">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40428">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47034">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/102779">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/453"/>
+  </rdf:Description>
+</rdf:RDF>

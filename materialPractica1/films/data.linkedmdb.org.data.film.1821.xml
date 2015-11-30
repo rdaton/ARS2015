@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0170107">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0170107%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0170107">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0170107%3E"/>
+  </rdf:Description>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1821">
+    <movie:initial_release_date>1999,2000-07-11</movie:initial_release_date>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/90592"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40517"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79825"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30480"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31141"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1821</movie:filmid>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/44477"/>
+    <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0170107"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41069"/>
+    <movie:runtime>95</movie:runtime>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/9511"/>
+    <dc:title>History Is Made at Night</dc:title>
+    <dc:date>1999,2000-07-11</dc:date>
+    <foaf:page rdf:resource="http://www.imdb.com/title/tt0170107"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/61182"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000410ae0">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000410ae0%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <rdfs:label>History Is Made at Night</rdfs:label>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135619">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1821"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1821">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of History Is Made at Night</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1821"/>
+  </rdf:Description>
+</rdf:RDF>

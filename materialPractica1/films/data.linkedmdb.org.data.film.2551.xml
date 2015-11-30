@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2551">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Eragon</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2551">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10227"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14738"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5299"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30743"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/643"/>
+        <dc:date>2006-12-15</dc:date>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Eragon_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FEragon_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/15"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Eragon_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FEragon_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <rdfs:label>Eragon</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31722"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000055a7d7">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000055a7d7%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/52318"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2643"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/117"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80113"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/48205"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68352"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1780"/>
+        <dc:title>Eragon</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40605"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9284"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85936"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32439"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34080"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30760"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49665"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2551</movie:filmid>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0449010">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0449010%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/31"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/45907"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10229"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10230"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10226"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/11816"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0449010">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0449010%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Eragon_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FEragon_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30715"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30507"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39392"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/HU"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/719819/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F719819%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/66"/>
+        <movie:runtime>103</movie:runtime>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2358"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10228"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77466"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41463"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/2251"/>
+        <movie:initial_release_date>2006-12-15</movie:initial_release_date>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:relatedBook>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/bookmashup/books/0375826688">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fbookmashup%2Fbooks%2F0375826688%3E"/>
+          </rdf:Description>
+        </movie:relatedBook>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88154"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/11010">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2551"/>
+          </rdf:Description>
+        </movie:director>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/1275">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2551"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/1304">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2551"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19837">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2551"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136258">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2551"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/55806">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2551"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/71278">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2551"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38370">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2551"/>
+  </rdf:Description>
+</rdf:RDF>

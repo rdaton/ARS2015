@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37076">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/23">
+        <movie:initial_release_date>2001</movie:initial_release_date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0218922">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0218922%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/6040"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:relatedBook>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/bookmashup/books/0571172539">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fbookmashup%2Fbooks%2F0571172539%3E"/>
+          </rdf:Description>
+        </movie:relatedBook>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Original_Sin_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FOriginal_Sin_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1091"/>
+        <movie:runtime>116</movie:runtime>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Original_Sin_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FOriginal_Sin_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22067"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12583"/>
+        <dc:date>2001</dc:date>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/27"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3902"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000002d6bd">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000002d6bd%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0218922">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0218922%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >23</movie:filmid>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Original_Sin_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FOriginal_Sin_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22066"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29850"/>
+        <rdfs:label>Original Sin</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46871"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+        <dc:title>Original Sin</dc:title>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/12642">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/23"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13932"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4722"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1086"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79267"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/18589"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22068"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34993"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5891"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/23">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Original Sin</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70225">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/10">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18543">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/133966">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/56127">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/23"/>
+  </rdf:Description>
+</rdf:RDF>

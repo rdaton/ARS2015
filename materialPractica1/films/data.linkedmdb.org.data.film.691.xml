@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/691">
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/1656">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/691"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/119093"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >691</movie:filmid>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31833"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33869"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3268"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1296"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/1657">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/691"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:initial_release_date>2001-02-18,2001-02-27</movie:initial_release_date>
+    <movie:runtime>69</movie:runtime>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85331"/>
+    <rdfs:label>Lady and the Tramp II: Scamp's Adventure</rdfs:label>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36700"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35837"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/95030"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1295"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41209"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000001b0f75">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000001b0f75%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0249677/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0249677%2F%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32641"/>
+    <movie:prequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39122">
+        <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/691"/>
+      </rdf:Description>
+    </movie:prequel>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/13300"/>
+    <dc:title>Lady and the Tramp II: Scamp's Adventure</dc:title>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/119094"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33054"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/95031"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31651"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17287"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17284"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/3674"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/15500">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/691"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31738"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/95029"/>
+    <dc:date>2001-02-18,2001-02-27</dc:date>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1125"/>
+    <movie:runtime>70</movie:runtime>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17285"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31546"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0249677/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0249677%2F%3E"/>
+      </rdf:Description>
+    </foaf:page>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/691">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Lady and the Tramp II: Scamp's Adventure</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/691"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134614">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/691"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/4799">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/691"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/992">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Kiki's Delivery Service</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/992">
+        <movie:initial_release_date>1989-07-29</movie:initial_release_date>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13199"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/26"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29557"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >992</movie:filmid>
+        <dc:title>Kiki's Delivery Service</dc:title>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000002760d7">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000002760d7%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/16607"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49708"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/90149"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Kiki%27s_Delivery_Service">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FKiki%2527s_Delivery_Service%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4648"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/JP"/>
+        <movie:runtime>102</movie:runtime>
+        <dc:date>1989-07-29</dc:date>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/1861060/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F1861060%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84595"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9729"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/ja">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fja%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30265"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/581"/>
+        <movie:relatedBook>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/bookmashup/books/4834001199">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fbookmashup%2Fbooks%2F4834001199%3E"/>
+          </rdf:Description>
+        </movie:relatedBook>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/14976"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Kiki&apos;s_Delivery_Service">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FKiki%27s_Delivery_Service%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34012"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47191"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80812"/>
+        <rdfs:label>Kiki's Delivery Service</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49558"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0445994/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0445994%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1720"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/118458"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/3516"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0445994/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0445994%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14891"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30589"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8459">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/992"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/16606"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Kiki%27s_Delivery_Service">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FKiki%2527s_Delivery_Service%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:runtime>103</movie:runtime>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/2645"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/581"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/16608"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/89987"/>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/526">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/992"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/56239">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/992"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37592">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/992"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19059">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/992"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/554">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/992"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134882">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/992"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/61015">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/992"/>
+  </rdf:Description>
+</rdf:RDF>

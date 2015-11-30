@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62775">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/33077">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/128032"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100706"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/16608"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/128075"/>
+        <movie:actor_name>Kappei Yamaguchi</movie:actor_name>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000002d2452">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000002d2452%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/64717"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154792"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56561"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/15403"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/57588"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/65075"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100613"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/150027"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/126824"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/71515"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/15407"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/127269"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100129"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/128621"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/15409"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113166"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/65209"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/47632"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/127154"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >33077</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/67633"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/127681"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/15405"/>
+        <rdfs:label>Kappei Yamaguchi (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/100115"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46779">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46777">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46408">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6665">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62865">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4041">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7160">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18372">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/12688">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6100">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46778">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63154">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62547">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/12377">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53256">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46776">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4047">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63425">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/51283">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6666">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/992">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19411">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/33077">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Kappei Yamaguchi (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/50924">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/13917">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63400">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63791">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33077"/>
+  </rdf:Description>
+</rdf:RDF>

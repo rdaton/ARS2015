@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000527e44">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000527e44%3E"/>
+  </rdf:Description>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2461">
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0050468">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0050468%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f8000000000527e44"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/10190">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2461"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/11744"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10879"/>
+    <rdfs:label>Gunfight at the O.K. Corral</rdfs:label>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5821"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47546"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36329"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30017"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33886"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/57346"/>
+    <dc:title>Gunfight at the O.K. Corral</dc:title>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/43646"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/67758"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >2461</movie:filmid>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0050468">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0050468%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36660"/>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/1269"/>
+    <movie:initial_release_date>1957-05-30</movie:initial_release_date>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/73836"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/14"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/60714"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14043"/>
+    <movie:runtime>122</movie:runtime>
+    <dc:date>1957-05-30</dc:date>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/455"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80883"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29396"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136172">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/5085">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2461">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Gunfight at the O.K. Corral</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/71237">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2461"/>
+  </rdf:Description>
+</rdf:RDF>

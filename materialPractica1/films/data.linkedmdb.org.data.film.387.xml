@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/388">
+    <movie:sequel>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/387">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31575"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/31"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99676"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40122"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34184"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >387</movie:filmid>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/8"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77916"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000012497f">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000012497f%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/8"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44396">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/387"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/388"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0253754">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0253754%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0253754">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0253754%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/323"/>
+        <dc:date>2002-12-13</dc:date>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5912"/>
+        <movie:runtime>116</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99677"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/382"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99671"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/323"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30169"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10226"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30076"/>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/382"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40656"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/910"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30109"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84057"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29865"/>
+        <rdfs:label>Star Trek Nemesis</rdfs:label>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/255"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84509"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30024"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99672"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30170"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32791"/>
+        <movie:initial_release_date>2002-12-13</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40123"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29879"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40120"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4546"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34928"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37003"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74936"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/668"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99673"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40570"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35560"/>
+        <dc:title>Star Trek Nemesis</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40124"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99675"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40121"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99670"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37681"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78605"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30120"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9823">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/387"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99674"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88182"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30107"/>
+      </movie:film>
+    </movie:sequel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/4736">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/387">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Star Trek Nemesis</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70416">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134320">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/387"/>
+  </rdf:Description>
+</rdf:RDF>

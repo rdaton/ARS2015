@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000034d4d9f">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000034d4d9f%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/13095">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/49425">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/103353"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/51387"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/172806"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1810"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141792"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/45633"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >49425</movie:actor_actorid>
+        <rdfs:label>Mandy Patinkin (Actor)</rdfs:label>
+        <rdf:type>
+          <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+          </rdf:Description>
+        </rdf:type>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/197797"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/15051"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/34240"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/188135"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f80000000034d4d9f"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10375"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113780"/>
+        <movie:actor_name>Mandy Patinkin</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8036"/>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/93351">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/96874">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1109">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5633">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5160">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4405">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/49425">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Mandy Patinkin (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/54052">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/54537">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/948">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/52168">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/22686">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/36">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49425"/>
+  </rdf:Description>
+</rdf:RDF>

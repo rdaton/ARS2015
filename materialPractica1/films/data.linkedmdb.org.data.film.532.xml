@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/532">
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/43277"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/173749"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46791"/>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/242"/>
+    <rdfs:label>Romeo + Juliet</rdfs:label>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5071"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/64871"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0117509/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0117509%2F%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/8584"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68008"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37724"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33498"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35129"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/39264"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/94228"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/3730"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/47"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8721">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/532"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/13175"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/39265"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34473"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31271"/>
+    <dbpedia:hasPhotoCollection>
+      <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Romeo_+_Juliet">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FRomeo_%2B_Juliet%3E"/>
+      </rdf:Description>
+    </dbpedia:hasPhotoCollection>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30841"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9995"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38187"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/46991"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/115567"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/25"/>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1816"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/72238"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38557"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/6276"/>
+    <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/270"/>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/980"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0117509/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0117509%2F%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/980"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34051"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5055"/>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://dbpedia.org/resource/Romeo_%2B_Juliet">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FRomeo_%252B_Juliet%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/172490"/>
+    <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/270"/>
+    <dc:date>1996-11-01</dc:date>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/60025"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/172489"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/44814"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5070"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/27"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3743"/>
+    <movie:runtime>120</movie:runtime>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13689"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/331"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31120"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41395"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/45611"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/186741"/>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://mpii.de/yago/resource/Romeo_%2B_Juliet">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FRomeo_%252B_Juliet%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39452"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000015e30d">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000015e30d%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:initial_release_date>1996-11-01</movie:initial_release_date>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32873"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >532</movie:filmid>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36305"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/72011"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29852"/>
+    <dc:title>Romeo + Juliet</dc:title>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/295">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/532"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70478">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/532"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18833">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/532"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/300">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/532"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/532">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Romeo + Juliet</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/532"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37366">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/532"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134447">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/532"/>
+  </rdf:Description>
+</rdf:RDF>

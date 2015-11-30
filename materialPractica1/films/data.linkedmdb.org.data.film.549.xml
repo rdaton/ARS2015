@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/55852">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/549">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10776"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/4140"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1707"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0082970">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0082970%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34063"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/94326"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85324"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000169933">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000169933%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5090"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13996"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Ragtime_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FRagtime_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31745"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/94327"/>
+        <movie:runtime>155</movie:runtime>
+        <dc:date>1981-11-20</dc:date>
+        <movie:relatedBook>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/bookmashup/books/0394469011">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fbookmashup%2Fbooks%2F0394469011%3E"/>
+          </rdf:Description>
+        </movie:relatedBook>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8567">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/549"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10391"/>
+        <dc:title>Ragtime</dc:title>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Ragtime_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FRagtime_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/173750"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82138"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29873"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/630"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0082970">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0082970%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/404"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41196"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/89106"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17469"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >549</movie:filmid>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/64"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29507"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4333"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31568"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109968"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/83171"/>
+        <rdfs:label>Ragtime</rdfs:label>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Ragtime_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FRagtime_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23868"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/180938"/>
+        <movie:initial_release_date>1981-11-20</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42294"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35230"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109969"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34914"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29704"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23869"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42295"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32368"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30481"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18840">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/307">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/549">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Ragtime</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/4772">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134459">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37373">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/549"/>
+  </rdf:Description>
+</rdf:RDF>

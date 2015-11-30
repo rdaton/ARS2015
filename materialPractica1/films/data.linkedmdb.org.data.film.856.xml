@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134769">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/856">
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16713"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000224eb5">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000224eb5%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0286716">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0286716%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47446"/>
+        <dc:title>Hulk</dc:title>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9763"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38729"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/256"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2934"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Hulk_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FHulk_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <rdfs:label>Hulk</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/152490"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/164875"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47438"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/165657"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13166"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Hulk_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FHulk_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14619"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82239"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14620"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/294"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78516"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8368">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/856"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2990"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30769"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13262"/>
+        <movie:runtime>138</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/51925"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4017"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87713"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Hulk_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FHulk_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12191"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/3086"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30096"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/18406"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0286716">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0286716%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29663"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/1371"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10581"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >856</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35196"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11654"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/14158"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87805"/>
+        <movie:initial_release_date>2003-06-20</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35453"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29887"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29569"/>
+        <dc:date>2003-06-20</dc:date>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/87"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80445"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/288"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/95864"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/441">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/856"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/856">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Hulk</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/856"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37525">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/856"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18992">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/856"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70607">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/856"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_crew_gig/2585">
+    <movie:film_crew_gig_film rdf:resource="http://data.linkedmdb.org/resource/film/856"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/459">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/856"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2030">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31389"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31458"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/10179">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2030"/>
+      </rdf:Description>
+    </movie:director>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000471c74">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000471c74%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/149740"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84531"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162698"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/63052"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/6608"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162703"/>
+    <rdfs:label>Chicken Little</rdfs:label>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30024"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/59828"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162705"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162695"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/2756"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/6513"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31417"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29854"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32803"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/63053"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162704"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/6610"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11232"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162699"/>
+    <movie:film_casting_director rdf:resource="http://data.linkedmdb.org/resource/film_casting_director/70"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162706"/>
+    <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/15"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/6603"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/137"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/6512"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/2757"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/6611"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162692"/>
+    <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/31"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33734"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29686"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45008"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/6604"/>
+    <dc:title>Chicken Little</dc:title>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162696"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33038"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/6606"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35595"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37047"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162701"/>
+    <movie:initial_release_date>2005-11-04</movie:initial_release_date>
+    <movie:runtime>81</movie:runtime>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0371606">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0371606%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133601"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/37"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32114"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/6612"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162693"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/1704"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31080"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0371606">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0371606%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29489"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54439"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/6605"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/1349"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162697"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/63051"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/6607"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162702"/>
+    <dc:date>2005-11-04</dc:date>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/162694"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >2030</movie:filmid>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135804">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/5025">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2030"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2030">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Chicken Little</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2030"/>
+  </rdf:Description>
+</rdf:RDF>

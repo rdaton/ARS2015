@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1644">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of House on Haunted Hill</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1644">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40243"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30726"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10762"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14479"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/6672"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14473"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37347"/>
+        <movie:runtime>93</movie:runtime>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48995">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1644"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/738"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1516"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14474"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/House_on_Haunted_Hill">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FHouse_on_Haunted_Hill%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99218"/>
+        <dc:date>1999-10-29</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32941"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/House_on_Haunted_Hill">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FHouse_on_Haunted_Hill%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <rdfs:label>House on Haunted Hill</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14477"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35365"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10119"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/443">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1644"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/805"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/3058"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78557"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/House_on_Haunted_Hill">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FHouse_on_Haunted_Hill%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/742"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0185371">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0185371%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000003c360c">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000003c360c%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14475"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32849"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1644</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14478"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0185371">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0185371%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14476"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12249"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/91"/>
+        <dc:title>House on Haunted Hill</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32618"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/11641">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1644"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33358"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33535"/>
+        <movie:initial_release_date>1999-10-29</movie:initial_release_date>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135452">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1644"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70937">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1644"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37935">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1644"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/869">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1644"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7189">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1644"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19402">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1644"/>
+  </rdf:Description>
+</rdf:RDF>

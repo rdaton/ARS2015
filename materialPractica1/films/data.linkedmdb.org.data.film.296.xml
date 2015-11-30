@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/296">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13612"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32826"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13236"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42874"/>
+    <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/270"/>
+    <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/270"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29801"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13249"/>
+    <foaf:based_near>
+      <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+      </rdf:Description>
+    </foaf:based_near>
+    <movie:runtime>242</movie:runtime>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13240"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13246"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30064"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13233"/>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/760"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29851"/>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/720"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36193"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42952"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >296</movie:filmid>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/2790"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30597"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30500"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13239"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37189"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29398"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13243"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30654"/>
+    <dc:title>Hamlet</dc:title>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13237"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13234"/>
+    <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5299"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30657"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0116477/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0116477%2F%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13241"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13250"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13247"/>
+    <rdfs:label>Hamlet</rdfs:label>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13244"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46705"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30215"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13238"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000000adde7">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000000adde7%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/180933"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13242"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13248"/>
+    <movie:initial_release_date>1996-12-25</movie:initial_release_date>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12525"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30451"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30099"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8675">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/296"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29788"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13235"/>
+    <dc:date>1996-12-25</dc:date>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13251"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29499"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13245"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0116477/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0116477%2F%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29857"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134210">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/296"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/296">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Hamlet</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/296"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63076">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/296"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/249">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/296"/>
+  </rdf:Description>
+</rdf:RDF>

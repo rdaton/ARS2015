@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/10910">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/29492">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/192576"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41480"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/21074"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/175485"/>
+        <movie:actor_name>Ice T</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/98310"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/97793"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113277"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/97057"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/171043"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28282"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/98858"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/94640"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/91567"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40414"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/174959"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/92446"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99170"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/93372"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/98311"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >29492</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/31487"/>
+        <rdfs:label>Ice T (Actor)</rdfs:label>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37299"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000001e37b">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000001e37b%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130328"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/170960"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/197945"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39917">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53404">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/10909">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5010">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8277">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/13832">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6109">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/85650">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3412">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18286">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/91215">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/250">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43234">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19582">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/96870">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/85708">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2171">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6421">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5142">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48166">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39991">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63785">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/29492">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Ice T (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/12836">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+  </rdf:Description>
+</rdf:RDF>

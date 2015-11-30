@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/556">
+    <movie:sequel>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/552">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109740"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109741"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/964"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33256"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30841"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/55177"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/548"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38566"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/548"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/278"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/264"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1834"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >552</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109742"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37628"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8399">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/552"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/54633"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109743"/>
+        <movie:runtime>114</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39243"/>
+        <movie:runtime>145</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1835"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2874"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30162"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5222"/>
+        <dc:date>1992-05-22</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109744"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/716"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0103644/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0103644%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/372"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29965"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1832"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/226"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49122"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/264"/>
+        <movie:initial_release_date>1992-05-22</movie:initial_release_date>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/715"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/371"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/1289"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/551">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/552"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1833"/>
+        <rdfs:label>AlienÂ³</rdfs:label>
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/556"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33032"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1831"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13287"/>
+        <dc:title>AlienÂ³</dc:title>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0103644/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0103644%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000169ddf">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000169ddf%3E"/>
+          </rdf:Description>
+        </foaf:page>
+      </movie:film>
+    </movie:sequel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134462">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/552"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/552">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of AlienÂ³</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/552"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/380">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/552"/>
+  </rdf:Description>
+</rdf:RDF>

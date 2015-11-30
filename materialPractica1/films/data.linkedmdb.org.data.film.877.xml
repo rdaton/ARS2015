@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0035794">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0035794%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0035794">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0035794%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000238320">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000238320%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/11700">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/877">
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f8000000000238320"/>
+        <dc:date>1943</dc:date>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >877</movie:filmid>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0035794"/>
+        <movie:initial_release_date>1943</movie:initial_release_date>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/11700"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30196"/>
+        <foaf:page rdf:resource="http://www.imdb.com/title/tt0035794"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9778"/>
+        <rdfs:label>Der Fuehrer's Face</rdfs:label>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/465"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154390"/>
+        <dc:title>Der Fuehrer's Face</dc:title>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/465"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/877">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Der Fuehrer's Face</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/877"/>
+  </rdf:Description>
+</rdf:RDF>

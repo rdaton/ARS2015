@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1838">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/30558">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/107715"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141633"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79092"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88790"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86765"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/46885"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >30558</movie:actor_actorid>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <rdfs:label>Cynthia Nixon (Actor)</rdfs:label>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000012ac4d">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000012ac4d%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86042"/>
+        <rdf:type>
+          <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+          </rdf:Description>
+        </rdf:type>
+        <movie:actor_name>Cynthia Nixon</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19000"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/21893"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77006"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28579"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/156338"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78043"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/101792"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82890"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/139761"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85905"/>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2541">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38863">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/74271">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/30558">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Cynthia Nixon (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47514">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41139">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/21404">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2474">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3590">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46966">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3011">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/65415">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40226">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/66823">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7330">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47717">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/42086">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30558"/>
+  </rdf:Description>
+</rdf:RDF>

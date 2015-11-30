@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/792">
+    <movie:film_of_distributor>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1807">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41554"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17491"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87672"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34836"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Layer_Cake_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FLayer_Cake_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10619"/>
+        <dc:title>Layer Cake</dc:title>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/3712"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/553"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Layer_Cake_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FLayer_Cake_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/67850"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35235"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0375912">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0375912%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:initial_release_date>2005-05-13</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17487"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37274"/>
+        <movie:relatedBook>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/bookmashup/books/0715630180">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fbookmashup%2Fbooks%2F0715630180%3E"/>
+          </rdf:Description>
+        </movie:relatedBook>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10473"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80715"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Layer_Cake_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FLayer_Cake_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000408f33">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000408f33%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/893"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3297"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45947"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17488"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5850"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4552"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17489"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32645"/>
+        <movie:rating rdf:resource="http://data.linkedmdb.org/resource/content_rating/4"/>
+        <movie:runtime>105</movie:runtime>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30607"/>
+        <rdfs:label>Layer Cake</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41797"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30801"/>
+        <dc:date>2005-05-13</dc:date>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1807</movie:filmid>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/575"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/6218"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17490"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/1768"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37681"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80634"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9401">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1807"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36031"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75314"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76653"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0375912">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0375912%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80982"/>
+      </movie:film>
+    </movie:film_of_distributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/56190">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1807"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135603">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1807"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/945">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1807"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38011">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1807"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1807">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Layer Cake</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1807"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19478">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1807"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63204">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1807"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/78365">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/35029">
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/95912"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84279"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13970"/>
+        <rdfs:label>Annabeth Gish (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/166874"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/147097"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/55094"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/53663"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/123494"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84619"/>
+        <movie:actor_name>Annabeth Gish</movie:actor_name>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >35029</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/128198"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/54975"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/128244"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/95117"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122798"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/125624"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8639"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/128087"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/124243"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000408175">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000408175%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23830"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/3830"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/120567"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/71126"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/174150"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26752"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39100">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4537">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39686">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3316">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60183">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/87491">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60722">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/35029">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Annabeth Gish (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59690">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6107">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38185">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/488">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61696">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/58127">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3756">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63435">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63536">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/10967">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/450">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/9096">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47886">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63505">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1449">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39558">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35029"/>
+  </rdf:Description>
+</rdf:RDF>

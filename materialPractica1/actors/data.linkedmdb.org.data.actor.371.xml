@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://mpii.de/yago/resource/Hiroshi_Abe_%28actor%29">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FHiroshi_Abe_%2528actor%2529%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/51560">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/371">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/140884"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/146205"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >371</movie:actor_actorid>
+        <rdf:type>
+          <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+          </rdf:Description>
+        </rdf:type>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/111119"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/136675"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/132049"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154555"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000468f90">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000468f90%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Hiroshi_Abe_%28actor%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FHiroshi_Abe_%2528actor%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110913"/>
+        <rdfs:label>Hiroshi Abe (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/65762"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/97256"/>
+        <movie:actor_name>Hiroshi Abe</movie:actor_name>
+        <owl:sameAs rdf:resource="http://mpii.de/yago/resource/Hiroshi_Abe_%28actor%29"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/156011"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/124498"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/129923"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/111486"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/46271"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Hiroshi_Abe_(actor)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FHiroshi_Abe_%28actor%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/101271">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/56752">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/17078">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/73860">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60889">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/64676">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/10430">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/66232">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/113092">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/66415">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19570">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/371">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Hiroshi Abe (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43990">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/89450">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48978">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2232">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/68745">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/371"/>
+  </rdf:Description>
+</rdf:RDF>

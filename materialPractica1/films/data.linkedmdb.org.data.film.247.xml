@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mary_Poppins_%28film%29">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMary_Poppins_%2528film%2529%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37201">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/247">
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0443733/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0443733%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19147"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Mary_Poppins_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FMary_Poppins_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1302"/>
+        <dc:title>Mary Poppins</dc:title>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/62"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4085"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9778"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35944"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30569"/>
+        <rdfs:label>Mary Poppins</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19146"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/63"/>
+        <movie:film_art_director rdf:resource="http://data.linkedmdb.org/resource/film_art_director/22"/>
+        <dc:date>1964-08-29,1964-08-27</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30058"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >247</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56689"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154349"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/234"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19149"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35182"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000008ae87">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000008ae87%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/9"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/6572"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0443733/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0443733%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31240"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/165146"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19148"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/1803"/>
+        <movie:runtime>140</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19145"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/15"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/17633"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33112"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/59"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/85">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/247"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30332"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/142467"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48706"/>
+        <movie:initial_release_date>1964-08-29,1964-08-27</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19144"/>
+        <movie:runtime>139</movie:runtime>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Mary_Poppins_%28film%29"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32403"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Mary_Poppins_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FMary_Poppins_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42706"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134162">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/247"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18668">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/247"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/247"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/247">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Mary Poppins</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/247"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/11384">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/247"/>
+  </rdf:Description>
+</rdf:RDF>

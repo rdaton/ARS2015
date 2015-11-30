@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/1445">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1015">
+        <movie:initial_release_date>1991-11-27</movie:initial_release_date>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/2769"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/63771"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/61760"/>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/42"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/49936"/>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/35"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32609"/>
+        <dc:date>1991-11-27</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/52255"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2851"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/2875"/>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/1445"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30559"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/72790"/>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/41"/>
+        <dc:title>Hearts of Darkness: A Filmmakers's Apocalypse</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41312"/>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/44"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/46670"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/53064"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29581"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/54005"/>
+        <movie:runtime>96</movie:runtime>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/38"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29767"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/62127"/>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/43"/>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/40"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29466"/>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/34"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000283719">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000283719%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31896"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1015</movie:filmid>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/37"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29454"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30000"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/11588">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1015"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68942"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/57301"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/2768"/>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/33"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17533"/>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/36"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30061"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/43481"/>
+        <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/39"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0102015">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0102015%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <rdfs:label>Hearts of Darkness: A Filmmakers's Apocalypse</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30485"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0102015">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0102015%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29437"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134897">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1015"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1015">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Hearts of Darkness: A Filmmakers's Apocalypse</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1015"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70666">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1015"/>
+  </rdf:Description>
+</rdf:RDF>

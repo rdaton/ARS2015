@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135875">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2119">
+        <dc:title>Tobruk</dc:title>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000494506">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000494506%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/465"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154441"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/55748"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/1288"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/60107"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/43093"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Tobruk_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FTobruk_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/31"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/465"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9022">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2119"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29470"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Tobruk_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FTobruk_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <dc:date>1967</dc:date>
+        <movie:initial_release_date>1967</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9767"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46531"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17572"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58710"/>
+        <rdfs:label>Tobruk</rdfs:label>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2119</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30563"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1696"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Tobruk_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FTobruk_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/71118">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2119"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19624">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2119"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/1091">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2119"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2119">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Tobruk</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2119"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/1067">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2119"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38157">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2119"/>
+  </rdf:Description>
+</rdf:RDF>

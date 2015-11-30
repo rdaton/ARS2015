@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/86706">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/37664">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/73921"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/49369"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/69539"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/61578"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000005e0e69">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000005e0e69%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14461"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/97084"/>
+        <rdfs:label>Frank Lovejoy (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/15065"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:actor_name>Frank Lovejoy</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/169743"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/125254"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/65172"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/31973"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/173040"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >37664</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/142924"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41702"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3708">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/37664">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Frank Lovejoy (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47503">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38377">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/14024">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8318">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1669">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/84014">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18552">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/130">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41549">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61445">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5273">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40132">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37664"/>
+  </rdf:Description>
+</rdf:RDF>

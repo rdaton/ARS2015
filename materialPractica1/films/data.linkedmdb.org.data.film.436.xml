@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/436">
+    <dc:title>Truly, Madly, Deeply</dc:title>
+    <rdfs:label>Truly, Madly, Deeply</rdfs:label>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000134a7e">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000134a7e%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14539"/>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1549"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9212">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/436"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:initial_release_date>1991-05-03</movie:initial_release_date>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11378"/>
+    <foaf:based_near>
+      <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+      </rdf:Description>
+    </foaf:based_near>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0240913/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0240913%2F%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37420"/>
+    <dbpedia:hasPhotoCollection>
+      <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Truly,_Madly,_Deeply">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FTruly%2C_Madly%2C_Deeply%3E"/>
+      </rdf:Description>
+    </dbpedia:hasPhotoCollection>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0240913/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0240913%2F%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36866"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/118930"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4951"/>
+    <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84195"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/8150"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37419"/>
+    <movie:runtime>106</movie:runtime>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42952"/>
+    <dc:date>1991-05-03</dc:date>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >436</movie:filmid>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29720"/>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://dbpedia.org/resource/Truly%2C_Madly%2C_Deeply">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FTruly%252C_Madly%252C_Deeply%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37425"/>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://mpii.de/yago/resource/Truly%2C_Madly%2C_Deeply">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FTruly%252C_Madly%252C_Deeply%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/436">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Truly, Madly, Deeply</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/436"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63088">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/436"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134359">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/436"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18779">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/436"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37312">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/436"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/246">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/436"/>
+  </rdf:Description>
+</rdf:RDF>

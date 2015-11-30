@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Edward_Fox_%28actor%29">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FEdward_Fox_%2528actor%2529%3E"/>
+  </rdf:Description>
+  <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/115">
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84718"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/32189"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/3744"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74571"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/46341"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/60068"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80700"/>
+    <movie:actor_name>Edward Fox</movie:actor_name>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Edward_Fox_%28actor%29"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/12067"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58811"/>
+    <dbpedia:hasPhotoCollection>
+      <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Edward_Fox_(actor)">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FEdward_Fox_%28actor%29%3E"/>
+      </rdf:Description>
+    </dbpedia:hasPhotoCollection>
+    <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/59649"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/125770"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/29813"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79096"/>
+    <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >115</movie:actor_actorid>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/54465"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/438"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000001e614f">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000001e614f%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://mpii.de/yago/resource/Edward_Fox_%28actor%29">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FEdward_Fox_%2528actor%2529%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41082"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/33439"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/30833"/>
+    <rdfs:label>Edward Fox (Actor)</rdfs:label>
+  </foaf:Person>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8546">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1094">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/112056">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2756">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/100235">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38576">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/11241">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/810">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/11270">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/115">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Edward Fox (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44158">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61801">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38498">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43727">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39533">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/88414">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/611">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1593">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/50596">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38651">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/14286">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40795">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/115"/>
+  </rdf:Description>
+</rdf:RDF>

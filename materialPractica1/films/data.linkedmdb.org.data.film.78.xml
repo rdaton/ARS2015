@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/78">
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/27614"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29862"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133284"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29867"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/27613"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8414">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/78"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34826"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29873"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5917"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31331"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42623"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29466"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4290"/>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/365"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133285"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37713"/>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/321"/>
+    <movie:runtime>146</movie:runtime>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42148"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0121766">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0121766%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133287"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45994"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13092"/>
+    <dc:title>Star Wars Episode III: Revenge of the Sith</dc:title>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/990"/>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2499"/>
+    <movie:initial_release_date>2005-05-19</movie:initial_release_date>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/27616"/>
+    <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/23"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0121766">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0121766%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133286"/>
+    <movie:prequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/70">
+        <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/78"/>
+      </rdf:Description>
+    </movie:prequel>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32050"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133288"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75499"/>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2643"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9685"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10857"/>
+    <dc:date>2005-05-19</dc:date>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75500"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30321"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33180"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30046"/>
+    <movie:runtime>140</movie:runtime>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/15447"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42598"/>
+    <movie:dubbing_performance rdf:resource="http://data.linkedmdb.org/resource/dubbing_performance/14"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49602"/>
+    <rdfs:label>Star Wars Episode III: Revenge of the Sith</rdfs:label>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >78</movie:filmid>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42216"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34392"/>
+    <movie:sequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/75">
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/78"/>
+      </rdf:Description>
+    </movie:sequel>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34613"/>
+    <movie:sequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/52548">
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/78"/>
+      </rdf:Description>
+    </movie:sequel>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000006b343">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000006b343%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/321"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29708"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42618"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109933"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134018">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/119">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/78">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Star Wars Episode III: Revenge of the Sith</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70257">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/78"/>
+  </rdf:Description>
+</rdf:RDF>

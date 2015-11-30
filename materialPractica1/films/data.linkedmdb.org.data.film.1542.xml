@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1542">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Breaker Morant</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1542">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80281"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5203"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/586"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/1063"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16920"/>
+        <rdfs:label>Breaker Morant</rdfs:label>
+        <movie:initial_release_date>1980</movie:initial_release_date>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14667"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82057"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34644"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5202"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34412"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9301">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1542"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/211"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/206"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1542</movie:filmid>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16941"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5205"/>
+        <dc:date>1980</dc:date>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/6127"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0080310">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0080310%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37097"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/143"/>
+        <movie:runtime>107</movie:runtime>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2077456/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2077456%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34217"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Breaker_Morant_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBreaker_Morant_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5204"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Breaker_Morant_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FBreaker_Morant_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/AU"/>
+        <dc:title>Breaker Morant</dc:title>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/329"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Breaker_Morant_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FBreaker_Morant_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000039689c">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000039689c%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/508"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/329"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/508"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0080310">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0080310%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/89119"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35457"/>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/61974">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1542"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/818">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1542"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37884">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1542"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135368">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1542"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19351">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1542"/>
+  </rdf:Description>
+</rdf:RDF>

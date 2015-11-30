@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135456">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1650">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34620"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30121"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/53695"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/18">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1650"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30942"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14752"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/I_Know_Where_I%27m_Going%21">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FI_Know_Where_I%2527m_Going%2521%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000003c519e">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000003c519e%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8843">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1650"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10101"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0037800">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0037800%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/17"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14751"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/I_Know_Where_I%27m_Going%21">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FI_Know_Where_I%2527m_Going%2521%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <dc:title>I Know Where I'm Going!</dc:title>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13913"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/47"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <movie:initial_release_date>1944-11-16</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36396"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0037800">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0037800%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1650</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14750"/>
+        <dc:date>1944-11-16</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39302"/>
+        <rdfs:label>I Know Where I'm Going!</rdfs:label>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/3114"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/1680"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/96"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/I_Know_Where_I&apos;m_Going!">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FI_Know_Where_I%27m_Going%21%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14749"/>
+        <movie:runtime>88</movie:runtime>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37938">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1650"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63191">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1650"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19405">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1650"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/872">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1650"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1650">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of I Know Where I'm Going!</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1650"/>
+  </rdf:Description>
+</rdf:RDF>

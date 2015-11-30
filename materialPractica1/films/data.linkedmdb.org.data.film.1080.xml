@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://sws.geonames.org/3017382/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F3017382%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0107977">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0107977%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70703">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1080">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35755"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4063"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29583"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/FR"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24680"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37686"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24685"/>
+        <movie:initial_release_date>1993-07-28</movie:initial_release_date>
+        <rdfs:label>Robin Hood: Men in Tights</rdfs:label>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8458">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1080"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24676"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/66"/>
+        <movie:runtime>104</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41860"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5271"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49258"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1721"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31780"/>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3017382/"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88738"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1280"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24684"/>
+        <foaf:page rdf:resource="http://www.imdb.com/title/tt0107977"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13198"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24675"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/107743"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29411"/>
+        <dc:date>1993-07-28</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24683"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30626"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24679"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/6189"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47328"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35388"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24674"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000002ad429">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000002ad429%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/107742"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0107977">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0107977%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24682"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24678"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30024"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/6190"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9728"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1080</movie:filmid>
+        <dc:title>Robin Hood: Men in Tights</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/107741"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24681"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39849"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24677"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/4321"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32813"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/606">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1080">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Robin Hood: Men in Tights</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/607">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134957">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/66478">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1080"/>
+  </rdf:Description>
+</rdf:RDF>

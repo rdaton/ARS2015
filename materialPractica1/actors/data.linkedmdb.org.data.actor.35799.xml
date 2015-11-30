@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44932">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/35799">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26432"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113701"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178228"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84149"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/123361"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <rdfs:label>Julie Benz (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88150"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42717"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/103173"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130034"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178347"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113020"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88039"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/67374"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113697"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78565"/>
+        <movie:actor_name>Julie Benz</movie:actor_name>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000495511">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000495511%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/104133"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >35799</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88756"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178413"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178371"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/142482"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/172929"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/12209"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/15790"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/94981"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/155946"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/91428">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44157">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53974">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/23395">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60081">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19060">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47952">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/22485">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43409">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/91375">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43983">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53973">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/91234">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/64753">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43236">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5348">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46782">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53093">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39576">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/73790">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2385">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46050">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/35799">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Julie Benz (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/77947">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/91359">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35799"/>
+  </rdf:Description>
+</rdf:RDF>

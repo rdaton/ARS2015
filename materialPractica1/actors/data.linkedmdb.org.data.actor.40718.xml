@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59324">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/40718">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40955"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122274"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/62886"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42777"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/105490"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/157895"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/91102"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/186475"/>
+        <movie:actor_name>Abigail Breslin</movie:actor_name>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40957"/>
+        <rdf:type>
+          <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+          </rdf:Description>
+        </rdf:type>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1517"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/187855"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/101277"/>
+        <rdfs:label>Abigail Breslin (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18075"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >40718</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/35771"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/142831"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40956"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133957"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40954"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000007bfd8e">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000007bfd8e%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/156453"/>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/21001">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40213">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47217">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/75219">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/10566">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/16629">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/49838">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/96678">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/10044">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/55380">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/86927">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47528">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1341">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/76888">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/144">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/14982">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/40718">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Abigail Breslin (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/24158">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/17233">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40718"/>
+  </rdf:Description>
+</rdf:RDF>

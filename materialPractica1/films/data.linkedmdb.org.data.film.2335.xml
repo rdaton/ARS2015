@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38257">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2335">
+        <dc:title>Blue Murder at St Trinian's</dc:title>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0051423">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0051423%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0051423">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0051423%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/54376"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11325"/>
+        <movie:initial_release_date>1957</movie:initial_release_date>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15726"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30442"/>
+        <rdfs:label>Blue Murder at St Trinian's</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/71380"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/61"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/62431"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Blue_Murder_at_St_Trinian&apos;s">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FBlue_Murder_at_St_Trinian%27s%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Blue_Murder_at_St_Trinian%27s">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBlue_Murder_at_St_Trinian%2527s%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/44730"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31228"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16113"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36761"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000004e924d">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000004e924d%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/10318">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2335"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4499"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30370"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2333">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/2335"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/93614"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/11630"/>
+        <movie:runtime>86</movie:runtime>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Blue_Murder_at_St_Trinian%27s">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FBlue_Murder_at_St_Trinian%2527s%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/47107"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2335</movie:filmid>
+        <dc:date>1957</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/180991"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11100"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31641"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/61044"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/1191">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2335"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2335">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Blue Murder at St Trinian's</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2335"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19724">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2335"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136064">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2335"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/616">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/31224">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/118837"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86502"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84703"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178218"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/128153"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82604"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/44202"/>
+        <movie:actor_name>Linus Roache</movie:actor_name>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/60629"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/36159"/>
+        <rdfs:label>Linus Roache (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/134063"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >31224</movie:actor_actorid>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000187d4f">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000187d4f%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77739"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37506"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77325"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11005"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/44606"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56437"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46128">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39520">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41653">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19317">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40583">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/91230">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63476">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39801">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5602">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39866">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2991">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7163">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/31224">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Linus Roache (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/55084">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44985">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/45988">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31224"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2208">
+    <movie:prequel>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2185">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/4046"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/677"/>
+        <rdfs:label>Godzilla: Tokyo SOS</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/4045"/>
+        <dc:title>Godzilla: Tokyo SOS</dc:title>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000004b5c51">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000004b5c51%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/2208"/>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5784">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/2185"/>
+          </rdf:Description>
+        </movie:prequel>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/12644"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11700"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/12642"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0366526">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0366526%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2706"/>
+        <movie:initial_release_date>2003,2003-12-13</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/12643"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/ja">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fja%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/4047"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76704"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38998"/>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40948">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/2185"/>
+          </rdf:Description>
+        </movie:prequel>
+        <dc:date>2003,2003-12-13</dc:date>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/JP"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/1861060/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F1861060%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2185</movie:filmid>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47866">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/2185"/>
+          </rdf:Description>
+        </movie:prequel>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2714"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/759"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5170"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0366526">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0366526%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/1383">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2185"/>
+          </rdf:Description>
+        </movie:director>
+      </movie:film>
+    </movie:prequel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2185">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Godzilla: Tokyo SOS</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2185"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135934">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2185"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/61040">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2185"/>
+  </rdf:Description>
+</rdf:RDF>

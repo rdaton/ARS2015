@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8646">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/388">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74943"/>
+        <movie:initial_release_date>1998-12-11</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/187215"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80367"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30120"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/187221"/>
+        <movie:runtime>103</movie:runtime>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5911"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85307"/>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/28">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/388"/>
+          </rdf:Description>
+        </movie:prequel>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0120844">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0120844%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/1048"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >388</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30169"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/187223"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39884"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000001252c4">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000001252c4%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84323"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10226"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74946"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40656"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/1129"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31362"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30024"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/152"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/51285"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/187224"/>
+        <dc:title>Star Trek: Insurrection</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/90041"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43072"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4546"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17247"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/387">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/388"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/187225"/>
+        <rdfs:label>Star Trek: Insurrection</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37611"/>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/8646"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30170"/>
+        <dc:date>1998-12-11</dc:date>
+        <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/66"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/56"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/119377"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31575"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/31"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37927"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/187220"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/27"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38296"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30107"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0120844">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0120844%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76808"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/187222"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14138"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134321">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/388"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/4737">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/388"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/388">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Star Trek: Insurrection</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/388"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134820">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/913">
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1076"/>
+        <movie:runtime>95</movie:runtime>
+        <movie:initial_release_date>2003-07-02</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31220"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37043"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82319"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0333780">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0333780%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/22159">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/913"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/50037"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/96107"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/329"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34721"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76141"/>
+        <dc:date>2003-07-02</dc:date>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39421">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/913"/>
+          </rdf:Description>
+        </movie:prequel>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109996"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/1630">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/913"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/18411"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78295"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30342"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2497"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/3750"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/262"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/329"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5250"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9935"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/172498"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >913</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17648"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0333780">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0333780%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <dc:title>Legally Blonde 2: Red, White &amp; Blonde</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33414"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34925"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000024c9c9">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000024c9c9%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/41"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/83335"/>
+        <rdfs:label>Legally Blonde 2: Red, White &amp; Blonde</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30166"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40353"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39556"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/96108"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37335"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/913">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Legally Blonde 2: Red, White &amp; Blonde</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/913"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70627">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/913"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/6853">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/913"/>
+  </rdf:Description>
+</rdf:RDF>

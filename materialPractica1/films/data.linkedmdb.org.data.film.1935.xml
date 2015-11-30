@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135718">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1935">
+        <movie:initial_release_date>2002-02-15</movie:initial_release_date>
+        <movie:runtime>93</movie:runtime>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0275022">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0275022%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7768"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29384"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/424"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31410"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7763"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0275022">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0275022%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/491"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/9"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7767"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29820"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7766"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/11809">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1935"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/142522"/>
+        <dc:date>2002-02-15</dc:date>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16584"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/25"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7765"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35926"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40057"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30176"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1935</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37416"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/1595"/>
+        <dc:title>Crossroads</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42017"/>
+        <rdfs:label>Crossroads</rdfs:label>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000445aec">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000445aec%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_featured_song rdf:resource="http://data.linkedmdb.org/resource/film_featured_song/3"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/7"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7762"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45089"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/191705"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1414"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7764"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1935">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Crossroads</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1935"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/5012">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1935"/>
+  </rdf:Description>
+</rdf:RDF>

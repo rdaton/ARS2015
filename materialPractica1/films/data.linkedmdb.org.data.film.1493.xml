@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70878">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1493">
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000003796ca">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000003796ca%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30719"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/65398"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9907">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1493"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/83160"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1463"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46628"/>
+        <dc:date>1990-08-10</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1464"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0099005">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0099005%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/460"/>
+        <movie:runtime>112</movie:runtime>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/581"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/581"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40842"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29770"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/403"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33545"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Air_America_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FAir_America_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11692"/>
+        <dc:title>Air America</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/89062"/>
+        <rdfs:label>Air America</rdfs:label>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/900"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/67512"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42480"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Air_America_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FAir_America_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0099005">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0099005%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35227"/>
+        <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/66"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/315"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/460"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/55747"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10996"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/899"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Air_America_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FAir_America_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:initial_release_date>1990-08-10</movie:initial_release_date>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1493</movie:filmid>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1493">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Air America</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1493"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19330">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1493"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/797">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1493"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135325">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1493"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37863">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1493"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/14441">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1493"/>
+  </rdf:Description>
+</rdf:RDF>

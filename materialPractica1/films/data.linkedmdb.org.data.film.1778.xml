@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9937">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1778">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19508"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000003fe183">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000003fe183%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1778</movie:filmid>
+        <movie:runtime>107</movie:runtime>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/9937"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/883"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/1838"/>
+        <dc:date>1979</dc:date>
+        <rdfs:label>Meteor</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29645"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/64"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/883"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0079550">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0079550%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Meteor_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMeteor_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:initial_release_date>1979</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31792"/>
+        <movie:runtime>123</movie:runtime>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1079"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Meteor_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FMeteor_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/19"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19511"/>
+        <dc:title>Meteor</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30053"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33279"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4160"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19509"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Meteor_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FMeteor_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0079550">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0079550%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/9238"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1857"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19510"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135570">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1778"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/864">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1778"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37995">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1778"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19462">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1778"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/929">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1778"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1778">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Meteor</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1778"/>
+  </rdf:Description>
+</rdf:RDF>

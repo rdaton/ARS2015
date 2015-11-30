@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/4750">
+    <movie:film_of_distributor>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/468">
+        <rdfs:label>Willy Wonka &amp; the Chocolate Factory</rdfs:label>
+        <movie:initial_release_date>1971-06-30</movie:initial_release_date>
+        <dc:title>Willy Wonka &amp; the Chocolate Factory</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30003"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0067992">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0067992%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0067992">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0067992%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Willy_Wonka_&amp;_the_Chocolate_Factory">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FWilly_Wonka_%26_the_Chocolate_Factory%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Willy_Wonka_%26_the_Chocolate_Factory">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FWilly_Wonka_%2526_the_Chocolate_Factory%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Willy_Wonka_%26_the_Chocolate_Factory">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FWilly_Wonka_%2526_the_Chocolate_Factory%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/10620">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/468"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2168">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/468"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/8586"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/302"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5974"/>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/302"/>
+        <dc:date>1971-06-30</dc:date>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >468</movie:filmid>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13429"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33505"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/39273"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17610"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1726"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/5792"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/39271"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39225"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/190466"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000013c7c7">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000013c7c7%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:runtime>100</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/39272"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78095"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/67872"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32251"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/171"/>
+      </movie:film>
+    </movie:film_of_distributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/263">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/468"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37329">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/468"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/6646">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/468"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70449">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/468"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18796">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/468"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/468">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Willy Wonka &amp; the Chocolate Factory</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/468"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134389">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/468"/>
+  </rdf:Description>
+</rdf:RDF>

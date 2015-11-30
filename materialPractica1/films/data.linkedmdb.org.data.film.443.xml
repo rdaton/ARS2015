@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/443">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Cape Fear</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/443">
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12430"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30113"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1091"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000001377fa">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000001377fa%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0055824">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0055824%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4305"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/104">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/443"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/145"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5991"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/329"/>
+        <movie:runtime>105</movie:runtime>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/90"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1687"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >443</movie:filmid>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/30"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0055824">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0055824%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:initial_release_date>1962-04-12</movie:initial_release_date>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1247"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <dc:date>1962-04-12</dc:date>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/1217"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5990"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/329"/>
+        <rdfs:label>Cape Fear</rdfs:label>
+        <dc:title>Cape Fear</dc:title>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1247"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31262"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5989"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30054"/>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134366">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/443"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/134">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/443"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38089">
+    <movie:prequel>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1299">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41024"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5565"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86200"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31101"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10275"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10272"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30729"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/2151"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32222"/>
+        <dc:title>John Carpenter's Escape from L.A.</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30821"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77150"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13979"/>
+        <movie:initial_release_date>1996-08-09</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32598"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/226"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15929"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4148"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86378"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11223"/>
+        <dc:date>1996-08-09</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10273"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13408"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30573"/>
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/38089"/>
+        <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/38089"/>
+        <movie:runtime>101</movie:runtime>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10135"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30543"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10274"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8570">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1299"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39206"/>
+        <rdfs:label>John Carpenter's Escape from L.A.</rdfs:label>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000031e8b5">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000031e8b5%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133524"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1299</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10270"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0116225">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0116225%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0116225">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0116225%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10271"/>
+      </movie:film>
+    </movie:prequel>
+    <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/1299"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135154">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1299"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/4910">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1299"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1299">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of John Carpenter's Escape from L.A.</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1299"/>
+  </rdf:Description>
+</rdf:RDF>

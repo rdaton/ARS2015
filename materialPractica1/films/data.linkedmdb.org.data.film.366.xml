@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000011d807">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000011d807%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0295178">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0295178%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/367">
+    <movie:sequel>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/366">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/106024"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/1121"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/3110"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30241"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >366</movie:filmid>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/246"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13624"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/166"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86440"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31735"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/6321"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/955"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/6143"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38405"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31111"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/1723"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30234"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9046">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/366"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/66"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/3114"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/252"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49379"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40338"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108588"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f800000000011d807"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/83568"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87769"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88270"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/951"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87669"/>
+        <rdfs:label>Austin Powers: Goldmember</rdfs:label>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/623"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/3113"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46324"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110632"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9947"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/3112"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36804"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/3109"/>
+        <movie:runtime>94</movie:runtime>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/952"/>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0295178"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/247"/>
+        <movie:initial_release_date>2002</movie:initial_release_date>
+        <dc:date>2002</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108589"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29462"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/119687"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32185"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/3050"/>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/618">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/366"/>
+          </rdf:Description>
+        </movie:prequel>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48571"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/3111"/>
+        <dc:title>Austin Powers: Goldmember</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29384"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86250"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29922"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10086"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/13754"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108590"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33199"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/444"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0295178">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0295178%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29646"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47344"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29741"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32491"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/3115"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29671"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/953"/>
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/367"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77560"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/83415"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41011"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/301"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/19127"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/444"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29872"/>
+      </movie:film>
+    </movie:sequel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70409">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/366"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/6589">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/366"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/366">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Austin Powers: Goldmember</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/366"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134299">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/366"/>
+  </rdf:Description>
+</rdf:RDF>

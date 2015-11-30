@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000006590e4">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000006590e4%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/54137">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/38322">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/4335"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/184051"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >38322</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/166975"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/127088"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/33388"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/73045"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/67775"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f80000000006590e4"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/73212"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/94388"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/128999"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110577"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/43762"/>
+        <movie:actor_name>Jan-Michael Vincent</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/73067"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58205"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113845"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/120200"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/60083"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/44917"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68630"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113850"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/158455"/>
+        <rdfs:label>Jan-Michael Vincent (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1836"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/143488"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/149418"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76818"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/123136"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/111606"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/149577"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <rdf:type>
+          <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+          </rdf:Description>
+        </rdf:type>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44975">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1171">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/12106">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/9249">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/73259">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6313">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62734">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/10703">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18902">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/45957">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/57850">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/66787">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/38322">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Jan-Michael Vincent (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/54135">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/563">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/51692">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8623">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/49745">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2015">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/73423">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/12782">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/64042">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/65860">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18737">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/80328">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59918">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/42313">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7986">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38322"/>
+  </rdf:Description>
+</rdf:RDF>

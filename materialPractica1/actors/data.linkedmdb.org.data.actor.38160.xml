@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/38160">
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/139921"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/64011"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41186"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86416"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/69773"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000063a928">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000063a928%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor_nytimes_id></movie:actor_nytimes_id>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/142638"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/32598"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/98097"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8335"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87873"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/101430"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/69898"/>
+    <rdfs:label>Robert Sean Leonard (Actor)</rdfs:label>
+    <rdf:type>
+      <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+      </rdf:Description>
+    </rdf:type>
+    <movie:actor_netflix_id></movie:actor_netflix_id>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/93857"/>
+    <movie:actor_name>Robert Sean Leonard</movie:actor_name>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/32130"/>
+    <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >38160</movie:actor_actorid>
+  </movie:actor>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44279">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1697">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46262">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47883">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8258">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1395">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/50699">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/21110">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38593">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43274">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2416">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2629">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/38160">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Robert Sean Leonard (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8061">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/66600">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38160"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Disraeli_(film)">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FDisraeli_%28film%29%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000074b62">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000074b62%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0019823">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0019823%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0019823">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0019823%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/12703">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/100">
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Disraeli_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FDisraeli_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/49334"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/15927"/>
+        <dbpedia:hasPhotoCollection rdf:resource="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Disraeli_(film)"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/14"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74182"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/23"/>
+        <dc:title>Disraeli</dc:title>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Disraeli_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FDisraeli_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108566"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >100</movie:filmid>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/12703"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/30"/>
+        <movie:runtime>90</movie:runtime>
+        <movie:initial_release_date>1929</movie:initial_release_date>
+        <rdfs:label>Disraeli</rdfs:label>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13873"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f8000000000074b62"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32739"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54544"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/107876"/>
+        <dc:date>1929</dc:date>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0019823"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <foaf:page rdf:resource="http://www.imdb.com/title/tt0019823"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9338"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/11602"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/100">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Disraeli</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18588">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37121">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134042">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/55">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70273">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/6439">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/100"/>
+  </rdf:Description>
+</rdf:RDF>

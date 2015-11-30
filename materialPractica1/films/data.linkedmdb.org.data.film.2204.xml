@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000004c207c">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000004c207c%3E"/>
+  </rdf:Description>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2204">
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/1069">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2204"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24343"/>
+    <movie:runtime>60</movie:runtime>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24350"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34497"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24348"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47808"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/ja">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fja%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1303"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24344"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24349"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34343"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/3833"/>
+    <movie:prequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3363">
+        <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/2204"/>
+      </rdf:Description>
+    </movie:prequel>
+    <dc:title>Clash!! 10,000,000,000 Powerful Warriors</dc:title>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24345"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >2204</movie:filmid>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5614"/>
+    <rdfs:label>Clash!! 10,000,000,000 Powerful Warriors</rdfs:label>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13022"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5193"/>
+    <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f80000000004c207c"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24346"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24341"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1396"/>
+    <movie:initial_release_date>1992-03-07</movie:initial_release_date>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1752"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78924"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/11541"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34963"/>
+    <dc:date>1992-03-07</dc:date>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45917"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24342"/>
+    <movie:runtime>45</movie:runtime>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24347"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42282"/>
+    <movie:sequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2851">
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/2204"/>
+      </rdf:Description>
+    </movie:sequel>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43388"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40928"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24351"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/1545"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33870"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135952">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2204"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2204">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Clash!! 10,000,000,000 Powerful Warriors</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2204"/>
+  </rdf:Description>
+</rdf:RDF>

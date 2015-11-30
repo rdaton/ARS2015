@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/hi">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fhi%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/393">
+    <movie:film_of_distributor>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/822">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85775"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15848"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >822</movie:filmid>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10028"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/IN"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/3367"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35006"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30588"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/1269750/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F1269750%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/3680"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9515"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/9"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2988"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4408"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81723"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/10091">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/822"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38164"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/3366"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17310"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0282674">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0282674%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17309"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000020d6dd">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000020d6dd%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42084"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77254"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:language rdf:resource="http://www.lingvoj.org/lingvo/hi"/>
+        <dc:date>2001-06-15</dc:date>
+        <movie:initial_release_date>2001-06-15</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78852"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17311"/>
+        <dc:title>Lagaan: Once Upon a Time in India</dc:title>
+        <movie:runtime>224</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40340"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0282674">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0282674%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <rdfs:label>Lagaan: Once Upon a Time in India</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9758"/>
+      </movie:film>
+    </movie:film_of_distributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/394">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/822"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/56648">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/822"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/822">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Lagaan: Once Upon a Time in India</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/822"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134746">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/822"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134745">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/822"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0109836">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0109836%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mary_Shelley%27s_Frankenstein">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMary_Shelley%2527s_Frankenstein%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19626">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2125">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30071"/>
+        <movie:initial_release_date>1994</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/47684"/>
+        <movie:runtime>123</movie:runtime>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/2635167/"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29502"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8675">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2125"/>
+          </rdf:Description>
+        </movie:director>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/1861060/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F1861060%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/64888"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Mary_Shelley%27s_Frankenstein"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/59"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30668"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0109836">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0109836%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30215"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9678"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74840"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/92761"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/73837"/>
+        <dc:date>1994</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29625"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Mary_Shelley%27s_Frankenstein">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FMary_Shelley%2527s_Frankenstein%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2125</movie:filmid>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Mary_Shelley&apos;s_Frankenstein">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FMary_Shelley%27s_Frankenstein%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000496650">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000496650%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58348"/>
+        <dc:title>Mary Shelley's Frankenstein</dc:title>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/JP"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30723"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5299"/>
+        <rdfs:label>Mary Shelley's Frankenstein</rdfs:label>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0109836"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/11134"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135881">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2125"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63234">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2125"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/38159">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2125"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/14494">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2125"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2125">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Mary Shelley's Frankenstein</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2125"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/1093">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2125"/>
+  </rdf:Description>
+</rdf:RDF>

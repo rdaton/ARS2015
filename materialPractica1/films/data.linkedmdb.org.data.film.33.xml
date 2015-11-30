@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000003baa9">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000003baa9%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0103064">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0103064%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/14294">
+    <movie:film_of_distributor>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/33">
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11692"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/145066"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/71"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/589"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37262"/>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38151">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/33"/>
+          </rdf:Description>
+        </movie:prequel>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1211"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/444"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/68"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/84"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/6179"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44985"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/75"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3296">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/33"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/145069"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/70"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12191"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5908"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/59"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/67"/>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0103064"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/444"/>
+        <movie:initial_release_date>1991-07-03</movie:initial_release_date>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/83"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9702"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32517"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75494"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/74"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0103064">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0103064%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/612"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/1530"/>
+        <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/66"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29369"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/65"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32782"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/145068"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/81"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2992"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29943"/>
+        <rdfs:label>Terminator 2: Judgment Day</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36574"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8424">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/33"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28803"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/66"/>
+        <movie:runtime>137</movie:runtime>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/82"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2696"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f800000000003baa9"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/73"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28806"/>
+        <dc:date>1991-07-03</dc:date>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/79"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37001"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/80"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1716"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1211"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/552"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/77"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/1372"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/612"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/145067"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/72"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13128"/>
+        <dc:title>Terminator 2: Judgment Day</dc:title>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >33</movie:filmid>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/578">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/33"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/78"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2885"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/69"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36018"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/85"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28805"/>
+        <movie:film_regional_release_date rdf:resource="http://data.linkedmdb.org/resource/film_regional_release_date/76"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/145070"/>
+      </movie:film>
+    </movie:film_of_distributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/33">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Terminator 2: Judgment Day</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/133973">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70229">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/33"/>
+  </rdf:Description>
+</rdf:RDF>

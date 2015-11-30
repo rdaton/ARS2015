@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/9197">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/34347">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/119337"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113339"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >34347</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/175248"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/102131"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/70375"/>
+        <movie:actor_name>Valentina Cortese</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/69230"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000397629">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000397629%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/116577"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86177"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/131879"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/119061"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/16155"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/93244"/>
+        <rdfs:label>Valentina Cortese (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/36464"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8208"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/53786"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109707"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/160391"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122454"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/21659">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/34347">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Valentina Cortese (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53438">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/989">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38730">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59440">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18734">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4670">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40754">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/869">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/9237">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3996">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/20182">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/76808">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/56927">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/23976">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/20385">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41896">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34347"/>
+  </rdf:Description>
+</rdf:RDF>

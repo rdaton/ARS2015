@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://mpii.de/yago/resource/Quadrophenia_%28film%29">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FQuadrophenia_%2528film%2529%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Quadrophenia_(film)">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FQuadrophenia_%28film%29%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000328f96">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000328f96%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63164">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1323">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45246"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36463"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/4189"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/6065"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88149"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/50551"/>
+        <dbpedia:hasPhotoCollection rdf:resource="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Quadrophenia_(film)"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23722"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/97771"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2535"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/59183"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/2"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41388"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/12201">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1323"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45986"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0079766">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0079766%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32868"/>
+        <owl:sameAs rdf:resource="http://mpii.de/yago/resource/Quadrophenia_%28film%29"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31676"/>
+        <dc:date>1979-09-14</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23723"/>
+        <rdfs:label>Quadrophenia</rdfs:label>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5058"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f8000000000328f96"/>
+        <movie:initial_release_date>1979-09-14</movie:initial_release_date>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/4088"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/51119"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/23"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38117"/>
+        <movie:runtime>120</movie:runtime>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/4087"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13692"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44560"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37189"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0079766">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0079766%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/2635167/"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37160"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23720"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30999"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/312"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1323</movie:filmid>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/18159"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1139"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/23719"/>
+        <dc:title>Quadrophenia</dc:title>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2750"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33225"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Quadrophenia_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FQuadrophenia_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/97770"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/17"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40699"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1323">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Quadrophenia</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1323"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/709">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1323"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37775">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1323"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135181">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1323"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19242">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1323"/>
+  </rdf:Description>
+</rdf:RDF>

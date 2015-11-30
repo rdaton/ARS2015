@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0204313/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0204313%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0204313/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0204313%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1597">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Exorcist: The Beginning</rdfs:label>
+    <foaf:primaryTopic>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1597">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39243"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1331">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1597"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:runtime>116</movie:runtime>
+        <dc:date>2004-08-20</dc:date>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40971">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/1597"/>
+          </rdf:Description>
+        </movie:prequel>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32758"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/14014"/>
+        <dc:title>Exorcist: The Beginning</dc:title>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14683"/>
+        <foaf:page rdf:resource="http://www.imdb.com/title/tt0204313/"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29490"/>
+        <movie:initial_release_date>2004-08-20</movie:initial_release_date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000003af586">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000003af586%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9439">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1597"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2404"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10485"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <rdfs:label>Exorcist: The Beginning</rdfs:label>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3277">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1597"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/2291"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1597</movie:filmid>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/2192"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/2290"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/101"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/552"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10483"/>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0204313/"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10482"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/544"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10484"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2696"/>
+      </movie:film>
+    </foaf:primaryTopic>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135409">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1597"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7166">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1597"/>
+  </rdf:Description>
+</rdf:RDF>

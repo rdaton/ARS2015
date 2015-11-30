@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0087182/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0087182%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mpii.de/yago/resource/Dune_%28film%29">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FDune_%2528film%2529%3E"/>
+  </rdf:Description>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/143">
+    <movie:runtime>137</movie:runtime>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130414"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43260"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74913"/>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/588"/>
+    <owl:sameAs rdf:resource="http://mpii.de/yago/resource/Dune_%28film%29"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31011"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33452"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000000831d7">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000000831d7%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30655"/>
+    <foaf:page rdf:resource="http://www.imdb.com/title/tt0087182/"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/2023"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130422"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130417"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32560"/>
+    <rdfs:label>Dune</rdfs:label>
+    <movie:film_production_designer rdf:resource="http://data.linkedmdb.org/resource/film_production_designer/24"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130413"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130420"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74912"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8396">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/143"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130421"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54656"/>
+    <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/216"/>
+    <dc:title>Dune</dc:title>
+    <movie:film_casting_director rdf:resource="http://data.linkedmdb.org/resource/film_casting_director/26"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10776"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42769"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130412"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40038"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35020"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33809"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33048"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/16970"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74911"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130426"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32368"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75834"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30049"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/44"/>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://dbpedia.org/resource/Dune_%28film%29">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FDune_%2528film%2529%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29537"/>
+    <movie:film_art_director rdf:resource="http://data.linkedmdb.org/resource/film_art_director/34"/>
+    <movie:executive_producer rdf:resource="http://data.linkedmdb.org/resource/producer/10391"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130425"/>
+    <dc:date>1984-12-14</dc:date>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31788"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130411"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13049"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36465"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30270"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0087182/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0087182%2F%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >143</movie:filmid>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/56269"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/220"/>
+    <movie:film_art_director rdf:resource="http://data.linkedmdb.org/resource/film_art_director/33"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/17"/>
+    <movie:initial_release_date>1984-12-14</movie:initial_release_date>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/119364"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130416"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/56270"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9696"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130424"/>
+    <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/216"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33183"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130419"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5631"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/31"/>
+    <movie:film_set_designer rdf:resource="http://data.linkedmdb.org/resource/film_set_designer/22"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74914"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42374"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9695"/>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/845"/>
+    <dbpedia:hasPhotoCollection>
+      <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Dune_(film)">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FDune_%28film%29%3E"/>
+      </rdf:Description>
+    </dbpedia:hasPhotoCollection>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/845"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34408"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130415"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4005"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130423"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30024"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/130418"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134077">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37149">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/143">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Dune</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/280">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/83">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18616">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70294">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/143"/>
+  </rdf:Description>
+</rdf:RDF>

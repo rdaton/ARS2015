@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/31944">
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22850"/>
+    <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >31944</movie:actor_actorid>
+    <rdfs:label>Naomie Harris (Actor)</rdfs:label>
+    <movie:actor_netflix_id></movie:actor_netflix_id>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/197"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000202ca5">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000202ca5%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/166984"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88170"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77947"/>
+    <movie:actor_nytimes_id></movie:actor_nytimes_id>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87041"/>
+    <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68920"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42975"/>
+    <movie:actor_name>Naomie Harris</movie:actor_name>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85248"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37235"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/134079"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/165130"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/98692"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/137628"/>
+  </foaf:Person>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40483">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41807">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4034">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/80372">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/12260">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1734">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/67335">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44415">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38646">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/31944">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Naomie Harris (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/15604">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7637">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/54940">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/78216">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4045">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31944"/>
+  </rdf:Description>
+</rdf:RDF>

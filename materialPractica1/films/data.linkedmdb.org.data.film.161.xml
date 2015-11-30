@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134094">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/161">
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0027623">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0027623%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54601"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99840"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54602"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/6478"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/52354"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/51304"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/31"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/66244"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/48174"/>
+        <rdfs:label>Flash Gordon</rdfs:label>
+        <dc:title>Flash Gordon</dc:title>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12406"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/6028"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/551"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000085ba2">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000085ba2%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >161</movie:filmid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99839"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/759"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30768"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99843"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Flash_Gordon_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FFlash_Gordon_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/48915"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/8344"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99835"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99844"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40138"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56586"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1776">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/161"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/30"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/3108">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/161"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/11626"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99836"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15232"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:initial_release_date>1936</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99837"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0027623">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0027623%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43536"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/152786"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Flash_Gordon_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFlash_Gordon_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/57434"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/11658"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/53379"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99841"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/14919">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/161"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99838"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10179"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/73555"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/47"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99842"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44712"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Flash_Gordon_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FFlash_Gordon_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <dc:date>1936</dc:date>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/209">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/161"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18630">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/161"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/161">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Flash Gordon</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/161"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37163">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/161"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70306">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/161"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/97">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/161"/>
+  </rdf:Description>
+</rdf:RDF>

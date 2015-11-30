@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48542">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/30868">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/69816"/>
+        <movie:actor_name>Jeanne Crain</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88988"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/17609"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/47077"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/92712"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178957"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/146620"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109456"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22564"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/118105"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/173118"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/49284"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/14346"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/102515"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80584"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/120112"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >30868</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/38307"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/114592"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/726"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88765"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/132159"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/169075"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/174135"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/51593"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/131801"/>
+        <rdfs:label>Jeanne Crain (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87395"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000148d7b">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000148d7b%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/173271"/>
+        <rdf:type>
+          <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+          </rdf:Description>
+        </rdf:type>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/57785">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47744">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/42107">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46511">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/86877">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44785">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/849">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/86770">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/93666">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5521">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/11382">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38829">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6452">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/56658">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/55188">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/49483">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/83173">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/21972">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47815">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44441">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/69868">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/30868">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Jeanne Crain (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/88">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53459">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/87432">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/57110">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38486">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30868"/>
+  </rdf:Description>
+</rdf:RDF>

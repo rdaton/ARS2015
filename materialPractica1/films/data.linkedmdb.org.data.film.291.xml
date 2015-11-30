@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0066206">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0066206%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000000ab08d">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000000ab08d%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8412">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/291">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/179041"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >291</movie:filmid>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/3084"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/179037"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Patton_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FPatton_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1194"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37477"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9676"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40908"/>
+        <movie:runtime>170</movie:runtime>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/52746">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/291"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/51744"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22498"/>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/8412"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/179040"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/52343"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4812"/>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/342"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/465"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:initial_release_date>1970-02-04</movie:initial_release_date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0066206">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0066206%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/525"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/841"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40885"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/465"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12658"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/578"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f80000000000ab08d"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/179034"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/51"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/53284"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38034"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54345"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/179043"/>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0066206"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/1857"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/841"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Patton_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FPatton_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/179039"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/179033"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22497"/>
+        <dc:date>1970-02-04</dc:date>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/30"/>
+        <rdfs:label>Patton</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/52945"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/525"/>
+        <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/61"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/65627"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Patton_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FPatton_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1194"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/179036"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/578"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4546"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/432"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/179042"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/179038"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/179032"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/44969"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1220"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/1220"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13079"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/342"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/65609"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30085"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/179035"/>
+        <dc:title>Patton</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31792"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37231">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134206">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70373">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/252">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/291">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Patton</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18698">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/291"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/165">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/291"/>
+  </rdf:Description>
+</rdf:RDF>

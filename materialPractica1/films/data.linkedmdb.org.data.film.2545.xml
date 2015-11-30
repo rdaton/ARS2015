@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://sws.geonames.org/3175395/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F3175395%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/67865">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2545">
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8659">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2545"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/59806"/>
+        <movie:initial_release_date>2002-10-11</movie:initial_release_date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0291502/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0291502%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:based_near rdf:resource="http://sws.geonames.org/3175395/"/>
+        <rdfs:label>Swept Away</rdfs:label>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <dc:title>Swept Away</dc:title>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/MT"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/11813"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34951"/>
+        <dc:date>2002-10-11</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/72434"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43376"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10619"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39448"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/45369"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000557dd6">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000557dd6%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2562770/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2562770%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13581"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/8944"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/IT"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/54591"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/140"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4891"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2545</movie:filmid>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0291502/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0291502%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:runtime>89</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31810"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/61397"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63277">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2545"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/136253">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2545"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2545">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Swept Away</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2545"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/10652">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2545"/>
+  </rdf:Description>
+</rdf:RDF>

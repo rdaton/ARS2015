@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70313">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/179">
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Jaws_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FJaws_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <dc:title>Jaws</dc:title>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >179</movie:filmid>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000087544">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000087544%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43"/>
+        <rdfs:label>Jaws</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/15794"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14219"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/1523"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141966"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30539"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40666"/>
+        <movie:initial_release_date>1975-06-20</movie:initial_release_date>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Jaws_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FJaws_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/52791"/>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/494"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15994"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0073195">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0073195%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42857"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/874"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/15793"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/471"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141965"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/71"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2671"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/19098"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141964"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/1379"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39354"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/15792"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109498"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/72"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0073195">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0073195%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13768"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141968"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4290"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Jaws_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FJaws_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39248">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/179"/>
+          </rdf:Description>
+        </movie:sequel>
+        <dc:date>1975-06-20</dc:date>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/830"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/3344"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/494"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8477">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/179"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:runtime>124</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39700"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/15795"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16919"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141967"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48825"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/59682"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30615"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/179">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Jaws</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/179"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134106">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/179"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/106">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/179"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18639">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/179"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/203">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/179"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37172">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/179"/>
+  </rdf:Description>
+</rdf:RDF>

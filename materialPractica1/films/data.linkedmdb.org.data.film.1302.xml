@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/325">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1302">
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10337"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4701"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80471"/>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39660">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/1302"/>
+          </rdf:Description>
+        </movie:prequel>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154263"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/191599"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/130"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12708"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000320628">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000320628%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133527"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/57932"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0113114">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0113114%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5947">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1302"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/142502"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33583"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45755"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33603"/>
+        <movie:initial_release_date>1995-07-19</movie:initial_release_date>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0113114">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0113114%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/325"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/16817"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38073"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/11045"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/3490"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133525"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/54999"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/15"/>
+        <movie:runtime>95</movie:runtime>
+        <rdfs:label>Free Willy 2: The Adventure Home</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43593"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44569"/>
+        <dc:date>1995-07-19</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33281"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1302</movie:filmid>
+        <dc:title>Free Willy 2: The Adventure Home</dc:title>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/6669"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133526"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7052">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1302"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1302">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Free Willy 2: The Adventure Home</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1302"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135157">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1302"/>
+  </rdf:Description>
+</rdf:RDF>

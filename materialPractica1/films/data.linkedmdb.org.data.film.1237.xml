@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/27">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1237">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13478"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1237</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/328"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/190042"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39439"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/174966"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/189205"/>
+        <movie:initial_release_date>2002-11-15</movie:initial_release_date>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4626"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/175097"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13474"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30082"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0295297">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0295297%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/67779"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/191149"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11615"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31439"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33331"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/199695"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29720"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32449"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/2832"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34051"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/60"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/191145"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/190021"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/67783"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30390"/>
+        <movie:film_series rdf:resource="http://data.linkedmdb.org/resource/film_series/47"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13475"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32450"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32567"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2699"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13147"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75255"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39500"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/175226"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16613"/>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/27"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39358"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/174972"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30285"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32175"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/152467"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0295297">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0295297%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39489"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29502"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30447"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30215"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/191150"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31187"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/185748"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/158300"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/190031"/>
+        <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/66"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000309ce8">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000309ce8%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/199700"/>
+        <dc:title>Harry Potter and the Chamber of Secrets</dc:title>
+        <movie:rating rdf:resource="http://data.linkedmdb.org/resource/content_rating/1"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37511"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/175116"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/157285"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/67780"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/68008"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12525"/>
+        <movie:runtime>161</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/656"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29641"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13481"/>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <rdfs:label>Harry Potter and the Chamber of Secrets</rdfs:label>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4290"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39490"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/45859"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/724"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30510"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33671"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38077"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13473"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/158297"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30683"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/67790"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/67778"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34060"/>
+        <dc:date>2002-11-15</dc:date>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1238">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1237"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1236">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/1237"/>
+          </rdf:Description>
+        </movie:prequel>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1237">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Harry Potter and the Chamber of Secrets</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135091">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7008">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63158">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1237"/>
+  </rdf:Description>
+</rdf:RDF>

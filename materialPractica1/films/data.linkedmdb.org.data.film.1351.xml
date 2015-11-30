@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7081">
+    <movie:film_of_distributor>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1351">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78128"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9654"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/612"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0109686/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0109686%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10867"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32752"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31738"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35504"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9652"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141922"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/17201"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32673"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37072"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40251"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9687">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1351"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9651"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9655"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/611"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2850"/>
+        <movie:runtime>101</movie:runtime>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/842"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9653"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1351</movie:filmid>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/16678"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/673"/>
+        <movie:initial_release_date>1994-12-16</movie:initial_release_date>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12614"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/517"/>
+        <movie:runtime>107</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141923"/>
+        <rdfs:label>Dumb &amp; Dumber</rdfs:label>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000338a05">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000338a05%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/423"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33758"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0109686/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0109686%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81254"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <dc:date>1994-12-16</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/895"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2275"/>
+        <dc:title>Dumb &amp; Dumber</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/9650"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30103"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15304"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2108">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1351"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/5950"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34067"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141921"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4112"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/2018"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9686">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1351"/>
+          </rdf:Description>
+        </movie:director>
+      </movie:film>
+    </movie:film_of_distributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135210">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1351"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70825">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1351"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1351">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Dumb &amp; Dumber</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1351"/>
+  </rdf:Description>
+</rdf:RDF>

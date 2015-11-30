@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18697">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/290">
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Pearl_Harbor_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FPearl_Harbor_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32159"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30848"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30504"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29820"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31453"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/581"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22532"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/577"/>
+        <dc:title>Pearl Harbor</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29531"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22535"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0213149">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0213149%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40565"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22537"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31255"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108576"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10248"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Pearl_Harbor_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FPearl_Harbor_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30536"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40048"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/465"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/465"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14058"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4820"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38531"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22531"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5695"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1780"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/294"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86754"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >290</movie:filmid>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Pearl_Harbor_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FPearl_Harbor_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/159066"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2643"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/363"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4299"/>
+        <dc:date>2001-05-21</dc:date>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9297">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/290"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:initial_release_date>2001-05-21</movie:initial_release_date>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10523"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43865"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/577"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22534"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0213149">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0213149%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/fr">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Ffr%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2696"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80518"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/159065"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76870"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39029"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33420"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/83501"/>
+        <movie:runtime>183</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22533"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33878"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000000aacc2">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000000aacc2%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78157"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/581"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84178"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22536"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2701"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31203"/>
+        <rdfs:label>Pearl Harbor</rdfs:label>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/ja">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fja%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80177"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37230">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/290"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/290">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Pearl Harbor</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/290"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/253">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/290"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/6533">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/290"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70372">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/290"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/164">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/290"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134205">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/290"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134204">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/290"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134203">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/290"/>
+  </rdf:Description>
+</rdf:RDF>

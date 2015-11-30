@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70957">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1704">
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0113855">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0113855%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4276"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0113855">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0113855%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20048"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41648"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20047"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Mortal_Kombat_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FMortal_Kombat_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20042"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32532"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1704</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35931"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82876"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16179"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Mortal_Kombat_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMortal_Kombat_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29732"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20046"/>
+        <movie:runtime>101</movie:runtime>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000003dc3f6">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000003dc3f6%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3647"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42180"/>
+        <movie:initial_release_date>1995-08-18</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20041"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38609"/>
+        <rdfs:label>Mortal Kombat</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/39627"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16401"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/988">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1704"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40653"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41497"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/3714"/>
+        <dc:date>1995-08-18</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86523"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20045"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20040"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/393"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31247"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37347"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/77">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1704"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <dc:title>Mortal Kombat</dc:title>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Mortal_Kombat_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FMortal_Kombat_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3648"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40914"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20049"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/13103"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20044"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20043"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/899">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1704"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1704">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Mortal Kombat</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1704"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135512">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1704"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37965">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1704"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7223">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1704"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19432">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1704"/>
+  </rdf:Description>
+</rdf:RDF>

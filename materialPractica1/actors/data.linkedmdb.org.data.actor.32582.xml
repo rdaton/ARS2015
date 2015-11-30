@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/213">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/32582">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/154400"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/101627"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/55084"/>
+        <rdfs:label>Ward Bond (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/116783"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/21744"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122980"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/156548"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/43301"/>
+        <rdf:type>
+          <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+          </rdf:Description>
+        </rdf:type>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/50281"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/148985"/>
+        <movie:actor_name>Ward Bond</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/116790"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/62560"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >32582</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108103"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/103636"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/36429"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20517"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/102511"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/46351"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68415"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000027b70c">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000027b70c%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56912"/>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/21970">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5196">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40834">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39783">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/21243">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/13912">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41157">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39915">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1469">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38275">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/22934">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38415">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39626">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6557">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/259">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59815">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38469">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6382">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38327">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/32582">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Ward Bond (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/32582"/>
+  </rdf:Description>
+</rdf:RDF>

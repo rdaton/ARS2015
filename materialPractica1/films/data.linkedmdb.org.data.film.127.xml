@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18606">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/127">
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/185"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15908"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29745"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >127</movie:filmid>
+        <dc:date>1988-04-08</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86857"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1204"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13496"/>
+        <movie:initial_release_date>1988-04-08</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1206"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/259"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1205"/>
+        <movie:runtime>99</movie:runtime>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9875"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1207"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/248">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/127"/>
+          </rdf:Description>
+        </movie:director>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Above_the_Law_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FAbove_the_Law_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0094602">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0094602%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35036"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/47"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29992"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/387"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000007da9b">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000007da9b%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/223"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/1208"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0094602">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0094602%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42703"/>
+        <rdfs:label>Above the Law</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/1652"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40074"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Above_the_Law_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FAbove_the_Law_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <dc:title>Above the Law</dc:title>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Above_the_Law_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FAbove_the_Law_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/127">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Above the Law</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/127"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/73">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/127"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/6457">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/127"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134063">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/127"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37139">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/127"/>
+  </rdf:Description>
+</rdf:RDF>

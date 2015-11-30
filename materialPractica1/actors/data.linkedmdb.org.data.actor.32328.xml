@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8808">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/32328">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/104587"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/25642"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/31221"/>
+        <movie:actor_name>Don Messick</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/13928"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/92542"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/111073"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/181120"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000024aebb">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000024aebb%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/111061"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/95520"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178113"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/68891"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/111007"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/25648"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/117093"/>
+        <rdfs:label>Don Messick (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/46428"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/93826"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/36985"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >32328</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110467"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110099"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/92328"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/135793"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3929">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/50906">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39222">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48038">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40571">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/51221">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19674">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/56150">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/788">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18956">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2328">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/73471">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/20535">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46178">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/51227">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/45789">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/32328">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Don Messick (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2571">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/11825">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19432">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41605">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18955">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32328"/>
+  </rdf:Description>
+</rdf:RDF>

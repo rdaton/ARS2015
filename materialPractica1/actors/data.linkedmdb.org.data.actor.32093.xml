@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1319">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/32093">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/64743"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10696"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133853"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/148497"/>
+        <movie:actor_name>Ioan Gruffudd</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/10688"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000021fb0f">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000021fb0f%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >32093</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/16698"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85145"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/89657"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/111781"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/31406"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/60448"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/63155"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/135109"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56781"/>
+        <rdfs:label>Ioan Gruffudd (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42584"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84740"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110112"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/235"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/39247"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2499">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/72317">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19187">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41783">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/72">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4828">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/24894">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/16901">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/51824">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4751">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/17320">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/45299">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3173">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44459">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/13654">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38568">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41728">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2024">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/32093">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Ioan Gruffudd (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/32093"/>
+  </rdf:Description>
+</rdf:RDF>

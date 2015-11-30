@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1132">
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20119"/>
+    <movie:initial_release_date>1952-12-23</movie:initial_release_date>
+    <dc:title>Moulin Rouge</dc:title>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8545">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1132"/>
+      </rdf:Description>
+    </movie:director>
+    <foaf:based_near>
+      <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+      </rdf:Description>
+    </foaf:based_near>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0044926">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0044926%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30270"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15686"/>
+    <movie:runtime>119</movie:runtime>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/54247"/>
+    <rdfs:label>Moulin Rouge</rdfs:label>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1132</movie:filmid>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0044926">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0044926%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/152474"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5708"/>
+    <dc:date>1952-12-23</dc:date>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4292"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000002cc161">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000002cc161%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37653"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11529"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30437"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/30"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/3729"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4258"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56451"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13358"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110006"/>
+    <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/950"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63147">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1132"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135007">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1132"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/12801">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1132"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1132">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Moulin Rouge</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1132"/>
+  </rdf:Description>
+</rdf:RDF>

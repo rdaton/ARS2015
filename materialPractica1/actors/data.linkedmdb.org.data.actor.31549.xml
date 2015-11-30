@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39297">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/31549">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/65287"/>
+        <movie:actor_name>Kurtwood Smith</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28729"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76173"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11425"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/30462"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/173366"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/57874"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24697"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88668"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000001bf40d">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000001bf40d%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/90172"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >31549</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81892"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/54657"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/89371"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8341"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/137268"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77639"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37392"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79056"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5097"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/62078"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81417"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/171161"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <rdfs:label>Kurtwood Smith (Actor)</rdfs:label>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39423">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40766">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6852">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38464">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/66275">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4099">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/394">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/42019">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/47835">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8150">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40123">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5100">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/86947">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/31549">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Kurtwood Smith (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39117">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/85799">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40813">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38593">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3404">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/690">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18568">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3454">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31549"/>
+  </rdf:Description>
+</rdf:RDF>

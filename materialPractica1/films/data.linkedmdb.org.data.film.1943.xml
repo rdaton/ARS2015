@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1943">
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/248"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0329737">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0329737%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10582"/>
+    <movie:personal_film_appearance rdf:resource="http://data.linkedmdb.org/resource/personal_film_appearance/2"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0329737">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0329737%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1943</movie:filmid>
+    <dc:title>It's a Very Merry Muppet Christmas Movie</dc:title>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80789"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000004483f3">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000004483f3%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <rdfs:label>It's a Very Merry Muppet Christmas Movie</rdfs:label>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31080"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33073"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110056"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110054"/>
+    <movie:initial_release_date>2002</movie:initial_release_date>
+    <movie:sequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2483">
+        <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1943"/>
+      </rdf:Description>
+    </movie:sequel>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34424"/>
+    <dc:date>2002</dc:date>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/248"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110055"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29879"/>
+    <movie:prequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41357">
+        <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/1943"/>
+      </rdf:Description>
+    </movie:prequel>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7301">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1943">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of It's a Very Merry Muppet Christmas Movie</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/11520">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1943"/>
+  </rdf:Description>
+</rdf:RDF>

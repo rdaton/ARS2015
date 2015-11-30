@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/D._L._Hughley">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FD._L._Hughley%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/D._L._Hughley">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FD._L._Hughley%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000293fff">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000293fff%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://mpii.de/yago/resource/D._L._Hughley">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FD._L._Hughley%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/69309">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/164">
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/D._L._Hughley"/>
+        <movie:actor_name>D. L. Hughley</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/140558"/>
+        <rdfs:label>D. L. Hughley (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/97182"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >164</movie:actor_actorid>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133519"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/159111"/>
+        <dbpedia:hasPhotoCollection rdf:resource="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/D._L._Hughley"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f8000000000293fff"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141589"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/33820"/>
+        <owl:sameAs rdf:resource="http://mpii.de/yago/resource/D._L._Hughley"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/29919"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/99006"/>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44416">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6110">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2385">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40238">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/13360">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48781">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/99268">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/87447">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/164">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of D. L. Hughley (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39892">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/111089">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/actor/164"/>
+  </rdf:Description>
+</rdf:RDF>

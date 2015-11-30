@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/223">
+    <movie:film_of_distributor>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/121">
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9091">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/121"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12042"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75904"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/712"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/710"/>
+        <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/66"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75901"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44523"/>
+        <dc:date>2001-05-19,2001-05-18</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75897"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/510"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12035"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75905"/>
+        <dc:title>A Knight's Tale</dc:title>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/47"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30957"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12038"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4772"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/6666"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33731"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75891"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12043"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/165851"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44897"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75902"/>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/128"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75898"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36840"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33110"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0183790/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0183790%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75906"/>
+        <movie:story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/399"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43988"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/104"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12039"/>
+        <movie:costume_designer rdf:resource="http://data.linkedmdb.org/resource/film_costume_designer/16"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75883"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34248"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75892"/>
+        <rdfs:label>A Knight's Tale</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12032"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0183790/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0183790%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75903"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75887"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/709"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75882"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75907"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12040"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75884"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12036"/>
+        <movie:film_story_contributor rdf:resource="http://data.linkedmdb.org/resource/film_story_contributor/399"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/6794"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75893"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32063"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75890"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12033"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14349"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12030"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/509"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75888"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36646"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/10648"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75895"/>
+        <movie:runtime>133</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12044"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12041"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75900"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75899"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75885"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75894"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >121</movie:filmid>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/148"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12031"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12034"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/62700"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/711"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000007b3c9">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000007b3c9%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37293"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75889"/>
+        <movie:rating rdf:resource="http://data.linkedmdb.org/resource/content_rating/3"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36193"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75886"/>
+        <movie:initial_release_date>2001-05-19,2001-05-18</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75896"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10351"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/12037"/>
+        <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/31"/>
+      </movie:film>
+    </movie:film_of_distributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/164">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70284">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134058">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/121">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of A Knight's Tale</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/165">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/121"/>
+  </rdf:Description>
+</rdf:RDF>

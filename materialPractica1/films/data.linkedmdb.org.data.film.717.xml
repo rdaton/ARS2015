@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/12020">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/717">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/32938"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17960"/>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/916">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/717"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/fr">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Ffr%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4599"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31312"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17982"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14515"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34723"/>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/15"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/32939"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10449"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32452"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4598"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/95155"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/638"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/514"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/7578"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31651"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/18818"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/52418"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13111"/>
+        <dc:title>The Little Mermaid</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/32942"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/12862">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/717"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/519"/>
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/514"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000001bf7fc">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000001bf7fc%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:initial_release_date>1989-11-15</movie:initial_release_date>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12855"/>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/12020"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/239"/>
+        <rdfs:label>The Little Mermaid</rdfs:label>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/5143"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/7109"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32228"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/32943"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/32940"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/191442"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/183694"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/32937"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >717</movie:filmid>
+        <dc:date>1989-11-15</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32532"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0097757">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0097757%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:runtime>83</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/32941"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/638"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0097757">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0097757%3E"/>
+          </rdf:Description>
+        </foaf:page>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134649">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/717"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/717">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of The Little Mermaid</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/717"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134650">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/717"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/362">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/717"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/4804">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/717"/>
+  </rdf:Description>
+</rdf:RDF>

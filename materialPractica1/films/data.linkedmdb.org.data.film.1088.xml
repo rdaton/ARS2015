@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9120">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1088">
+        <dc:title>Bus Stop</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56597"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0049038">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0049038%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29577"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1088</movie:filmid>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11031"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5716"/>
+        <movie:runtime>96</movie:runtime>
+        <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/37"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Bus_Stop_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FBus_Stop_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:film_art_director rdf:resource="http://data.linkedmdb.org/resource/film_art_director/2"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/118"/>
+        <movie:film_set_designer rdf:resource="http://data.linkedmdb.org/resource/film_set_designer/2"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Bus_Stop_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FBus_Stop_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5442"/>
+        <movie:initial_release_date>1956-08-31</movie:initial_release_date>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4657"/>
+        <rdfs:label>Bus Stop</rdfs:label>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/416"/>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/9120"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/1160"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14032"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000002b1bc1">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000002b1bc1%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/427"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Bus_Stop_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FBus_Stop_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2866"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0049038">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0049038%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32668"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/426"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5714"/>
+        <dc:date>1956-08-31</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5717"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/278"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15526"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134964">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1088"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19111">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1088"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1088">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Bus Stop</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1088"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70709">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1088"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/578">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1088"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/675">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1088"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37644">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1088"/>
+  </rdf:Description>
+</rdf:RDF>

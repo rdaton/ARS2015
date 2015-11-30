@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0164023">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0164023%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000004ada7c">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000004ada7c%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/13484">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2171">
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/53096"/>
+        <dc:date>1998,1998-11-08</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/63376"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:runtime>120</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/46244"/>
+        <rdfs:label>Exiled: A Law &amp; Order Movie</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32979"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30669"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/69009"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/51055"/>
+        <dc:title>Exiled: A Law &amp; Order Movie</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/47419"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40212"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/93372"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/41338"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29492"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/5818"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0164023">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0164023%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/11467"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/355"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2171</movie:filmid>
+        <movie:initial_release_date>1998,1998-11-08</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56044"/>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/13484"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46132"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35553"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15496"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/9468"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/65646"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32970"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31633"/>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0164023"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/47671"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f80000000004ada7c"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38446"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/110068"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/61302"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35508"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36143"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/46955"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/53705"/>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135926">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2171"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2171">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Exiled: A Law &amp; Order Movie</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2171"/>
+  </rdf:Description>
+</rdf:RDF>

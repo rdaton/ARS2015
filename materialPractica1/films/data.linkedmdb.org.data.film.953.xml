@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.imdb.com/title/tt0305224">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0305224%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37574">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/953">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41295"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2546"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38934"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/13028"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133478"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41297"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17643"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30700"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/3452">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/953"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30590"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Anger_Management">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FAnger_Management%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47562"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/840"/>
+        <movie:initial_release_date>2003-04-11</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31095"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11542"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9943"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Anger_Management">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FAnger_Management%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41294"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87645"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2545"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/838"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/6308"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0305224">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0305224%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <dc:date>2003-04-11</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41296"/>
+        <foaf:page rdf:resource="http://www.imdb.com/title/tt0305224"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >953</movie:filmid>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/3527"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2548"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/502"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29633"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30728"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/151731"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30938"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Anger_Management">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FAnger_Management%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/839"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/41293"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2544"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/184"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31605"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2547"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30224"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133479"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37251"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33441"/>
+        <movie:runtime>106</movie:runtime>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000260003">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000260003%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:production_company rdf:resource="http://data.linkedmdb.org/resource/production_company/46"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35395"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/2543"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/192"/>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1792"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/64"/>
+        <dc:title>Anger Management</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29704"/>
+        <rdfs:label>Anger Management</rdfs:label>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70643">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/953"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/508">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/953"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19041">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/953"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134851">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/953"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/953">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Anger Management</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/953"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/497">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/953"/>
+  </rdf:Description>
+</rdf:RDF>

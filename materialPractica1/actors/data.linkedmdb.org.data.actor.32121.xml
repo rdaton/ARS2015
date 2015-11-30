@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/56658">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/32121">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5151"/>
+        <rdfs:label>Jeffrey Hunter (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/109422"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/146612"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/108280"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/117454"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/104339"/>
+        <rdf:type>
+          <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+          </rdf:Description>
+        </rdf:type>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/132158"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/167227"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/126995"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/60003"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/34775"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/72114"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/69847"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/92159"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/118087"/>
+        <movie:actor_name>Jeffrey Hunter</movie:actor_name>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/70445"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >32121</movie:actor_actorid>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000226695">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000226695%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/104641"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/73316"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/104075"/>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19284">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62658">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/213">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/32121">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Jeffrey Hunter (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2269">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18657">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/23522">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/80952">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/48124">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/42837">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/49031">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3516">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5739">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/15233">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53098">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/23682">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/23314">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/69852">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18640">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32121"/>
+  </rdf:Description>
+</rdf:RDF>

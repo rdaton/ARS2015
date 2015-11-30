@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/2207">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37111"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000004c3d00">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000004c3d00%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37329"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37534"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86209"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37540"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/93501"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14338"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8477">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2207"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37536"/>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2351"/>
+    <movie:runtime>101</movie:runtime>
+    <rdfs:label>Twilight Zone: The Movie</rdfs:label>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/11"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12402"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0086491">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0086491%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15645"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14816"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37539"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/3900"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/265">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2207"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4546"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/10158">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2207"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/1711"/>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2735"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31818"/>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/238"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37538"/>
+    <movie:initial_release_date>1983-06-24</movie:initial_release_date>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10524"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10618"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29820"/>
+    <movie:cinematographer rdf:resource="http://data.linkedmdb.org/resource/cinematographer/375"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/9398">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2207"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30013"/>
+    <dc:date>1983-06-24</dc:date>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29380"/>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/581"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/8175"/>
+    <dc:title>Twilight Zone: The Movie</dc:title>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/17">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/2207"/>
+      </rdf:Description>
+    </movie:director>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0086491">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0086491%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33272"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/414"/>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/581"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/9752"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/53"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37535"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13610"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37537"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >2207</movie:filmid>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31759"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/15457"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13229"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12557"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/2207">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Twilight Zone: The Movie</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/2207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135954">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/2207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/7408">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/2207"/>
+  </rdf:Description>
+</rdf:RDF>

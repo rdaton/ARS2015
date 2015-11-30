@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/980">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/33376">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/3849"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/124394"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178378"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/3840"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/139798"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/124616"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/131722"/>
+        <movie:actor_name>Robby Benson</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/119191"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/70618"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/96048"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/122411"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/98026"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/127568"/>
+        <rdfs:label>Robby Benson (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/127582"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/98631"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/4039"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >33376</movie:actor_actorid>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000302505">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000302505%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/166614"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/124108"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60982">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/91379">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/59413">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/12005">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/7352">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/66792">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4853">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60625">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/57163">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63077">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63086">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/330">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/33376">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Robby Benson (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/50601">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/51658">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46326">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/60820">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3953">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33376"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/57522">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/35093">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5465"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/18357"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/39526"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/35667"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/31958"/>
+        <rdfs:label>Masako Nozawa (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/5459"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/20725"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8848"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000413ae4">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000413ae4%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor_name>Masako Nozawa</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26786"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/143206"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/11914"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/4408"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/126627"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28149"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/178313"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/3594"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/36268"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/22904"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/641"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7855"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >35093</movie:actor_actorid>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/126591"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8349"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/4888"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/7409"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/119757"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/33941"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24341"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/45553">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2204">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44207">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6221">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/91319">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62404">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3887">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6002">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2852">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2850">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/35093">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Masako Nozawa (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/44208">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3363">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1750">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4505">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1844">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3572">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1835">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/45782">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/56505">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/3105">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6304">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/41275">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2543">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62377">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4501">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2851">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35093"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70348">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/237">
+        <dc:date>1957,1957-07-29</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58748"/>
+        <movie:film_art_director rdf:resource="http://data.linkedmdb.org/resource/film_art_director/2"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/50452"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0051196">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0051196%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <dc:title>Will Success Spoil Rock Hunter?</dc:title>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/771"/>
+        <movie:initial_release_date>1957,1957-07-29</movie:initial_release_date>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/8837">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/237"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/58874"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/64041"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Will_Success_Spoil_Rock_Hunter%3F">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FWill_Success_Spoil_Rock_Hunter%253F%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >237</movie:filmid>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40648"/>
+        <rdfs:label>Will Success Spoil Rock Hunter?</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32484"/>
+        <movie:runtime>93</movie:runtime>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/17502"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Will_Success_Spoil_Rock_Hunter%3F">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FWill_Success_Spoil_Rock_Hunter%253F%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0051196">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0051196%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/54866"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/47821"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32127"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Will_Success_Spoil_Rock_Hunter?">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FWill_Success_Spoil_Rock_Hunter%3F%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000008962f">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000008962f%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/118"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31252"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/63905"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32292"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/49661"/>
+        <movie:film_set_designer rdf:resource="http://data.linkedmdb.org/resource/film_set_designer/2"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/66517"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/78"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10099"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18663">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37196">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/130">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134158">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/192">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/237">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Will Success Spoil Rock Hunter?</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/237"/>
+  </rdf:Description>
+</rdf:RDF>

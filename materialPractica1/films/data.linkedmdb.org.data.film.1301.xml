@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1301">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29959"/>
+    <rdfs:label>Rob Roy</rdfs:label>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34277"/>
+    <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/16900"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31668"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/47"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24650"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30617"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4772"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12589"/>
+    <movie:initial_release_date>1995-04-07</movie:initial_release_date>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33182"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24649"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/11897">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1301"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33579"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/4"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0114287">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0114287%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24653"/>
+    <dc:date>1995-04-07</dc:date>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/4214"/>
+    <dbpedia:hasPhotoCollection>
+      <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Rob_Roy_(film)">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FRob_Roy_%28film%29%3E"/>
+      </rdf:Description>
+    </dbpedia:hasPhotoCollection>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000031fe62">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000031fe62%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <foaf:based_near>
+      <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+      </rdf:Description>
+    </foaf:based_near>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0114287">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0114287%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24656"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24652"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29996"/>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/513"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32015"/>
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5265"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24655"/>
+    <movie:genre rdf:resource="http://data.linkedmdb.org/resource/film_genre/30"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1301</movie:filmid>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://mpii.de/yago/resource/Rob_Roy_%28film%29">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FRob_Roy_%2528film%2529%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/513"/>
+    <dc:title>Rob Roy</dc:title>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2699"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24651"/>
+    <movie:runtime>139</movie:runtime>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40567"/>
+    <owl:sameAs>
+      <rdf:Description rdf:about="http://dbpedia.org/resource/Rob_Roy_%28film%29">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FRob_Roy_%2528film%2529%3E"/>
+      </rdf:Description>
+    </owl:sameAs>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24654"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1301">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Rob Roy</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1301"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19230">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1301"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135156">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1301"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63161">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1301"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70801">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1301"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/12811">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/1301"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/697">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1301"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37763">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1301"/>
+  </rdf:Description>
+</rdf:RDF>

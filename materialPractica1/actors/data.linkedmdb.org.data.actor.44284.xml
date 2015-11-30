@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/17028">
+    <movie:actor>
+      <foaf:Person rdf:about="http://data.linkedmdb.org/resource/actor/44284">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81083"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/117"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/125460"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/129351"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42067"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77709"/>
+        <movie:actor_name>Norman Reedus</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/127323"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/120566"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000ac19f7">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000ac19f7%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/118654"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/170821"/>
+        <rdfs:label>Norman Reedus (Actor)</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76987"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/136835"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81252"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/73016"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/29796"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/57151"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/61759"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/112340"/>
+        <rdf:type rdf:resource="http://data.linkedmdb.org/resource/movie/actor"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/161009"/>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >44284</movie:actor_actorid>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/126676"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/113455"/>
+      </foaf:Person>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8139">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/58126">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/55657">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2289">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/15186">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/46232">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/44284">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Norman Reedus (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39517">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/66244">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40339">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/64287">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/52380">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53565">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43035">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62437">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8377">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62906">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/9981">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/61579">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39576">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/77947">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/44284"/>
+  </rdf:Description>
+</rdf:RDF>

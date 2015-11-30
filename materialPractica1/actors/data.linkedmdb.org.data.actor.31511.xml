@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/429">
+    <movie:actor>
+      <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/31511">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/120515"/>
+        <movie:actor_nytimes_id></movie:actor_nytimes_id>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/129732"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/176066"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/66018"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/129102"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/29042"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/39420"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/24422"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/198576"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/127505"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/74445"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/126865"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/37058"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/128072"/>
+        <rdfs:label>Kelly McGillis (Actor)</rdfs:label>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000001b8adf">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000001b8adf%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80287"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/81308"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/56386"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/55727"/>
+        <movie:actor_netflix_id></movie:actor_netflix_id>
+        <movie:actor_name>Kelly McGillis</movie:actor_name>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/79500"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/40260"/>
+        <rdf:type>
+          <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+          </rdf:Description>
+        </rdf:type>
+        <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >31511</movie:actor_actorid>
+      </movie:actor>
+    </movie:actor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/15684">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63031">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/18784">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/15735">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/11451">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1636">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/479">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/93160">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/98567">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/63423">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39136">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/261">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/62574">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/31511">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Kelly McGillis (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/64105">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/88229">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/43205">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/39920">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/64545">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/58086">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31511"/>
+  </rdf:Description>
+</rdf:RDF>

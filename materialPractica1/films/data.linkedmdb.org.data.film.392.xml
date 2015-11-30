@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/10148">
+    <foaf:made>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/392">
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/45507"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Max_Keeble%27s_Big_Move">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMax_Keeble%2527s_Big_Move%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36479"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/11851"/>
+        <movie:runtime>86</movie:runtime>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85855"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32873"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36666"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47157"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32222"/>
+        <dc:title>Max Keeble's Big Move</dc:title>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Max_Keeble%27s_Big_Move">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FMax_Keeble%2527s_Big_Move%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30541"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36058"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/93820"/>
+        <dc:date>2001-10-05</dc:date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/45061"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/573"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30547"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0273799">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0273799%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33590"/>
+        <rdfs:label>Max Keeble's Big Move</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30542"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77521"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37802"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/191392"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000128f8b">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000128f8b%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/80620"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42766"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86948"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/89049"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/93821"/>
+        <movie:director rdf:resource="http://data.linkedmdb.org/resource/director/10148"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >392</movie:filmid>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0273799">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0273799%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/50221"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/77115"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:initial_release_date>2001-10-05</movie:initial_release_date>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37437"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85135"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/93822"/>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Max_Keeble&apos;s_Big_Move">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FMax_Keeble%27s_Big_Move%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+      </movie:film>
+    </foaf:made>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/238">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/18753">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/220">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70418">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/392">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Max Keeble's Big Move</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37286">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134328">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/392"/>
+  </rdf:Description>
+</rdf:RDF>

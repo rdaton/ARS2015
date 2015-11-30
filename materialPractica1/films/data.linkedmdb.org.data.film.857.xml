@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000224f8c">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000224f8c%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0094074">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0094074%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40658">
+    <movie:prequel>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/857">
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/6054"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28228"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/75376"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2113"/>
+        <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/40658"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/1142"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14243"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28223"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/457">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/857"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:runtime>90</movie:runtime>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4290"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/31394"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30327"/>
+        <dc:date>1987-07-24</dc:date>
+        <rdfs:label>Superman IV: The Quest For Peace</rdfs:label>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35607"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28227"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29471"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11830"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/12749"/>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0094074"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30033"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4762"/>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >857</movie:filmid>
+        <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/2353"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13514"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28225"/>
+        <foaf:page rdf:resource="http://www.freebase.com/view/guid/9202a8c04000641f8000000000224f8c"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0094074">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0094074%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28226"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/86151"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/990"/>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/793"/>
+        <movie:prequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/40623">
+            <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/857"/>
+          </rdf:Description>
+        </movie:prequel>
+        <foaf:based_near>
+          <rdf:Description rdf:about="http://sws.geonames.org/2635167/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fsws.geonames.org%2F2635167%2F%3E"/>
+          </rdf:Description>
+        </foaf:based_near>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/47981"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/1340"/>
+        <movie:initial_release_date>1987-07-24</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/28224"/>
+        <movie:country rdf:resource="http://data.linkedmdb.org/resource/country/GB"/>
+        <dc:title>Superman IV: The Quest For Peace</dc:title>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/87621"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32693"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/35839"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/2112"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38919"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/13651"/>
+      </movie:film>
+    </movie:prequel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/857">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Superman IV: The Quest For Peace</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/857"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/134770">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/857"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/63128">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/857"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film_film_distributor_relationship/6837">
+    <movie:film_of_distributor rdf:resource="http://data.linkedmdb.org/resource/film/857"/>
+  </rdf:Description>
+</rdf:RDF>

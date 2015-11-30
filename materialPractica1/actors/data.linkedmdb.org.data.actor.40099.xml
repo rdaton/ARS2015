@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/40099">
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/15298"/>
+    <movie:actor_nytimes_id></movie:actor_nytimes_id>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/116196"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/8916"/>
+    <movie:actor_name>Romola Garai</movie:actor_name>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/156077"/>
+    <movie:actor_netflix_id></movie:actor_netflix_id>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/180331"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/88637"/>
+    <movie:actor_actorid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >40099</movie:actor_actorid>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/107621"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/105680"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000763004">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000763004%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/106698"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/38189"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/42588"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/46342"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/73832"/>
+    <rdf:type>
+      <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson%3E"/>
+      </rdf:Description>
+    </rdf:type>
+    <rdfs:label>Romola Garai (Actor)</rdfs:label>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/141638"/>
+  </movie:actor>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/24311">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/actor/40099">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Romola Garai (Actor)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/16103">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4018">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2181">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/49976">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/73918">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/19127">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/5275">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4751">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/25055">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2322">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6016">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6887">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/93790">
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/40099"/>
+  </rdf:Description>
+</rdf:RDF>

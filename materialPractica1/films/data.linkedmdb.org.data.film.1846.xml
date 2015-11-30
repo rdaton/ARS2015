@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1846">
+    <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/5592"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133585"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11532"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f800000000041b3c8">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f800000000041b3c8%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:editor rdf:resource="http://data.linkedmdb.org/resource/editor/3686"/>
+    <movie:director>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/18121">
+        <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1846"/>
+      </rdf:Description>
+    </movie:director>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38685"/>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/884"/>
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/17393"/>
+    <movie:prequel>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2210">
+        <movie:sequel rdf:resource="http://data.linkedmdb.org/resource/film/1846"/>
+      </rdf:Description>
+    </movie:prequel>
+    <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/222"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26149"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/82433"/>
+    <movie:runtime>106</movie:runtime>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84422"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0358135">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0358135%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <rdfs:label>Shall We Dance?</rdfs:label>
+    <dc:title>Shall We Dance?</dc:title>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26153"/>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/222"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26150"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30993"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30318"/>
+    <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/884"/>
+    <foaf:page>
+      <rdf:Description rdf:about="http://www.imdb.com/title/tt0358135">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0358135%3E"/>
+      </rdf:Description>
+    </foaf:page>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30457"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26151"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/29513"/>
+    <dc:date>2004-10-15</dc:date>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/46122"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/30005"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/84758"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/38399"/>
+    <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/4266"/>
+    <movie:language>
+      <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+        <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+      </rdf:Description>
+    </movie:language>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/48014"/>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/36056"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/26152"/>
+    <movie:initial_release_date>2004-10-15</movie:initial_release_date>
+    <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32372"/>
+    <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1846</movie:filmid>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133586"/>
+    <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/133584"/>
+    <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/11245"/>
+    <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/271"/>
+  </movie:film>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1846">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Shall We Dance?</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1846"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135645">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1846"/>
+  </rdf:Description>
+</rdf:RDF>
