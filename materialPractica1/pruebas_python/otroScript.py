@@ -45,5 +45,10 @@ for todoElemento in unaRaiz.iterfind('.//movie:actor',unNameSpaces):
     ##{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource
     unaKey=todoElemento.attrib.keys()[0]    
     unaCadenaActor=todoElemento.attrib.get(unaKey)
-    print unIdPelicula,unaCadenaActor
-    
+    ##unaCadenaActor, contiene una url tipo http://A/B/C/idActor    
+    ##voy a extraer idActor, usando como separador "/" , y accediendo a la posición 5 (rango 0-5)
+    unSeparador="/"
+    print unIdPelicula,',',unaCadenaActor.split(unSeparador)[5]    
+
+
+
