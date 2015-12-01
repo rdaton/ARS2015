@@ -25,30 +25,36 @@ unNameSpaces={'dc': 'http://purl.org/dc/terms/',
             'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
             }
 
-##creo puntero a la raíz del árbol
-unArbol = ET.parse("fichero1.xml")
-unaRaiz = unArbol.getroot()
-
-#Saco id de pelicula
-unIdPelicula= unaRaiz.find('.//movie:filmid',unNameSpaces).text
-
-##Saco título de pelicula
-unTituloPelicula= unaRaiz.find('.//dc:title',unNameSpaces).text
-
-print unIdPelicula,unTituloPelicula
-
-##Saco Actores que han participado
-unaListaActores=list();
-for todoElemento in unaRaiz.iterfind('.//movie:actor',unNameSpaces):
-    ##cojo la lista de claves de atributos, y me quedo con el primer nombre de clave
-    ##me evito tener que meter en unaKey el siguiente tocho
-    ##{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource
-    unaKey=todoElemento.attrib.keys()[0]    
-    unaCadenaActor=todoElemento.attrib.get(unaKey)
-    ##unaCadenaActor, contiene una url tipo http://A/B/C/idActor    
-    ##voy a extraer idActor, usando como separador "/" , y accediendo a la posición 5 (rango 0-5)
-    unSeparador="/"
-    print unIdPelicula,',',unaCadenaActor.split(unSeparador)[5]    
 
 
+	def parseaPeliculas
+	##creo puntero a la raíz del árbol
+	unArbol = ET.parse("fichero1.xml")
+	unaRaiz = unArbol.getroot()
 
+	#Saco id de pelicula
+	unIdPelicula= unaRaiz.find('.//movie:filmid',unNameSpaces).text
+
+	##Saco título de pelicula
+	unTituloPelicula= unaRaiz.find('.//dc:title',unNameSpaces).text
+
+	print unIdPelicula,unTituloPelicula
+
+	##Saco Actores que han participado
+	unaListaActores=list();
+	for todoElemento in unaRaiz.iterfind('.//movie:actor',unNameSpaces):
+	    ##cojo la lista de claves de atributos, y me quedo con el primer nombre de clave
+	    ##me evito tener que meter en unaKey el siguiente tocho
+	    ##{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource
+	    unaKey=todoElemento.attrib.keys()[0]    
+	    unaCadenaActor=todoElemento.attrib.get(unaKey)
+	    ##unaCadenaActor, contiene una url tipo http://A/B/C/idActor    
+	    ##voy a extraer idActor, usando como separador "/" , y accediendo a la posición 5 (rango 0-5)
+	    unSeparador="/"
+	    print unIdPelicula,',',unaCadenaActor.split(unSeparador)[5]    
+def main():
+	
+
+
+if __name__ == "__main__":
+    sys.exit(main())
