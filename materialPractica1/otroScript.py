@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*-
 
 ##intento import cElementTree que es código nativo
+import sys
+import os
+import csv
+
 try:
     import xml.etree.cElementTree as ET
 except ImportError:
@@ -27,9 +31,13 @@ unNameSpaces={'dc': 'http://purl.org/dc/terms/',
 
 
 
-	def parseaPeliculas
+
+
+
+
+def parseaPelicula (ficheroPeliculas,fCsvPeliculas):
 	##creo puntero a la raíz del árbol
-	unArbol = ET.parse("fichero1.xml")
+	unArbol = ET.parse(ficheroPeliculas)
 	unaRaiz = unArbol.getroot()
 
 	#Saco id de pelicula
@@ -38,7 +46,7 @@ unNameSpaces={'dc': 'http://purl.org/dc/terms/',
 	##Saco título de pelicula
 	unTituloPelicula= unaRaiz.find('.//dc:title',unNameSpaces).text
 
-	print unIdPelicula,unTituloPelicula
+	fCsvPeliculas.write(unIdPelicula+';'+unTituloPelicula+'\n')
 
 	##Saco Actores que han participado
 	unaListaActores=list();
@@ -52,9 +60,49 @@ unNameSpaces={'dc': 'http://purl.org/dc/terms/',
 	    ##voy a extraer idActor, usando como separador "/" , y accediendo a la posición 5 (rango 0-5)
 	    unSeparador="/"
 	    print unIdPelicula,',',unaCadenaActor.split(unSeparador)[5]    
-def main():
-	
 
+
+
+
+def abreFicheroRw (nombreFichero) :
+    f=open(nombreFichero,'w');
+    return f;
+
+def cierraFicheroRw(f):
+    f.close()
+
+
+def main():
+##bloque de declaración de ficheros de entrada, salida
+##indices de ficheros, etc,
+
+##declaraciones e inicializaciones para ficheros de peliculas
+    ##puntero a fichero xml en curso
+    directorioPelis = 'films'
+    idPelicula=1
+    fEntradaPelicula = 'fichero'+ str(idPelicula) + '.xml'
+    fEntradaPeliculaConRuta=os.path.join(directorioPelis,fEntradaPelicula)
+    
+    ##fichero csv de peliculas
+    ##creo carpeta de salida para fichero csv
+    directorioPelisCsv='films_csv'
+    if not os.path.exists(directorioPelisCsv):
+        os.makedirs(directorioPelisCsv)
+    fSalidaPeliculaCsv = 'pelisCsv.csv'
+    fSalidaPeliculasCsvConRuta=os.path.join(directorioPelisCsv,fSalidaPeliculaCsv)
+    ##abro el fichero csv para escritura    
+    
+    ##Genero fichero de nodos de peliculas
+
+    ficheroPelisCsv=abreFicheroRw(fSalidaPeliculasCsvConRuta)
+    
+    
+    parseaPelicula(fEntradaPeliculaConRuta,ficheroPelisCsv)
+
+    
+    cierraFicheroRw(ficheroPelisCsv)
+
+    
 
 if __name__ == "__main__":
     sys.exit(main())
