@@ -3,9 +3,11 @@
 
 ##intento import cElementTree que es código nativo
 import sys
-import os
+reload(sys)
+sys.setdefaultencoding('utf-8')
 import csv
-
+import os
+import glob
 try:
     import xml.etree.cElementTree as ET
 except ImportError:
@@ -28,12 +30,6 @@ unNameSpaces={'dc': 'http://purl.org/dc/terms/',
             'movie': 'http://data.linkedmdb.org/resource/movie/',
             'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
             }
-
-
-
-
-
-
 
 def parseaPelicula (ficheroPeliculas,fCsvPeliculas):
 	##creo puntero a la raíz del árbol
@@ -79,10 +75,9 @@ def main():
 ##declaraciones e inicializaciones para ficheros de peliculas
     ##puntero a fichero xml en curso
     directorioPelis = 'films'
-    idPelicula=1
-    fEntradaPelicula = 'fichero'+ str(idPelicula) + '.xml'
-    fEntradaPeliculaConRuta=os.path.join(directorioPelis,fEntradaPelicula)
-    
+    fEntradaPelicula = ' '
+    fEntradaPeliculaConRuta=' '
+    formatoNFicheroXML='data.linkedmdb.org.data.film.*.xml'
     ##fichero csv de peliculas
     ##creo carpeta de salida para fichero csv
     directorioPelisCsv='films_csv'
@@ -91,13 +86,19 @@ def main():
     fSalidaPeliculaCsv = 'pelisCsv.csv'
     fSalidaPeliculasCsvConRuta=os.path.join(directorioPelisCsv,fSalidaPeliculaCsv)
     ##abro el fichero csv para escritura    
-    
-    ##Genero fichero de nodos de peliculas
-
     ficheroPelisCsv=abreFicheroRw(fSalidaPeliculasCsvConRuta)
     
-    
-    parseaPelicula(fEntradaPeliculaConRuta,ficheroPelisCsv)
+    ##genero lista de ficheros xml de la carpeta films (entro y luego salgo de la carpeta)
+    dirAux=os.getcwd()
+    os.chdir(directorioPelis)
+    listaPelisXML=glob.glob(formatoNFicheroXML)
+    os.chdir(dirAux)
+
+    ##Genero fichero de nodos de peliculas
+    for elem in listaPelisXML:    
+        fEntradaPelicula = elem
+        fEntradaPeliculaConRuta=os.path.join(directorioPelis,fEntradaPelicula)
+        parseaPelicula(fEntradaPeliculaConRuta,ficheroPelisCsv)
 
     
     cierraFicheroRw(ficheroPelisCsv)
