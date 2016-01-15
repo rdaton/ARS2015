@@ -14,7 +14,12 @@ class ClaseLibreEscala {
 		Utilizar� el mismo csv de nodos generado por la aleatoria
 	  */
 	 static void libreDeEscala(int nodos,int m){
-	String texto = "Source;Target;Type\n";
+		String nombreCarpeta = "aristasLibreEscala";
+		File carpeta = new File(nombreCarpeta);
+		carpeta.mkdir();
+		String nombreArchivo4 = "aristasLDE_" + nodos + "_nodos_" + m + "_enlaces.csv";
+		//String nombreArchivo4 = carpeta.getAbsolutePath() + "\\aristasLDE_" + nodos + "_nodos_" + m + "_enlaces.csv";
+		String texto = "Source;Target;Type\n";
        int i,aux;
        int k, t = 0, contadorLista = 0, p = 0, nodo1, nodo2, nodoAleatLista;
        Nodo nodo= new Nodo();
@@ -98,15 +103,10 @@ class ClaseLibreEscala {
 		}
 
        try{
-    	String nombreCarpeta = "aristasLibreEscala";
-    	String nombreArchivo4 = "aristasLDE_" + nodos + "_nodos_" + m + "_enlaces.csv";
-   		File carpeta = new File(nombreCarpeta);
-   		carpeta.mkdir();
-   		File fichero= new File(carpeta,nombreArchivo4);   		
-        FileWriter fwriter3 = new FileWriter(fichero);
-        fwriter3.write(texto);
-        fwriter3.flush();
-        fwriter3.close();
+           FileWriter fwriter3 = new FileWriter(nombreArchivo4);
+           fwriter3.write(texto);
+           fwriter3.flush();
+           fwriter3.close();
            
        }catch (IOException e){
 

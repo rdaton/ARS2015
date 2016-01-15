@@ -102,7 +102,10 @@ class ClaseLibreEscala {
     	String nombreArchivo4 = "aristasLDE_" + nodos + "_nodos_" + m + "_enlaces.csv";
    		File carpeta = new File(nombreCarpeta);
    		carpeta.mkdir();
-   		File fichero= new File(carpeta,nombreArchivo4);   		
+   		File fichero= new File(carpeta,nombreArchivo4);
+   		
+   		
+   		
         FileWriter fwriter3 = new FileWriter(fichero);
         fwriter3.write(texto);
         fwriter3.flush();

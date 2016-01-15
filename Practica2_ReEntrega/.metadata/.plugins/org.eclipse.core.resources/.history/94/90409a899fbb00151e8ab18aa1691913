@@ -103,6 +103,7 @@ class ClaseLibreEscala {
    		File carpeta = new File(nombreCarpeta);
    		carpeta.mkdir();
    		File fichero= new File(carpeta,nombreArchivo4);   		
+   		
         FileWriter fwriter3 = new FileWriter(fichero);
         fwriter3.write(texto);
         fwriter3.flush();

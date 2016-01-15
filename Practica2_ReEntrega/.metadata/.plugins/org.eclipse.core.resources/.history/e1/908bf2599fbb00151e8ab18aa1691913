@@ -101,9 +101,11 @@ class ClaseLibreEscala {
     	String nombreCarpeta = "aristasLibreEscala";
     	String nombreArchivo4 = "aristasLDE_" + nodos + "_nodos_" + m + "_enlaces.csv";
    		File carpeta = new File(nombreCarpeta);
+   		File fichero= new File(carpeta,nombreArchivo4);
    		carpeta.mkdir();
-   		File fichero= new File(carpeta,nombreArchivo4);   		
-        FileWriter fwriter3 = new FileWriter(fichero);
+   		
+   		//String nombreArchivo4 = carpeta.getAbsolutePath() + "\\aristasLDE_" + nodos + "_nodos_" + m + "_enlaces.csv";
+        FileWriter fwriter3 = new FileWriter(carpeta,nombreArchivo4);
         fwriter3.write(texto);
         fwriter3.flush();
         fwriter3.close();
