@@ -18,7 +18,6 @@ public class main {
 	
 		
 	public static void main(String[] args) {
-		//parseo argumentos
 		Options opciones=preparaFormatoOpciones();
 		CommandLine cmd=parseaOpciones(opciones,args);
 		boolean esAleatoria=false;
@@ -54,44 +53,16 @@ public class main {
 	
 	static boolean esAleatoria(CommandLine cmd)
 	{
-		return comprobador(0,cmd);
+		boolean todoBien=false;
+		
+		return todoBien;
 	}
 	
 	static boolean esLibreEscala (CommandLine cmd)
 	{
-		return comprobador(1,cmd);
-	}
-	
-	//cod puede ser 0 para aleatoria, 1 para libre escala
-	static boolean  comprobador(int cod, CommandLine cmd)
-	{
-		char[][] unasLetras={ {'t','n','p'}, {'t','n','m'}};
-		String[] tipo={"aleatoria","libre"};
-		boolean todoBien=true;
-		boolean error=false;		
+		boolean todoBien=false;
 		
-		//compruebo que todas los argumentos necesarios, están
-		int i=0;
-		while (todoBien && i<unasLetras[cod].length)
-		{
-		todoBien=cmd.hasOption(unasLetras[cod][i]);
-		i++;
-		}
-		
-		//compruebo si contiene la cadena "aleatoria"		
-		error=((cmd.getOptionValue(unasLetras[cod][0]))==tipo[cod]);
-		
-		//compruebo el valor de los argumentos sea mayor que 0
-		int j=1;
-		while (!error && j<unasLetras[cod].length);
-		{
-			int unNumero=Integer.valueOf(cmd.getOptionValue(unasLetras[cod][i]));
-			error=(unNumero<0);
-			j++;
-		}
-		
-		
-		return todoBien && !error;	
+		return todoBien;
 	}
 	
 	static void  imprimirAyuda(Options opciones)

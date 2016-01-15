@@ -75,7 +75,6 @@ public class main {
 		while (todoBien && i<unasLetras[cod].length)
 		{
 		todoBien=cmd.hasOption(unasLetras[cod][i]);
-		i++;
 		}
 		
 		//compruebo si contiene la cadena "aleatoria"		
@@ -83,15 +82,19 @@ public class main {
 		
 		//compruebo el valor de los argumentos sea mayor que 0
 		int j=1;
-		while (!error && j<unasLetras[cod].length);
+		while (!error && j<unasLetras.length);
 		{
 			int unNumero=Integer.valueOf(cmd.getOptionValue(unasLetras[cod][i]));
 			error=(unNumero<0);
-			j++;
 		}
 		
 		
-		return todoBien && !error;	
+		return todoBien && !error;
+		
+		
+		
+		
+		return true;
 	}
 	
 	static void  imprimirAyuda(Options opciones)

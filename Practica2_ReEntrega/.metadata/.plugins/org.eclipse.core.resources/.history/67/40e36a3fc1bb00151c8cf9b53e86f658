@@ -91,7 +91,12 @@ public class main {
 		}
 		
 		
-		return todoBien && !error;	
+		return todoBien && !error;
+		
+		
+		
+		
+		return true;
 	}
 	
 	static void  imprimirAyuda(Options opciones)

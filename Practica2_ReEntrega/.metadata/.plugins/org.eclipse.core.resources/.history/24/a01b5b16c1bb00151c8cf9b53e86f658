@@ -59,9 +59,32 @@ public class main {
 	
 	static boolean esLibreEscala (CommandLine cmd)
 	{
-		return comprobador(1,cmd);
+		boolean todoBien=true;
+		boolean error=false;
+		char[] unasLetras={'t','n','m'};
+		
+		
+		//compruebo que todas los argumentos necesarios, están
+		int i=0;
+		while (todoBien && i<unasLetras.length)
+		{
+		todoBien=cmd.hasOption(unasLetras[i]);
+		}
+		
+		//compruebo si contiene la cadena "aleatoria"		
+		error=((cmd.getOptionValue(unasLetras[0]))=="libre");
+		
+		//compruebo el valor de los argumentos sea mayor que 0
+		int j=1;
+		while (!error && j<unasLetras.length);
+		{
+			int unNumero=Integer.valueOf(cmd.getOptionValue(unasLetras[i]));
+			error=(unNumero<0);
+		}
+		
+		
+		return todoBien && !error;
 	}
-	
 	//cod puede ser 0 para aleatoria, 1 para libre escala
 	static boolean  comprobador(int cod, CommandLine cmd)
 	{
@@ -75,7 +98,6 @@ public class main {
 		while (todoBien && i<unasLetras[cod].length)
 		{
 		todoBien=cmd.hasOption(unasLetras[cod][i]);
-		i++;
 		}
 		
 		//compruebo si contiene la cadena "aleatoria"		
@@ -83,15 +105,19 @@ public class main {
 		
 		//compruebo el valor de los argumentos sea mayor que 0
 		int j=1;
-		while (!error && j<unasLetras[cod].length);
+		while (!error && j<unasLetras.length);
 		{
 			int unNumero=Integer.valueOf(cmd.getOptionValue(unasLetras[cod][i]));
 			error=(unNumero<0);
-			j++;
 		}
 		
 		
-		return todoBien && !error;	
+		return todoBien && !error;
+		
+		
+		
+		
+		return true;
 	}
 	
 	static void  imprimirAyuda(Options opciones)
