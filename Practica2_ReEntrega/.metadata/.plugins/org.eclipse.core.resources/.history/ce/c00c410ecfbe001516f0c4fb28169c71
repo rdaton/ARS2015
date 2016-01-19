@@ -34,12 +34,8 @@ class ClaseLibreEscala {
 		RED LIBRE DE ESCALA
 		
 	  */
-	 
-	
-	 
-	 void aristasLibreDeEscala(int nodos,int m)
-	{
-		String texto = "Source;Target;Type\n";
+	static void libreDeEscala(int nodos,int m){
+	   String texto = "Source;Target;Type\n";
        int i,aux;
        int k, t = 0, contadorLista = 0, p = 0, nodo1, nodo2, nodoAleatLista;
        Nodo nodo= new Nodo();
@@ -112,7 +108,6 @@ class ClaseLibreEscala {
 							texto += k+";"+aux+";"+"Undirected"+"\n";
 							nuevoNodo++;
 							conectado = true;
-					//		System.out.println("Vuelta " + contadorLista);  
 						}
 						else
 							nodoAleatLista = (int) (Math.random()*k);	
@@ -124,9 +119,12 @@ class ClaseLibreEscala {
 		}
 
        try{
-    	nombreArchivo4 = "aristasLDE_" + nodos + "_nodos_" + m + "_enlaces.csv";
-   		fichero= new File(carpeta,nombreArchivo4);   		
-        fwriter3 = new FileWriter(fichero);
+    	String nombreCarpeta = "LibreEscala";
+    	String nombreArchivo4 = "aristasLDE_" + nodos + "_nodos_" + m + "_enlaces.csv";
+   		File carpeta = new File(nombreCarpeta);
+   		carpeta.mkdir();
+   		File fichero= new File(carpeta,nombreArchivo4);   		
+        FileWriter fwriter3 = new FileWriter(fichero);
         fwriter3.write(texto);
         fwriter3.flush();
         fwriter3.close();
@@ -137,41 +135,5 @@ class ClaseLibreEscala {
        System.out.println("Libre de escala "+ nodos + " nodos y "+ m + " enlaces acabada");	
 	}
 	
-	 void generarNodos(int nodos)
-	 {
-		//path de fichero		
-		 nombreArchivo4=nodos + "_Nodos.csv";
-		try{
-		fichero= new File(carpeta,nombreArchivo4);   		
-		fwriter3 = new FileWriter(fichero);			
-		}catch (IOException f){
-		f.printStackTrace();
-		return;
-		}	 	
-		//fin path de fichero
-		String texto = "id;nombre\n";
-		int i,aux;
-		for(i=1; i<=nodos; i++){
-    	 texto += i+";"+"nodo: "+i+"\n";
-		}
-	    try{
-	        
-	        fwriter3.write(texto);
-	        fwriter3.flush();
-	        fwriter3.close();
-	        
-	    }catch (IOException e){}
-	    
-	    System.out.println("Nodos de red Libre Escala creados");
-	 //fin escritura nodos
-	 } 
-	 
-	 
-	 
-	void libreDeEscala (int nodos, int m)
-	{
-		generarNodos(nodos);
-		aristasLibreDeEscala(nodos,m);
-	}
 	
 }

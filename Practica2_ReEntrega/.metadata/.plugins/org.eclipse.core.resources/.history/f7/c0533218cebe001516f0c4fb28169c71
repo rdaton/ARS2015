@@ -13,7 +13,6 @@ class ClaseAleatoria {
 	File fichero=null;
 	File carpeta=null;
 	String nombreCarpeta = "Aleatoria";
-	String nombreArchivo4=null;
 	
 	 private ClaseAleatoria()
 	 {
@@ -36,7 +35,7 @@ class ClaseAleatoria {
 		texto.append("Source").append(";").append("Target").append(";").append("Type\n");
 		
 		//path de fichero		
-		nombreArchivo4="aristasAleatoria_"+ nodos + "_nodos_"+ p+".csv";
+		String nombreArchivo4="aristasAleatoria_"+ nodos + "_nodos_"+ p;
 		try{
 		fichero= new File(carpeta,nombreArchivo4);   		
         fwriter3 = new FileWriter(fichero);
@@ -63,9 +62,9 @@ class ClaseAleatoria {
              	fwriter3.write(texto.toString());        		  
         		texto.delete(0, texto.length());
              }
-        	 System.out.println("Acabado el nodo " + i + " "+ p);        	 
+        	 System.out.println("Acabado el nodo " + i + " "+ p);
+        	 
         }
-        
         System.out.println("Aristas red aleatoria " + p + " creadas");
         
         	System.out.println("Red Aleatoria completada");
@@ -75,11 +74,13 @@ class ClaseAleatoria {
 		}
 	 }
 		
-	 
-	 void generarNodos(int nodos)
-	 {
+		/****************************
+		RED ALEATORIA
+	 */
+		
+	   void aleatoria(int nodos, double p){		
 		//path de fichero		
-		 nombreArchivo4=nodos + "_Nodos.csv";
+		String nombreArchivo4=nodos + "_Nodos.csv", fase = "";
 		try{
 		fichero= new File(carpeta,nombreArchivo4);   		
 		fwriter3 = new FileWriter(fichero);			
@@ -88,11 +89,14 @@ class ClaseAleatoria {
 		return;
 		}	 	
 		//fin path de fichero
-		String texto = "id;nombre\n";
-		int i,aux;
-		for(i=1; i<=nodos; i++){
-    	 texto += i+";"+"nodo: "+i+"\n";
-		}
+		
+		
+		//Generar nodos
+        String texto = "id;nombre\n";
+        int i,aux;
+        for(i=1; i<=nodos; i++){
+    		texto += i+";"+"nodo: "+i+"\n";
+    	}
 	    try{
 	        
 	        fwriter3.write(texto);
@@ -101,16 +105,8 @@ class ClaseAleatoria {
 	        
 	    }catch (IOException e){}
 	    
-	    System.out.println("Nodos de red Libre Escala creados");
-	 //fin escritura nodos
-	 }
-	 
-	 
-		
-		
-	   void aleatoria(int nodos, double p){		
-		//genero Nodos
-		 generarNodos(nodos);
+	    System.out.println("Nodos de red aleatoria creados");
+	    	
 	    //genero Aristas
 	    aristasAleatoria(nodos,p);
           

@@ -112,7 +112,7 @@ class ClaseLibreEscala {
 							texto += k+";"+aux+";"+"Undirected"+"\n";
 							nuevoNodo++;
 							conectado = true;
-					//		System.out.println("Vuelta " + contadorLista);  
+							System.out.println("Vuelta " + contadorLista);  
 						}
 						else
 							nodoAleatLista = (int) (Math.random()*k);	
