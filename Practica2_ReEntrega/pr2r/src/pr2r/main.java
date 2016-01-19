@@ -7,9 +7,14 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Vector;
+
 import com.csvreader.CsvWriter;
+
 import org.apache.commons.cli.*;
 
 public class main {
@@ -33,14 +38,19 @@ public class main {
 		{			
 			System.exit(1);
 		}
-		//compruebo los argumentos y tipo de red
-		esAleatoria=esAleatoria(cmd);
-		esLibreEscala=esLibreEscala(cmd);	
+		//compruebo los argumentos y tipo de red;
+		//y recupero los argumentos de creación
+		HashMap<String,Object> unosArgumentos=new HashMap(); 
+		//este int unosArgumentos, debo rehacerlo...
+		esAleatoria=esAleatoria(cmd,unosArgumentos);
+		esLibreEscala=esLibreEscala(cmd,unosArgumentos);	
 		if (esAleatoria)
-			ClaseAleatoria.aristasAleatoria(0, 0);
+			ClaseAleatoria.aleatoria(Integer.valueOf((String)unosArgumentos.get("n")),
+					Double.valueOf((String)unosArgumentos.get("p")));
 		else
 			if (esLibreEscala)
-				ClaseLibreEscala.libreDeEscala(0, 0);
+				ClaseLibreEscala.libreDeEscala(Integer.valueOf((String)unosArgumentos.get("n")),
+						Integer.valueOf((String)unosArgumentos.get("m")));
 			else
 			{
 				imprimirAyuda(opciones);
@@ -52,24 +62,23 @@ public class main {
 		
 	}
 	
-	static boolean esAleatoria(CommandLine cmd)
+	static boolean esAleatoria(CommandLine cmd, HashMap unosArgumentos)
 	{
-		return comprobador(0,cmd);
+		return comprobador(0,cmd,unosArgumentos);
 	}
 	
-	static boolean esLibreEscala (CommandLine cmd)
+	static boolean esLibreEscala (CommandLine cmd,HashMap unosArgumentos)
 	{
-		return comprobador(1,cmd);
+		return comprobador(1,cmd,unosArgumentos);
 	}
 	
 	//cod puede ser 0 para aleatoria, 1 para libre escala
-	static boolean  comprobador(int cod, CommandLine cmd)
+	static boolean  comprobador(int cod, CommandLine cmd, HashMap unosArgumentos)
 	{
-		char[][] unasLetras={ {'t','n','p'}, {'t','n','m'}};
+		String[][] unasLetras={ {"t","n","p"}, {"t","n","m"}};
 		String[] tipo={"aleatoria","libre"};
 		boolean todoBien=true;
 		boolean error=false;		
-		
 		//compruebo que todas los argumentos necesarios, están
 		int i=0;
 		while (todoBien && i<unasLetras[cod].length)
@@ -78,19 +87,22 @@ public class main {
 		i++;
 		}
 		
-		//compruebo si contiene la cadena "aleatoria"		
-		error=((cmd.getOptionValue(unasLetras[cod][0]))==tipo[cod]);
+		//compruebo si contiene la cadena tipo	
+		error=true;
+		if(cmd.getOptionValue(unasLetras[cod][0])!=null)		
+			error=!((cmd.getOptionValue(unasLetras[cod][0])).equals(tipo[cod]));
 		
 		//compruebo el valor de los argumentos sea mayor que 0
 		int j=1;
-		while (!error && j<unasLetras[cod].length);
+		while (!error && j<unasLetras[cod].length)
 		{
-			int unNumero=Integer.valueOf(cmd.getOptionValue(unasLetras[cod][i]));
-			error=(unNumero<0);
+			Object unNumero=cmd.getOptionValue(unasLetras[cod][j]);
+			error=(unNumero==null);
+			unosArgumentos.put((String)unasLetras[cod][j], (Object) unNumero);			
 			j++;
 		}
 		
-		
+				
 		return todoBien && !error;	
 	}
 	
@@ -113,49 +125,25 @@ public class main {
 		catch(Exception e)
 		{
 			System.err.println("No he podido parsear. Razón:" + e.getMessage() );
+			imprimirAyuda(opciones);
 		}
 		return cmd;
 	}
 	
 	//http://www.javaworld.com/article/2074849/core-java/processing-command-line-arguments-in-java--case-closed.html
 	//https://commons.apache.org/proper/commons-cli/usage.html
+	//http://www.thinkplexx.com/blog/simple-apache-commons-cli-example-java-command-line-arguments-parsing
 	static Options preparaFormatoOpciones()
-	{
+	{		
 		Options opciones= new Options();
-		opciones.addOption("t",true,"tipo de red a generar: aleatoria  o libre");
-		opciones.addOption("n",true,"número de nodos (en todas)");
-		opciones.addOption("p",true,"probabilidad (aleatoria) ");
-		opciones.addOption("m",true,"nodos iniciales (libre escala)");
+		opciones.addOption("t","tipo",true,"tipo de red a generar: aleatoria  o libre");
+		opciones.addOption("n","nodos",true,"número de nodos (en todas)");
+		opciones.addOption("p","prob",true,"probabilidad (aleatoria) ");
+		opciones.addOption("m","mgrado",true,"nodos iniciales (libre escala)");
 		return opciones;
 	}
-	/*
-	public static void menu(){
-		
-		System.out.println("1 - Aleatoria");
-		System.out.println("2 - Libre de escala");
-		System.out.println("3 - Salir");
-		System.out.print ("Elige la opcion: ");
-	}
-	*/
-	public static void procesarOpcion(int opcion){
-		int nodos, t, m;
-		Scanner s = new Scanner(System.in);
-		
-		switch (opcion){
-		case 1:
-			System.out.println("Numero de nodos:");
-			nodos = s.nextInt();
-			ClaseAleatoria.aleatoria(nodos);
-		break;
-		case 2:
-			System.out.println("Numero de nodos:");
-			nodos = s.nextInt();
-			m=3;
-			ClaseLibreEscala.libreDeEscala(nodos,m); 
-			ClaseLibreEscala.libreDeEscala(nodos,m+1);
-		break;
-		}
-	}
+	
+	
 	
 
 	

@@ -98,7 +98,7 @@ class ClaseLibreEscala {
 		}
 
        try{
-    	String nombreCarpeta = "aristasLibreEscala";
+    	String nombreCarpeta = "LibreEscala";
     	String nombreArchivo4 = "aristasLDE_" + nodos + "_nodos_" + m + "_enlaces.csv";
    		File carpeta = new File(nombreCarpeta);
    		carpeta.mkdir();
