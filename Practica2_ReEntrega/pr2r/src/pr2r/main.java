@@ -1,19 +1,10 @@
 package pr2r;
 
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Vector;
 
-import com.csvreader.CsvWriter;
+import java.util.HashMap;
+
+
 
 import org.apache.commons.cli.*;
 
@@ -21,7 +12,7 @@ public class main {
 
 	
 	
-		
+	
 	public static void main(String[] args) {
 		//parseo argumentos
 		Options opciones=preparaFormatoOpciones();
@@ -45,20 +36,21 @@ public class main {
 		esAleatoria=esAleatoria(cmd,unosArgumentos);
 		esLibreEscala=esLibreEscala(cmd,unosArgumentos);	
 		if (esAleatoria)
-			ClaseAleatoria.aleatoria(Integer.valueOf((String)unosArgumentos.get("n")),
+		{
+			ClaseAleatoria.getInstance().aleatoria(Integer.valueOf((String)unosArgumentos.get("n")),
 					Double.valueOf((String)unosArgumentos.get("p")));
+		}
 		else
 			if (esLibreEscala)
-				ClaseLibreEscala.libreDeEscala(Integer.valueOf((String)unosArgumentos.get("n")),
+			{				
+				ClaseLibreEscala.getInstance().libreDeEscala(Integer.valueOf((String)unosArgumentos.get("n")),
 						Integer.valueOf((String)unosArgumentos.get("m")));
+			}
 			else
 			{
 				imprimirAyuda(opciones);
 				System.exit(1);				
-			};
-		
-		
-		
+			};		
 		
 	}
 	

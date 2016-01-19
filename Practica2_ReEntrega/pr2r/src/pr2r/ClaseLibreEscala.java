@@ -7,7 +7,12 @@ import java.util.Vector;
 
 class ClaseLibreEscala {
 
+	private static ClaseLibreEscala instance=new ClaseLibreEscala();
 	
+	 static ClaseLibreEscala getInstance()
+	{
+	return instance;
+	}
 
 	 /****************************
 		RED LIBRE DE ESCALA
@@ -55,22 +60,22 @@ class ClaseLibreEscala {
 			//genero m enlaces 
 				for (int n = 0; n < m; n++){	
 					aux = (int) (Math.random()*k + 1); //posible nodo al que conectarse, numero entre 1 y 5 en la primera iteracion
-					while (aux == k) // para evitar que un nodo este conectado consigo mismo
-						aux = (int) (Math.random()*k + 1);
+				//	while (aux == k) // para evitar que un nodo este conectado consigo mismo
+				//		aux = (int) (Math.random()*k + 1);
 					//recorro la lista de aristas para ver si ya est� esa arista(tupla)
-					while ((p < contadorLista)){
-						nodo1 =(int)(listaAristas[p].elementAt(0));
-						nodo2 =(int)(listaAristas[p].elementAt(1));
-						if (((k == nodo1) && (aux == nodo2)) || ((k == nodo2) && (aux == nodo1))){
-							aux = (int) (Math.random()*k+1);
-							while (aux == k) // para evitar que un nodo este conectado consigo mismo
-								aux = (int) (Math.random()*k + 1);
-							p = 0;
-						}
-						else{
-							p++;	
-						}
-					}
+			//		while ((p < contadorLista)){
+			//			nodo1 =(int)(listaAristas[p].elementAt(0));
+			//			nodo2 =(int)(listaAristas[p].elementAt(1));
+			//			if (((k == nodo1) && (aux == nodo2)) || ((k == nodo2) && (aux == nodo1))){
+			//				aux = (int) (Math.random()*k+1);
+			//				while (aux == k) // para evitar que un nodo este conectado consigo mismo
+			//					aux = (int) (Math.random()*k + 1);
+			//				p = 0;
+			//			}
+			//			else{
+			//				p++;	
+			//			}
+			//		}
 					//Cojo un indice (nodo) aleatorio de todos los que llevo excepto el nuevo que entra
 					nodoAleatLista = (int) (Math.random()*k);
 					while (!conectado){						

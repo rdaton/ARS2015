@@ -4,12 +4,55 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import com.csvreader.CsvWriter;
-
 class ClaseAleatoria {
 	
+	private static ClaseAleatoria instance=new ClaseAleatoria();
 	
-	 static void aristasAleatoria(int nodos, double p){
+	
+	FileWriter fwriter3=null;
+	String nombreCarpeta = "Aleatoria";
+	
+	 private ClaseAleatoria()
+	 {
+		 //creación de carpeta
+		 try{
+			File carpeta = new File(nombreCarpeta);
+	   		carpeta.mkdir();
+	   		}
+			catch (IOException f){
+		 		f.printStackTrace();
+		 	return;
+		 	}	 	
+	      //fin path de 
+		 
+		 
+		 
+		
+			
+			//path de fichero
+			FileWriter fwriter3=null;
+			String nombreArchivo4="aristasAleatoria_"+ nodos + "_nodos_"+ p;
+			String nombreCarpeta = "Aleatoria";		
+			try{
+			File carpeta = new File(nombreCarpeta);
+	   		carpeta.mkdir();
+	   		File fichero= new File(carpeta,nombreArchivo4);   		
+	        fwriter3 = new FileWriter(fichero);
+		
+		 	}catch (IOException f){
+		 		f.printStackTrace();
+		 	return;
+		 	}	 	
+	        //fin path de fichero
+				
+			
+	 }
+	
+	 static ClaseAleatoria getInstance()
+		{
+		return instance;
+		}
+	 void  aristasAleatoria(int nodos, double p){
 	
 		StringBuffer texto = new StringBuffer(10000000);
 		texto.append("Source").append(";").append("Target").append(";").append("Type\n");
@@ -33,7 +76,7 @@ class ClaseAleatoria {
 		
 		if (fwriter3==null) return;
 		try {
-			CsvWriter writer = new CsvWriter(fwriter3, ',');
+			
 		int i;
 		double aux = 0;
 		
@@ -45,9 +88,8 @@ class ClaseAleatoria {
                     	texto.append(i).append(";").append(j).append(";").append("Undirected").append("\n");
              	 
              	
-        		 writer.write(texto.toString());
-        		 writer.endRecord(); 
-        		 texto.delete(0, texto.length());
+             	fwriter3.write(texto.toString());        		  
+        		texto.delete(0, texto.length());
              }
         	 System.out.println("Acabado el nodo " + i + " "+ p);
         	 
@@ -65,7 +107,7 @@ class ClaseAleatoria {
 		RED ALEATORIA
 	 */
 		
-	 static void aleatoria(int nodos, double p){		
+	   void aleatoria(int nodos, double p){		
 		//path de fichero
 		FileWriter fwriter3=null;
 		String nombreArchivo4=nodos + "_Nodos.csv", fase = "";
@@ -99,7 +141,7 @@ class ClaseAleatoria {
 	    
 	    System.out.println("Nodos de red aleatoria creados");
 	    	
-	    ClaseAleatoria.aristasAleatoria(nodos,p);
+	    aristasAleatoria(nodos,p);
           
 	}
 	
