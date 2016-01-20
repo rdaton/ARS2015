@@ -412,12 +412,12 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_RezG8L9nEeWIyvDEwunczQ" elementId="org.eclipse.ui.editorss" selectedElement="_RezG8b9nEeWIyvDEwunczQ">
-      <children xsi:type="basic:PartStack" xmi:id="_RezG8b9nEeWIyvDEwunczQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_RezG8r9nEeWIyvDEwunczQ">
+      <children xsi:type="basic:PartStack" xmi:id="_RezG8b9nEeWIyvDEwunczQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_cq5eUL9_EeWcnvaOGGtM-A">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <children xsi:type="basic:Part" xmi:id="_RezG8r9nEeWIyvDEwunczQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ClaseLibreEscala.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ClaseLibreEscala.java&quot; partName=&quot;ClaseLibreEscala.java&quot; title=&quot;ClaseLibreEscala.java&quot; tooltip=&quot;pr2r/src/pr2r/ClaseLibreEscala.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/pr2r/src/pr2r/ClaseLibreEscala.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;5&quot; selectionOffset=&quot;3923&quot; selectionTopPixel=&quot;1500&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ClaseLibreEscala.java&quot; partName=&quot;ClaseLibreEscala.java&quot; title=&quot;ClaseLibreEscala.java&quot; tooltip=&quot;pr2r/src/pr2r/ClaseLibreEscala.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/pr2r/src/pr2r/ClaseLibreEscala.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3670&quot; selectionTopPixel=&quot;1082&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -451,6 +451,12 @@
         <children xsi:type="advanced:Placeholder" xmi:id="_ReyfbL9nEeWIyvDEwunczQ" elementId="org.eclipse.search.SearchResultView" toBeRendered="false" ref="_RezHRr9nEeWIyvDEwunczQ"/>
         <children xsi:type="advanced:Placeholder" xmi:id="_Reyfbb9nEeWIyvDEwunczQ" elementId="org.eclipse.debug.ui.PHPDebugOutput" ref="_RezHSL9nEeWIyvDEwunczQ"/>
         <children xsi:type="advanced:Placeholder" xmi:id="_Reyfbr9nEeWIyvDEwunczQ" elementId="org.eclipse.debug.ui.PHPBrowserOutput" toBeRendered="false" ref="_RezHSb9nEeWIyvDEwunczQ"/>
+        <children xsi:type="basic:Part" xmi:id="_cq5eUL9_EeWcnvaOGGtM-A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ClaseAleatoria.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ClaseAleatoria.java&quot; partName=&quot;ClaseAleatoria.java&quot; title=&quot;ClaseAleatoria.java&quot; tooltip=&quot;pr2r/src/pr2r/ClaseAleatoria.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/pr2r/src/pr2r/ClaseAleatoria.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;416&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_RezG979nEeWIyvDEwunczQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.gif" closeable="true">
@@ -771,7 +777,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_RezHWL9nEeWIyvDEwunczQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_-twHYb95EeW8N-nrb7LH3w" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_Re3_lr9nEeWIyvDEwunczQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Zyl0cL9_EeWcnvaOGGtM-A" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_Re3_lr9nEeWIyvDEwunczQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_RezHar9nEeWIyvDEwunczQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -807,7 +813,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Rezte79nEeWIyvDEwunczQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_-t0_4L95EeW8N-nrb7LH3w" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Re3_Gr9nEeWIyvDEwunczQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ZyqF4L9_EeWcnvaOGGtM-A" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Re3_Gr9nEeWIyvDEwunczQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Rezthr9nEeWIyvDEwunczQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
