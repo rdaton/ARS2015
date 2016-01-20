@@ -76,10 +76,10 @@ class ClaseAleatoria {
 	 }
 		
 	 
-	 void generarNodos(int nodos, double id)
+	 void generarNodos(int nodos)
 	 {
 		//path de fichero		
-		nombreArchivo4=nodos + "_Nodos"+"_id"+id+".csv";
+		 nombreArchivo4=nodos + "_Nodos.csv";
 		try{
 		fichero= new File(carpeta,nombreArchivo4);   		
 		fwriter3 = new FileWriter(fichero);			
@@ -110,7 +110,7 @@ class ClaseAleatoria {
 		
 	   void aleatoria(int nodos, double p){		
 		//genero Nodos
-		 generarNodos(nodos,p);
+		 generarNodos(nodos);
 	    //genero Aristas
 	    aristasAleatoria(nodos,p);
           

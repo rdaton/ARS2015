@@ -137,10 +137,10 @@ class ClaseLibreEscala {
        System.out.println("Libre de escala "+ nodos + " nodos y "+ m + " enlaces acabada");	
 	}
 	
-	 void generarNodos(int nodos, int id)
+	 void generarNodos(int nodos)
 	 {
 		//path de fichero		
-		 nombreArchivo4=nodos + "_Nodos"+"_id"+id+".csv";
+		 nombreArchivo4=nodos + "_Nodos.csv";
 		try{
 		fichero= new File(carpeta,nombreArchivo4);   		
 		fwriter3 = new FileWriter(fichero);			
@@ -170,8 +170,8 @@ class ClaseLibreEscala {
 	 
 	void libreDeEscala (int nodos, int m)
 	{
-		generarNodos(nodos,m);
-		aristasLibreDeEscala(nodos,m);		
+		generarNodos(nodos);
+		aristasLibreDeEscala(nodos,m);
 	}
 	
 }
