@@ -1,5 +1,24 @@
 #!/bin/bash
 
+##De libre escala
+java -jar pr2r.jar -t libre -n 500 -m 3 &
+java -jar pr2r.jar -t libre -n 1000 -m 3 &
+java -jar pr2r.jar -t libre -n 5000 -m 3 &
+##comparación actores
+java -jar pr2r.jar -t libre -n 7701 -m 3 &
+##comparación peliculas
+java -jar pr2r.jar -t libre -n 2500 -m 3 &
+
+
+java -jar pr2r.jar -t libre -n 500 -m 4 &
+java -jar pr2r.jar -t libre -n 1000 -m 4 &
+java -jar pr2r.jar -t libre -n 5000 -m 4 &
+##comparación actores
+java -jar pr2r.jar -t libre -n 7701 -m 4 &
+##comparación peliculas
+java -jar pr2r.jar -t libre -n 2500 -m 4 &
+
+
 
 ##Aleatorias
 ##fase subcritica ; p<1/N
