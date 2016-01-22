@@ -56,7 +56,7 @@ class ClaseLibreEscala {
        //los 4 o 5(en funcion de m) primeros nodos entre si
 		for(k=1; k<=(m+1); k++){
 			for(int l=k+1; l<=m+1; l++){
-				texto += k+";"+l+";"+"Undirected"+"\n";
+				texto += k+";"+l+";"+"Directed"+"\n";
 				Vector arista = new Vector(2);
 				arista.addElement(listaNodos[k-1].getIdNodo());
 				arista.addElement(listaNodos[l-1].getIdNodo());
@@ -94,7 +94,7 @@ class ClaseLibreEscala {
 							listaAristas[contadorLista] = arista;
 							contadorLista++;
 							p = 0;
-							texto += k+";"+aux+";"+"Undirected"+"\n";
+							texto += k+";"+aux+";"+"Directed"+"\n";
 							nuevoNodo++;
 							conectado = true;
 					//		System.out.println("Vuelta " + contadorLista);  
