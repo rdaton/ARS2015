@@ -16,9 +16,9 @@ start java -jar pr2r.jar -t libre -n 7701 -m 4
 start java -jar pr2r.jar -t libre -n 2500 -m 4
 
 
+start java -jar pr2r.jar -t libre -n 7701 -m 8 &
 
-
-
+start java -jar pr2r.jar -t libre -n 2500 -m 8 &
 
 
 

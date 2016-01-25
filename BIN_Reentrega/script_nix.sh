@@ -18,8 +18,14 @@ java -jar pr2r.jar -t libre -n 7701 -m 4 &
 ##comparación peliculas
 java -jar pr2r.jar -t libre -n 2500 -m 4 &
 
+##comparación actores (mejor)
+java -jar pr2r.jar -t libre -n 7701 -m 8 &
+##comparación peliculas(mejor)
+java -jar pr2r.jar -t libre -n 2500 -m 8 &
 
 
+
+##comparación peliculas
 ##Aleatorias
 ##fase subcritica ; p<1/N
 java -jar pr2r.jar -t aleatoria -n 500 -p 0.001 &
